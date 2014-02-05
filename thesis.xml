@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+"http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<!--[
+<!ENTITY % fithesis SYSTEM "http://www.fi.muni.cz/~xpavlov/fithesis.mod">
+%fithesis;
+]>
+-->
+<book lang="cs">
+  <bookinfo>
+    <title>Affiliate marketing</title>
+
+    <subtitle>Bakalářská práce</subtitle>
+
+    <author>
+      <firstname>Pavel</firstname>
+
+      <surname>Smolka</surname>
+
+      <fi:woman
+      xmlns:fi="http://www.fi.muni.cz/~xpavlov/fithesis">false</fi:woman>
+
+      <fi:faculty
+      xmlns:fi="http://www.fi.muni.cz/~xpavlov/fithesis">eco</fi:faculty>
+
+      <fi:advisor xmlns:fi="http://www.fi.muni.cz/~xpavlov/fithesis">Ing.
+      Klára Kašparová, Ph.D.</fi:advisor>
+    </author>
+
+    <fi:thanks xmlns:fi="http://www.fi.muni.cz/~xpavlov/fithesis">
+      <para>Poděkování TODO</para>
+    </fi:thanks>
+
+    <pubdate>2014</pubdate>
+
+    <abstract>
+      <para>Abstract TODO</para>
+    </abstract>
+
+    <keywordset>
+      <keyword>Keyword 1 TODO</keyword>
+
+      <keyword>Keyword 2 TODO</keyword>
+    </keywordset>
+  </bookinfo>
+
+  <toc></toc>
+
+  <chapter>
+    <title>Úvod</title>
+
+    <para>TODO úvod</para>
+  </chapter>
+
+  <chapter>
+    <title>Závěr</title>
+
+    <para>TODO závěr</para>
+  </chapter>
+
+  <bibliography>
+    <biblioentry>
+      <abbrev>TODO advertising-creative</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Tom</firstname>
+
+          <surname>Altstiel</surname>
+        </author>
+      </authorgroup>
+
+      <title>Advertising creative: strategy, copy and design</title>
+
+      <edition>2. vydání</edition>
+
+      <publisher>
+        <publishername>Los Angeles: Sage</publishername>
+      </publisher>
+
+      <pubdate>2010</pubdate>
+
+      <pagenums>347 s.</pagenums>
+
+      <isbn>9781412974912</isbn>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>TODO consumer-behavior</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Leon G.</firstname>
+
+          <surname>Schiffman</surname>
+        </author>
+
+        <author>
+          <firstname>Leslie Lazar</firstname>
+
+          <surname>Kanuk</surname>
+        </author>
+
+        <author>
+          <firstname>Joseph</firstname>
+
+          <surname>Wisenblit</surname>
+        </author>
+      </authorgroup>
+
+      <title>Consumer behavior: global edition</title>
+
+      <edition>10. vydání</edition>
+
+      <publisher>
+        <publishername>Boston: Pearson Prentice Hall</publishername>
+      </publisher>
+
+      <pubdate>2010</pubdate>
+
+      <pagenums>592 s.</pagenums>
+
+      <isbn>9780137006700</isbn>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>TODO managing-inovation</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Joe</firstname>
+
+          <surname>Tidd</surname>
+        </author>
+
+        <author>
+          <firstname>John</firstname>
+
+          <surname>Bessant</surname>
+        </author>
+      </authorgroup>
+
+      <title>Managing innovation: integrating technological, market and
+      organizational change</title>
+
+      <edition>4. vydání</edition>
+
+      <publisher>
+        <publishername>Chichester: John Wiley &amp; Sons</publishername>
+      </publisher>
+
+      <pubdate>2009</pubdate>
+
+      <pagenums>622 s.</pagenums>
+
+      <isbn>978-0-470-99810-6</isbn>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>TODO marketingova-komunikace</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Petr</firstname>
+
+          <surname>Frey</surname>
+        </author>
+      </authorgroup>
+
+      <title>Marketingová komunikace: nové trendy 3.0</title>
+
+      <edition>3. rozšířené vydání</edition>
+
+      <publisher>
+        <publishername>Praha: Management Press</publishername>
+      </publisher>
+
+      <pubdate>2011</pubdate>
+
+      <pagenums>203 s.</pagenums>
+
+      <isbn>9788072612376</isbn>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>TODO navrh-vyzkumu</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Keith</firstname>
+
+          <surname>Punch</surname>
+        </author>
+      </authorgroup>
+
+      <title>Úspěšný návrh výzkumu</title>
+
+      <edition>1. vydání</edition>
+
+      <publisher>
+        <publishername>Praha: Portál</publishername>
+      </publisher>
+
+      <pubdate>2008</pubdate>
+
+      <pagenums>230 s.</pagenums>
+
+      <isbn>978-80-7367-468-7</isbn>
+    </biblioentry>
+  </bibliography>
+
+  <index></index>
+</book>
