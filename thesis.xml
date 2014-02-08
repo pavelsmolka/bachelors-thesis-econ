@@ -38,9 +38,15 @@
     </abstract>
 
     <keywordset>
-      <keyword>Keyword 1 TODO</keyword>
+      <keyword>affiliate marketing</keyword>
 
-      <keyword>Keyword 2 TODO</keyword>
+      <keyword>webový marketing</keyword>
+
+      <keyword>e-shop</keyword>
+
+      <keyword>inovace softwarového produktu</keyword>
+
+      <keyword>TODO</keyword>
     </keywordset>
   </bookinfo>
 
@@ -81,7 +87,7 @@
     marketing, jehož principy budou podrobněji popsány právě v této
     kapitole.</para>
 
-    <sect1>
+    <sect1 id="chap-roles">
       <title>Účastnické role</title>
 
       <para>Jak už napovídá anglický název, nejcharakterističtějším rysem
@@ -89,15 +95,18 @@
       mezi obchodníkem nabízejícím produkt<footnote>
           <para>V anglické terminologii je tento účastník často označován jako
           <emphasis>retailer</emphasis> nebo
-          <emphasis>affiliate</emphasis>.</para>
+          <emphasis>merchant</emphasis>.</para>
         </footnote> a zákazníkem, ale je zde zapojena třetí strana. Tou je
       zprostředkovatel, který od inzerenta převezme informaci o tom, jaká
-      nabídka má být zobrazena uživateli. Typicky je tedy zprostředkovatelem
-      jakýkoli provozovatel webu, který disponuje obsahem, a hledá způsob, jak
-      tento obsah monetizovat. Lze konstatovat, že struktura affiliate
-      marketingu ve své základní podobě tedy splňuje klasické schéma reklamy,
-      ve které je zapojen inzerent, inzerující médium a konzumemt. Celé schéma
-      znázorňuje diagram <xref linkend="am-basic" />.</para>
+      nabídka má být zobrazena uživateli.<footnote>
+          <para>Zprostředkovatel je typicky označován jako
+          <emphasis>affiliate</emphasis>.</para>
+        </footnote> Typicky je tedy zprostředkovatelem jakýkoli provozovatel
+      webu, který disponuje obsahem, a hledá způsob, jak tento obsah
+      monetizovat. Lze konstatovat, že struktura affiliate marketingu ve své
+      základní podobě tedy splňuje klasické schéma reklamy, ve které je
+      zapojen inzerent, inzerující médium a konzumemt. Celé schéma znázorňuje
+      diagram <xref linkend="am-basic" />.</para>
 
       <figure id="am-basic">
         <title>Základní účastnické role affiliate marketingu</title>
@@ -156,19 +165,153 @@
     <sect1>
       <title>Princip fungování</title>
 
-      <para>TODO technická stránka.</para>
+      <para>Jelikož affiliate marketing je záležitostí internetových obchodů a
+      webových poskytovatelů obsahu, je užitečné se zaměřit i na technickou
+      stránku celého procesu interakce mezi jednotlivými aktéry, popsanými v
+      kapitole <xref linkend="chap-roles" />.</para>
 
-      <para>TODO rozdělení provizí.</para>
+      <sect2>
+        <title>Unikátní identifikátory</title>
+
+        <para>Pro fungování affiliate marketingu je nejzásadnější existence
+        unikátních kódů, pomocí nichž je možné identifikovat všechny konkrétní
+        účastníky celého procesu. V angličtině se tyto identifikátory označují
+        pojmem <emphasis>tracking codes</emphasis><indexterm>
+            <primary>tracking code</primary>
+          </indexterm>.</para>
+
+        <para>Jak bylo popsáno v předchozí kapitole, prvním krokem je předání
+        nabídky od obchodníka zprostředkovateli. V tuto chvíli můžeme
+        zjednodušit a pod nabídkou si představit konkrétní produkt, prodávaný
+        v e-shopu obchodníka. Zprostředkovatel (affiliate) dostane od
+        obchodníka speciálně upravená data, jež obsahují právě unikátní kód
+        identifikující daného zprostředkovatele. Tento identifikátor je
+        obvykle součástí URL adresy. Zprostředkovatel data interpretuje a
+        podle svého uvážení je vhodným způsobem zobrazí na své stránce. Ve
+        chvíli, kdy čtenář obsahu nabídky využije, je přesměrován na stránku
+        obchodníka. Zároveň je však tímto přesměrováním přenesen i
+        identifikátor a obchodník tak může dohledat, od kterého affiliate
+        partnerova daný zákazník přišel.</para>
+      </sect2>
+
+      <sect2>
+        <title>Provize</title>
+
+        <para>Pravidla affiliate marketingu obvykle (narozdíl od klasické
+        inzerce) neurčují, jakým způsobem má být nabídka zobrazena. Důvodem k
+        tomu je fakt, že inzerent (tedy obchodník) zprostředkovateli neplatí
+        za zobrazení (jako u klascké inzerce), a dokonce obvykle ani za
+        kliknutí (tedy nasměrování uživatele na stránky obchodníka), jako je
+        tomu u systémů pay per click.
+        <citation>marketing-performance</citation> Zprostředkovateli je
+        vyplacena provize na základě uskutečněných objednávek (nákupů), které
+        uživatelé jím nasměrovaní do e-shopu obchodníka realizují. Výše
+        provize je obvykle určena fixní procentní sazbou z částky, kterou
+        uživatel v e-shopu utratí; obvykle se pohybuje mezi 2 a 10 %.</para>
+
+        <para>V některých případech může být výše provize fixní, jindy je
+        vyplacena určitá částka i za každého příchozího zákazníka, ačkoli
+        neuskuteční žádnou nákupní akci. Tyto modely jsou ale ve světě
+        affiliate marketingu méně obvyklé.</para>
+      </sect2>
+
+      <sect2>
+        <title>Odložené rozhodnutí o nákupu</title>
+
+        <para>Výše popsaný systém provizí se zdá být na první pohled
+        spravedlivý. Nákupní chování ale není obvykle takto přímočaré. I v
+        případě, že zákazník využije nabídky od zprostředkovatele, dostane se
+        na stránky e-shopu a má zájem si daný prodkut koupit, obvykle
+        neprovede nákup okamžitě. <citation>consumer-behavior</citation> Ve
+        hře je několik faktorů. Někteří zákazníci se potřebují před nákupem
+        poradit s autoritou, jiní prostě jen potřebují určitý čas, než
+        rozhodnutí udělají. </para>
+
+        <para>Dalším případem, kdy je rozhodnutí o nákupu odkládáno,
+        specifické pro svět webového marketingu, je existence slevových
+        voucherů. Existují specializované servery, které nabízí velké množství
+        slevových kuponů a kódů, které mohou zákazníci využít.<footnote>
+            <para>Velmi známým příkladem ve Velké Británii je server <ulink
+            url="http://www.vouchercodes.com">http://www.vouchercodes.com</ulink>.</para>
+          </footnote> Často jsou i tyto kupóny předmětem affiliate marketingu
+        a pomocí unikátních identifikátorů z nich provozovatelé těchto systémů
+        získávají provizi stejným způsobem, jako klasičtí
+        zprostředkovatelé.</para>
+
+        <para>Podstatou vyplácení provize, a potažmo celého affiliate
+        marketingu, je ovšem odměna a za přivedení zákazníka, resp. napomožení
+        učinění nákupního rozhodnutí. Cílem všech zúčastněných stran je tedy
+        maximální možné očištění o zmíněné vlivy, které by vedly k výraznému
+        snížení provizí a tedy i nižší ochotě zprostředkovatelů na affiliate
+        programech spolupracovat.</para>
+      </sect2>
+
+      <sect2>
+        <title>Cookies</title>
+
+        <para>Řešením problému popsaného v předchozí sekci je vytvoření jakési
+        <quote>paměti</quote> e-shopu, který by byl schopen znovu
+        identifikovat zákazníka, který na e-shop přišel skrze
+        zprostředkovatele affiliate programu, neučinil nákupní rozhodnutí, ale
+        následně se vrátil (tentokrát už ovšem ne nutně přes affiliate odkaz
+        obsahující identifikátor daného zprostředkovatele) a nákup provedl.
+        </para>
+
+        <para>Implementace této <quote>paměti</quote> je díky technologiím
+        používaným na webu velmi přímočará díky použití tzv. cookies. Cookie
+        je obyčejný soubor uložený v klientském zařízení, tedy typicky
+        počítači nebo tabletu s webovým prohlížečem, sloužícím právě jako
+        jakási <quote>paměť</quote> pro webové stránky.
+        <citation>rfc-cookie</citation> Při první návštěvě e-shopu skrze
+        affiliate odkaz je do cookie uložen identifikátor zprostředkovatele.
+        Pokud je z téhož zařízení učiněn nákup, e-shop je díky cookie schopen
+        rozpoznat, že se zákazník do internetového obchodu dostal právě přes
+        affiliate partnera a podle toho vyplatí provizi.</para>
+
+        <para>Cookies v affiliate marketingu dokonce obvykle nejsou specifické
+        pro konkrétní produkt. Pokud se tedy zákazník dostane do e-shopu s
+        elektronikou díky odkazu propagujícímu chytrý telefon, ale nakonec si
+        koupí televizi, je zprostředkovateli vyplacena provize v podobě
+        procentuální sazby z ceny koupené televize. Aby byla zachována silná
+        korelace mezi přivedením zákazníka prostřednictvím zprostředkovatele a
+        nákupním rozhodnutím, je nutné dobu existence cookie časově omezit. Po
+        určité době je tedy <quote>paměť</quote> e-shopu vynulována a pro
+        přiznání provize je nutné, aby zákazník znovu využil affiliate odkaz.
+        </para>
+
+        <para>Tato doba se liší podle povahy a především velikosti
+        internetového obchodu. Typicky je to 30 dní, ale například největší
+        světový e-shop Amazon má životnost cookie pouhých 24 hodin.
+        <citation>amazon-cookie</citation> Zdůvodnění je poměrně logické. Lidé
+        na Amazonu nakupují tak často, že připisování nákupu provedeného déle
+        než 24 hodin po prokliknutí affiliate odkazu by místo pozitivního
+        efektu zpřesnění přineslo více nepřesností v podobě uznání provize i
+        za nákupy, které zprostředkovatel díky affiliate programu neměl šanci
+        nijak ovlivnit.<footnote>
+            <para>Zajímavým zlepšením tohoto problému by nepochybně bylo
+            vytvoření unikátních cookies pro konkrétní produkt. Lze odůvodněně
+            předpokládat, že v takovém případě by bylo možné životnost cookies
+            rapidně prodloužit, aniž by došlo k výraznějšímu zkreslení v
+            podobě nákupů nemajícíh nic společného s původní nabídkou
+            affiliate programu. Evidentně je ale implementační náročnost na
+            straně e-shopu natolik složitá, resp. neefektivní, že žádný z
+            velkých e-shopů podobnou taktiku nezvolil.</para>
+          </footnote></para>
+
+        <para>Podobně jako expiraci cookie je nutné zařídit i situaci, ve
+        které uživatel využije několik affiliate odkazů od různých
+        zprostředkovatelů, vedoucích do téhož e-shopu. Nedává smysl, aby
+        e-shop platil provizi každému z nich. V tomto případě platí pravidlo,
+        že poslední bere vše, tedy provize je připsána zprostředkovateli, na
+        jehož odkaz uživatel kliknul v pořadí jako poslední. </para>
+      </sect2>
     </sect1>
 
     <sect1>
       <title>Affiliate sítě</title>
 
-      <para></para>
-
-      <para></para>
-
-      <para>TODO: Popsat, proč je užitečné zapojit mezičlánek.</para>
+      <para>TODO: Popsat, proč je užitečné zapojit mezičlánek v podobě
+      AN.</para>
     </sect1>
 
     <sect1>
@@ -198,18 +341,38 @@
     softwarem zaplatit dvojnásobnou cenu.
     <citation>independent-chris-anderson</citation></para>
 
-    <para>Future je stále vydavatelskou společností v klasickém slova smyslu,
-    zabývá se tedy vytvářením a prodejem tištěných magazínů. Stále větší váhu
-    nicméně získává elektronická část podnikání.
-    <citation>guardian-job-cut</citation> Tu tvoří dva hlavní pilíře: webové
-    magazíny<footnote>
-        <para>Pod pojmem webový magazín si můžeme představit soubor webových
-        stránek, které obsahují množství tematicky zaměřených článků.
-        Největším magazínem tohoto druhu ve společnosti Future je TechRadar
-        (<ulink url="www.techradar.com">www.techradar.com</ulink>), s
-        průměrnou návštěvností přesahující 20 milionů uživatelů měsíčně.
-        <citation>youtube-mark-wood-interview</citation></para>
-      </footnote> a aplikace pro tablety.</para>
+    <sect1>
+      <title>Webové magazíny a aplikace pro tablety</title>
+
+      <para>Future je stále vydavatelskou společností v klasickém slova
+      smyslu, zabývá se tedy vytvářením a prodejem tištěných magazínů. Stále
+      větší váhu nicméně získává elektronická část podnikání.
+      <citation>guardian-job-cut</citation> Tu tvoří dva hlavní pilíře: webové
+      magazíny a aplikace pro tablety.</para>
+
+      <para>Pod pojmem webový magazín si můžeme představit soubor webových
+      stránek, které obsahují množství tematicky zaměřených článků. Největším
+      magazínem tohoto druhu ve společnosti Future je TechRadar (<ulink
+      url="www.techradar.com">www.techradar.com</ulink>), s průměrnou
+      návštěvností přesahující 20 milionů uživatelů měsíčně.
+      <citation>youtube-mark-wood-interview</citation> Takové velké webové
+      portály jsou ideálním místem pro zobrazování affiliate odkazů a
+      sekundárně díky nim vhodným způsobem, jak nenásilně velkou návštěvnost
+      monetizovat.</para>
+
+      <para>Kromě toho ve Future vzniká i několik desítek magazínů v podobě
+      aplikací pro tablety. Technologicky jde jistě o zajímavé produkty,
+      nicméně pro aplikaci affiliate marketingu nejsou vhodnou platformou.
+      Problémem je, že v rámci samostatné aplikace na tabletu s operačním
+      systémem Android nebo iOS uživatel neočekává přesměrování do e-shopu. V
+      mnoha případech by navíc takové řešení nebylo ani dost dobře technicky
+      proveditelné, jelikož se aplikace, narozdíl od webového magazínu, sama v
+      prostředí prohlížeče nenachází, a nemusí mít od operačního systému
+      oprávnění jinou aplikaci (prohlížeč) spustit. Z těchto důvodů se tímto
+      typem magazínů práce dále do hloubky nezabývá a pod pojmem e-magazín je
+      myšlen vždy webový magazín jako soubor webových stránek s tematicky
+      zaměřeným obsahem, pravidelně publikovaný na určité doméně.</para>
+    </sect1>
 
     <sect1>
       <title>Zhodnocení současného stavu</title>
@@ -233,6 +396,18 @@
 
       <para>Na základě uvedeného následně formuluje doporučení pro inovaci
       stávajícího produktu či pro vytvoření nového produktu.</para>
+
+      <sect2>
+        <title>Strojové zpracování dat</title>
+
+        <para></para>
+      </sect2>
+
+      <sect2>
+        <title>Popis nového produktu</title>
+
+        <para></para>
+      </sect2>
     </sect1>
   </chapter>
 
@@ -270,7 +445,7 @@
     </biblioentry>
 
     <biblioentry>
-      <abbrev>TODO consumer-behavior</abbrev>
+      <abbrev>consumer-behavior</abbrev>
 
       <authorgroup>
         <author>
@@ -393,6 +568,50 @@
     </biblioentry>
 
     <biblioentry>
+      <abbrev>marketing-performance</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Paul</firstname>
+
+          <surname>Farris</surname>
+        </author>
+
+        <author>
+          <firstname>Neil</firstname>
+
+          <surname>Bendle</surname>
+        </author>
+
+        <author>
+          <firstname>Phillip</firstname>
+
+          <surname>Pfeifer</surname>
+        </author>
+
+        <author>
+          <firstname>David</firstname>
+
+          <surname>Reibstein</surname>
+        </author>
+      </authorgroup>
+
+      <title>Marketing Metrics: The Definitive Guide to Measuring Marketing
+      Performance</title>
+
+      <edition>1. vydání</edition>
+
+      <publisher>
+        <publishername>Upper Saddle River, New Jersey: Pearson Education,
+        Inc</publishername>
+      </publisher>
+
+      <pubdate>2010</pubdate>
+
+      <isbn>0-13-705829-2</isbn>
+    </biblioentry>
+
+    <biblioentry>
       <abbrev>independent-chris-anderson</abbrev>
 
       <authorgroup>
@@ -481,6 +700,69 @@
 
       <releaseinfo>Dostupné na <ulink
       url="http://www.lupa.cz/clanky/zkrocene-uloz-to-ma-nastupce-v-datator-cz-a-historie-se-opakuje/">http://www.lupa.cz/clanky/zkrocene-uloz-to-ma-nastupce-v-datator-cz-a-historie-se-opakuje/</ulink></releaseinfo>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>zvnonicek-monetizace</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Petr</firstname>
+
+          <surname>Zvoníček</surname>
+        </author>
+      </authorgroup>
+
+      <publisher>
+        <publishername>Masarykova univerzita</publishername>
+      </publisher>
+
+      <title>Monetizace webu</title>
+
+      <pubdate>16. 3. 2013 [cit. 8. 2. 2014]</pubdate>
+
+      <releaseinfo>Dostupné na <ulink
+      url="http://www.fi.muni.cz/~xobsivac/PV219/prezentace11/monetizace.html">http://www.fi.muni.cz/~xobsivac/PV219/prezentace11/monetizace.html</ulink></releaseinfo>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>amazon-cookie</abbrev>
+
+      <authorgroup>
+        <author>
+          <surname>Amazon</surname>
+        </author>
+      </authorgroup>
+
+      <title>EU Associates Programme Operating Agreement</title>
+
+      <pubdate>2013 [cit. 8. 2. 2014]</pubdate>
+
+      <releaseinfo>Dostupné na <ulink
+      url="https://affiliate-program.amazon.co.uk/gp/associates/agreement">https://affiliate-program.amazon.co.uk/gp/associates/agreement</ulink></releaseinfo>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>rfc-cookie</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Adam</firstname>
+
+          <surname>Barth</surname>
+        </author>
+      </authorgroup>
+
+      <title>RFC 6265: HTTP State Management Mechanism</title>
+
+      <publisher>
+        <publishername>University of California, Berkeley</publishername>
+      </publisher>
+
+      <pubdate>2011 [cit. 8. 2. 2014]</pubdate>
+
+      <releaseinfo>Dostupné na <ulink
+      url="http://tools.ietf.org/html/rfc6265">http://tools.ietf.org/html/rfc6265</ulink></releaseinfo>
     </biblioentry>
   </bibliography>
 
