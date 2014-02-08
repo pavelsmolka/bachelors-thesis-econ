@@ -53,13 +53,131 @@
 
     <para>V práci budou použity tyto metody: deskripce, komparace, analýza,
     syntéza, dotazování, vhodné matematicko-statistické metody.</para>
+
+    <para>TODO obsah jednotlivých kapitol.</para>
   </chapter>
 
   <chapter>
     <title>Affiliate marketing</title>
 
-    <para>V teoretické části práce se bude autor věnovat problematice
-    affiliate marketingu.</para>
+    <para>Jedním z velkých problémů vydavatelů elektronického obsahu je
+    vytvoření fungujícího obchodního modelu. V souvislosti s webovým obsahem
+    je ve smyslu zvýšení příjmů (resp. zajištění alespoň nějakých příjmů,
+    vytvoření fungujícího obchodního modelu) často používán termín
+    <emphasis>monetizace</emphasis><indexterm>
+        <primary>monetizace</primary>
+      </indexterm>, který bude v tomto smyslu používán i dále v této
+    práci.</para>
+
+    <para>Problémem je, že uživatelé na webu obecně, nejen čtenáři e-magazínů,
+    jsou zvyklí na to, že obsah je k dispozici zdarma, narozdíl například od
+    samotného internetového připojení. <citation>lupa-datator</citation> Z
+    pohledu vydavatelské společnosti to vytváření a správa obsahu ale
+    představuje nezanedbatelný náklad. A to jednak v podobě mzdových nákladů
+    pro autory recenzí a článků, jednak náklady na vývoj a údržbu technické
+    infrastruktury (správa serverů, zabezpečení).</para>
+
+    <para>Jedním ze způsobů, jak webový obsah monetizovat, je právě affiliate
+    marketing, jehož principy budou podrobněji popsány právě v této
+    kapitole.</para>
+
+    <sect1>
+      <title>Účastnické role</title>
+
+      <para>Jak už napovídá anglický název, nejcharakterističtějším rysem
+      affiliate marketingu je fakt, že marketingová komunikace neprobíhá přímo
+      mezi obchodníkem nabízejícím produkt<footnote>
+          <para>V anglické terminologii je tento účastník často označován jako
+          <emphasis>retailer</emphasis> nebo
+          <emphasis>affiliate</emphasis>.</para>
+        </footnote> a zákazníkem, ale je zde zapojena třetí strana. Tou je
+      zprostředkovatel, který od inzerenta převezme informaci o tom, jaká
+      nabídka má být zobrazena uživateli. Typicky je tedy zprostředkovatelem
+      jakýkoli provozovatel webu, který disponuje obsahem, a hledá způsob, jak
+      tento obsah monetizovat. Lze konstatovat, že struktura affiliate
+      marketingu ve své základní podobě tedy splňuje klasické schéma reklamy,
+      ve které je zapojen inzerent, inzerující médium a konzumemt. Celé schéma
+      znázorňuje diagram <xref linkend="am-basic" />.</para>
+
+      <figure id="am-basic">
+        <title>Základní účastnické role affiliate marketingu</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="vp/am-actors.pdf" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Proces interakce mezi jednotlivými aktéry je iniciován
+      obchodníkem. Ten vytvoří tzv. affiliate program<indexterm>
+          <primary>affiliate program</primary>
+        </indexterm>, ve kterém specifikuje svou svou nabídku, kterou chce
+      pomocí affiliate marketingu předložit zákazníkovi. Obvykle se jedná o
+      seznam produktů nebo služeb, s jejich parametry (popis, cena). Může jít
+      však i o nabídku v podobě slevových kuponů, které nejsou vázány na
+      konkrétní zboží, nebo obecnou inzerci (reklamní banner).</para>
+
+      <para>Nabídka od obchodníka je převzata partnerem. Tím může být, jak už
+      bylo naznačeno, jakýkoli web disponující obsahem, díky němuž může těžit
+      právě ze zobrazení reklamy. Přirozeným zprostředkovatelem jsou právě
+      vydavatelské společnosti jako Future, které poskytují velké množství
+      kvalitního obsahu a zároveň mají početnou a stabilní uživatelskou
+      základnu, které je možné nabídku od obchodníků zobrazit. Ideální situace
+      nastává, pokud je nabídka relevantní vůči kontextu obsahu, v rámci
+      kterého se objeví. V takovém případě totiž nepochybně dochází ke zvýšení
+      konverzního poměru, tedy množství uživatelů, které zobrazená reklama
+      přiměje k určité akci - typicky nákupu.<footnote>
+          <para>Jako příklad můžeme uvést technologický článek, popisující
+          vlasnosti nového mobilního telefonu, který se právě objevil na trhu.
+          Obsah tohoto typu bude pravděpodobně vyhledáván zejména uživateli,
+          kteří mají potenciálně zvýšený zájem o koupi tohoto přístroje, a
+          tedy i větší tendenci využít zobrazené nabídky tohoto
+          produktu.</para>
+        </footnote>Zároveň dochází k situaci, ve které přestává být reklama
+      vnímána jako reklama a díky kontextu okolního obsahu se sama stává
+      obsahem.<footnote>
+          <para>V návaznosti na předchozí příklad si můžeme představit, že
+          pokud vydavatel zobrazí tři různé nabídky téhož produktu, spolu s
+          cenovým srovnáním, dává tak čtenáři článku kromě odborného názoru na
+          samotný produkt i základní analýzu toho, kde a za jakou cenu je
+          produkt možné zakoupit.</para>
+        </footnote> V takovém případě má vhodně zvolený affiliate program
+      kromě pozitivního vlivu na příjmy vydavatelské společnosti také
+      pozitivní vliv na spokojenost uživatelů, nebo minimálně na redukci
+      jejich nespokojenosti s nutností konzumace reklamy.</para>
+
+      <para>Posledním nutným článkem k úspěšnému provozování affiliate
+      marketingu je samotný uživatel. Ten se stává konzumentem nabídky, a v
+      případě úspěšné konverze provádí nákupní rozhodnutí, díky němuž
+      profitují všechny zúčastněné strany (win-win-win model).</para>
+    </sect1>
+
+    <sect1>
+      <title>Princip fungování</title>
+
+      <para>TODO technická stránka.</para>
+
+      <para>TODO rozdělení provizí.</para>
+    </sect1>
+
+    <sect1>
+      <title>Affiliate sítě</title>
+
+      <para></para>
+
+      <para></para>
+
+      <para>TODO: Popsat, proč je užitečné zapojit mezičlánek.</para>
+    </sect1>
+
+    <sect1>
+      <title>Alternativní zajištění příjmu z webového obsahu</title>
+
+      <para>Kromě affiliate marketingu, kterým se tato práce zabývá, existuje
+      mnoho dalších způsobů, jakými lze zajistit stabilní proud příjmů z
+      webového obsahu, resp. e-magazínů.</para>
+    </sect1>
   </chapter>
 
   <chapter>
@@ -72,13 +190,34 @@
   <chapter>
     <title>Aplikace affiliate marketingu ve společnosti Future</title>
 
-    <para></para>
+    <para>Společnost Future PLC byla založena v roce 1985. Jako první
+    vydavatelská společnost přišla s originálním nápadem inovace produktu v
+    podobě tištěného časopisu, totiž jeho rozšíření o datový nosič, který je
+    spolu s časopisem zabalen v plastové folii. Tato inovace představovala pro
+    zákazníky takovou přidanou hodnotu, že byli ochotni za časopis se
+    softwarem zaplatit dvojnásobnou cenu.
+    <citation>independent-chris-anderson</citation></para>
+
+    <para>Future je stále vydavatelskou společností v klasickém slova smyslu,
+    zabývá se tedy vytvářením a prodejem tištěných magazínů. Stále větší váhu
+    nicméně získává elektronická část podnikání.
+    <citation>guardian-job-cut</citation> Tu tvoří dva hlavní pilíře: webové
+    magazíny<footnote>
+        <para>Pod pojmem webový magazín si můžeme představit soubor webových
+        stránek, které obsahují množství tematicky zaměřených článků.
+        Největším magazínem tohoto druhu ve společnosti Future je TechRadar
+        (<ulink url="www.techradar.com">www.techradar.com</ulink>), s
+        průměrnou návštěvností přesahující 20 milionů uživatelů měsíčně.
+        <citation>youtube-mark-wood-interview</citation></para>
+      </footnote> a aplikace pro tablety.</para>
 
     <sect1>
       <title>Zhodnocení současného stavu</title>
 
       <para>V praktické části práce zhodnotí současný stav provádění affiliate
-      marketingu v konkrétním e-magazínu</para>
+      marketingu v konkrétním e-magazínu.</para>
+
+      <para></para>
     </sect1>
 
     <sect1>
@@ -93,7 +232,7 @@
       <title>Inovace produktu</title>
 
       <para>Na základě uvedeného následně formuluje doporučení pro inovaci
-      stávajícího produktu či pro vytvoření nového produktu. </para>
+      stávajícího produktu či pro vytvoření nového produktu.</para>
     </sect1>
   </chapter>
 
@@ -251,6 +390,97 @@
       <pagenums>230 s.</pagenums>
 
       <isbn>978-80-7367-468-7</isbn>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>independent-chris-anderson</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Ruth</firstname>
+
+          <surname>Nicholas</surname>
+        </author>
+      </authorgroup>
+
+      <title>Profile: Chris Anderson: Media with passion</title>
+
+      <publisher>
+        <publishername>The Independent</publishername>
+      </publisher>
+
+      <pubdate>11. 7. 1999 [cit. 8. 2. 2014]</pubdate>
+
+      <releaseinfo>Dostupné na <ulink
+      url="http://www.independent.co.uk/news/business/profile-chris-anderson-media-with-passion-1105628.html">http://www.independent.co.uk/news/business/profile-chris-anderson-media-with-passion-1105628.html</ulink></releaseinfo>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>guardian-job-cut</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Mark</firstname>
+
+          <surname>Sweney</surname>
+        </author>
+      </authorgroup>
+
+      <title>Future Publishing to cut 55 jobs</title>
+
+      <publisher>
+        <publishername>The Guardian</publishername>
+      </publisher>
+
+      <pubdate>3. 9. 2013 [cit. 8. 2. 2014]</pubdate>
+
+      <releaseinfo>Dostupné na <ulink
+      url="http://www.theguardian.com/media/2013/sep/03/future-publishing-cut-55-jobs">http://www.theguardian.com/media/2013/sep/03/future-publishing-cut-55-jobs</ulink></releaseinfo>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>youtube-mark-wood-interview</abbrev>
+
+      <authorgroup>
+        <author>
+          <surname>Future PLC</surname>
+        </author>
+      </authorgroup>
+
+      <title>Mark Wood - November 2013 Interview</title>
+
+      <publisher>
+        <publishername>YouTube</publishername>
+      </publisher>
+
+      <pubdate>16. 12. 2013 [cit. 8. 2. 2014]</pubdate>
+
+      <releaseinfo>Dostupné na <ulink
+      url="http://www.youtube.com/watch?v=W-EpxbH2KHY">http://www.youtube.com/watch?v=W-EpxbH2KHY</ulink></releaseinfo>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>lupa-datator</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>David</firstname>
+
+          <surname>Slížek</surname>
+        </author>
+      </authorgroup>
+
+      <title>Zkrocené Uloz.to má nástupce v Datator.cz a historie se
+      opakuje</title>
+
+      <publisher>
+        <publishername>Lupa.cz</publishername>
+      </publisher>
+
+      <pubdate>7. 2. 2014 [cit. 8. 2. 2014]</pubdate>
+
+      <releaseinfo>Dostupné na <ulink
+      url="http://www.lupa.cz/clanky/zkrocene-uloz-to-ma-nastupce-v-datator-cz-a-historie-se-opakuje/">http://www.lupa.cz/clanky/zkrocene-uloz-to-ma-nastupce-v-datator-cz-a-historie-se-opakuje/</ulink></releaseinfo>
     </biblioentry>
   </bibliography>
 
