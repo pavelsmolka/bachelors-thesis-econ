@@ -55,7 +55,7 @@
   <chapter>
     <title>Úvod</title>
 
-    <para>TODO úvod</para>
+    <para>Tisíce, miliardy</para>
 
     <para>V práci budou použity tyto metody: deskripce, komparace, analýza,
     syntéza, dotazování, vhodné matematicko-statistické metody.</para>
@@ -86,6 +86,63 @@
     <para>Jedním ze způsobů, jak webový obsah monetizovat, je právě affiliate
     marketing, jehož principy budou podrobněji popsány právě v této
     kapitole.</para>
+
+    <sect1>
+      <title>Definice</title>
+
+      <para>Neexistuje obecně uznávaná a přesně vymezená definice toho, co
+      přesně affiliate marketing představuje. Jedná se o formu internetového
+      marketingu, typicky zaměřeného na oblast webu, v rámci něhož je zejména
+      řešeno vytvoření a zobrazení inzerce uživateli. V rámci různých typů
+      webové reklamy lze říct, že affiliate marketing je téměř výlučně
+      <quote>performance-based</quote><indexterm>
+          <primary>performance-based advertising</primary>
+        </indexterm>, tedy inzerent za inzerci zaplatí až tehdy, pokud
+      uživatel (konzument inzerce) provede určitou akci.
+      <citation>performance-based-advertising</citation> Tou bývá typicky
+      uskutečnění objednávky v internetovém obchodě inzerenta, výjimečně i
+      pouhé nasměrování uživatele do internetového obchodu (tzv. proklik).
+      Jedná se o konkretizaci modelu <emphasis>Cost per action</emphasis>
+      (CPA)<indexterm>
+          <primary>Cost per action</primary>
+        </indexterm>, ve kterém je inzerce považována a úspěšnou (a tedy za ni
+      inzerent zaplatí) ve chvíli, kdy uživatel provede nějakou předem
+      domluvenou akci -- typicky například právě proklik nebo
+      objednávku.</para>
+
+      <para>Účastnické role vystupující v modelu affiliate marketingu jsou
+      podrobněji popsány v kapitole <xref linkend="chap-roles" />. Základním
+      prinicpem ovšem je, že inzerent obvykle nemusí být v přímém kontaktu se
+      subjektem, který affiliate reklamu zobrazuje (např. vydavatelskou
+      společností). Affiliate program, obsahující informace o tom, jakým
+      způsobem a jaký obsah má být inzerován, může být využit více subjekty a
+      inzerující strana se vzdává práva specifikovat vizuální podobu nebo
+      frekvenci zobrazení. Často dokonce ani přímo neurčuje, jaká konkrétní
+      nabídka z affiliate programu bude zobrazena. Díky zmíněnému
+      <quote>performance-based</quote> přístupu tento systém může fungovat,
+      protože zpoplatněny jsou měřitelné výsledky (akce provedené
+      uživatelem).</para>
+
+      <para>Affiliate programem je obvykle myšlen soubor potenciálních nabídek
+      produktů nebo služeb, které inzerent poskytuje zprostředkovatelům.
+      Nejedná se v pravém slova smyslu o inzerci, neboť většinou affiliate
+      program obsahuje kompletní nabídku obchodníka. Obchodník tak spíše
+      specifikuje, jaké produkty nabízí, než které z nich chce uživateli
+      inzerovat. Tato volba je pak na zprostředkovateli, který obvykle volí
+      konkrétní produkt z nabídky podle kontextu svého vlastního obsahu.
+      Například vydavatelský portál publikující novinky z oblasti elektroniky,
+      jako je například vlajková loď společnosti Future TechRadar, si z
+      nabídky vybírá spotřební elektroniku.</para>
+
+      <para>Vztahy mezi účastníky affiliate marketingu jsou tedy založeny
+      čistě na finančí bázi, narozdíl například od referral
+      marketingu<indexterm>
+          <primary>referral marketing</primary>
+        </indexterm>. <citation>referral-marketing</citation> Se zapojením
+      mezičlánku v podobě affiliate sítí, které jsou popsány v kapitole <xref
+      linkend="chap-ans" />, je vztah mezi inzerentem a zprostředkovatelem
+      ještě více uvolněn.</para>
+    </sect1>
 
     <sect1 id="chap-roles">
       <title>Účastnické role</title>
@@ -225,7 +282,8 @@
         neprovede nákup okamžitě. <citation>consumer-behavior</citation> Ve
         hře je několik faktorů. Někteří zákazníci se potřebují před nákupem
         poradit s autoritou, jiní prostě jen potřebují určitý čas, než
-        rozhodnutí udělají. </para>
+        rozhodnutí udělají.
+        <citation>internet-marketing-strategy</citation></para>
 
         <para>Dalším případem, kdy je rozhodnutí o nákupu odkládáno,
         specifické pro svět webového marketingu, je existence slevových
@@ -254,8 +312,8 @@
         identifikovat zákazníka, který na e-shop přišel skrze
         zprostředkovatele affiliate programu, neučinil nákupní rozhodnutí, ale
         následně se vrátil (tentokrát už ovšem ne nutně přes affiliate odkaz
-        obsahující identifikátor daného zprostředkovatele) a nákup provedl.
-        </para>
+        obsahující identifikátor daného zprostředkovatele) a nákup
+        provedl.</para>
 
         <para>Implementace této <quote>paměti</quote> je díky technologiím
         používaným na webu velmi přímočará díky použití tzv. cookies. Cookie
@@ -276,8 +334,8 @@
         korelace mezi přivedením zákazníka prostřednictvím zprostředkovatele a
         nákupním rozhodnutím, je nutné dobu existence cookie časově omezit. Po
         určité době je tedy <quote>paměť</quote> e-shopu vynulována a pro
-        přiznání provize je nutné, aby zákazník znovu využil affiliate odkaz.
-        </para>
+        přiznání provize je nutné, aby zákazník znovu využil affiliate
+        odkaz.</para>
 
         <para>Tato doba se liší podle povahy a především velikosti
         internetového obchodu. Typicky je to 30 dní, ale například největší
@@ -303,11 +361,11 @@
         zprostředkovatelů, vedoucích do téhož e-shopu. Nedává smysl, aby
         e-shop platil provizi každému z nich. V tomto případě platí pravidlo,
         že poslední bere vše, tedy provize je připsána zprostředkovateli, na
-        jehož odkaz uživatel kliknul v pořadí jako poslední. </para>
+        jehož odkaz uživatel kliknul v pořadí jako poslední.</para>
       </sect2>
     </sect1>
 
-    <sect1>
+    <sect1 id="chap-ans">
       <title>Affiliate sítě</title>
 
       <para>TODO: Popsat, proč je užitečné zapojit mezičlánek v podobě
@@ -319,7 +377,78 @@
 
       <para>Kromě affiliate marketingu, kterým se tato práce zabývá, existuje
       mnoho dalších způsobů, jakými lze zajistit stabilní proud příjmů z
-      webového obsahu, resp. e-magazínů.</para>
+      webového obsahu, resp. e-magazínů. V této části jsou tyto alternativy
+      zhruba popsány a jejich fungování je porovnáno s principy affiliate
+      marketingu.</para>
+
+      <sect2>
+        <title>Cost per impression</title>
+
+        <para>Klasická online reklama je pravděpodobně jedním z prvních typů
+        internetového marketingu, který se na webu objevil. Ve svém základním
+        modelu vychází z principů reklamy, tak jak funguje v tištěných
+        médiích. Inzerent si objedná určité množství zobrazení své (dopředu
+        vytvořené) reklamy, ať už se jedná o reklamu čistě textovou nebo
+        mající i grafickou podobu. </para>
+
+        <para>Za každé zobrazení reklamy pak zaplatí určitou, zpravidla fixní
+        částku. Tento model se nazývá anglickým termínem <emphasis>Cost per
+        impression</emphasis>, často zkracovaným jako CPI<indexterm>
+            <primary>Cost per impression</primary>
+          </indexterm>. V oblasti webového marketingu jde pravděpodobně o
+        metodu affiliate marketingu nejvíce vzdálenou, protože není vázána na
+        žádnou akci ze strany uživatele. Ten si často reklamy ani nemusí
+        všimnout, cena za zobrazení tak bývá obvykle stanovena poměrně nízko a
+        téměř nikdy není vázána na konkrétní produkt, který je reklamním
+        bannerem inzerován.</para>
+      </sect2>
+
+      <sect2>
+        <title>Pay per click</title>
+
+        <para>O něco bližším modelem inzerce v prostředí webu je metoda
+        <emphasis>Pay per click</emphasis> (PPC)<indexterm>
+            <primary>Pay per click</primary>
+          </indexterm>. Stejně jako v případě CPI je založena na zobrazení
+        předem vytvořené reklamy v textové nebo grafické podobě. Inzerent
+        ovšem neplatí za zobrazení reklamy, ale, jak už napovídá název, pouze
+        za proklik. </para>
+
+        <para>Metoda PPC bývá často využívána společnostmi provozujícími
+        vyhledávací stroje.<footnote>
+            <para>Společnost Google provozuje systém AdWords, český Seznam
+            disponuje obdobnou službou Sklik.</para>
+          </footnote> U výsledků vyhledávání je tak kromě samotných reálných
+        výsledků založených na porovnávání obsahu webových dokumentů obvykle
+        zařazeno několik <quote>sponzorovaných</quote> položek.
+        <citation>customers-now</citation> Ty jsou obvykle vizuálně odlišeny,
+        nicméně ne natolik, aby je uživatel nepovažoval za relevantní výsledek
+        vyhledávání. Tento fakt umocňuje skutečnost, že PPC reklama je obvykle
+        kontextově koherentní s ostatními výsledky vyhledávání.</para>
+
+        <para>Princip objednávání je závislý na konkrétním systému. Obecně (a
+        s určitou mírou zjednodušení) lze ovšem říct, že zařazení reklamy do
+        výsledků vyhledávání pro určité klíčové slovo se řídí principem aukce.
+        Pro dané klíčové slovo tedy existuje několik málo pozic, které obsadí
+        inzerenti, jež jsou ochotni zaplatit za proklik nejvyšší částku.
+        <citation>razeni-inzeratu-seznam</citation> </para>
+
+        <para>Hranice mezi modelem PPC a affiliate marketingem je často
+        neostrá a oba typy marketingu se vzájemně prolínají. Existují
+        affiliate programy, kde obchodník (resp. obecně inzerent) platí pouze
+        za proklik, a de facto se tedy jedná o model PPC. Stejně tak například
+        PPC program Sklik, provozovaný českým Seznamem, nabízí Partnerský
+        program, v rámci kterého mohou partneři (tedy affiliates) na své
+        stránky umisťovat a graficky upravovat reklamní bannery.
+        <citation>partnersky-program-seznam</citation> Ve skutečnosti tedy
+        takový program splňuje základní kritéria affiliate marketingu.</para>
+      </sect2>
+
+      <sect2>
+        <title>Placený obsah</title>
+
+        <para></para>
+      </sect2>
     </sect1>
   </chapter>
 
@@ -328,6 +457,28 @@
 
     <para>Svou pozornost také zaměří na oblast vývoje a inovace
     produktu</para>
+
+    <sect1>
+      <title>Zachycení uživatelských požadavků</title>
+
+      <para>TODO různé způsoby, jak zjistit uživatelské požadavky: kartičky,
+      user stories, lean metodika</para>
+
+      <para>TODO specifika toho, že zákazník není externí subjekt, ale samotná
+      firma</para>
+    </sect1>
+
+    <sect1>
+      <title>Fáze vývoje produktu</title>
+
+      <para>TODO: Pravděpodobně základ z literatury, k tomu:</para>
+
+      <para>a) Jak se to může lišit pro softwarový produkt takového
+      typu</para>
+
+      <para>b) Popsat, jak fáze konkrétně vypadají pro produkt tohoto
+      typu</para>
+    </sect1>
   </chapter>
 
   <chapter>
@@ -392,7 +543,7 @@
     </sect1>
 
     <sect1>
-      <title>Inovace produktu</title>
+      <title>Doporučená inovace produktu</title>
 
       <para>Na základě uvedeného následně formuluje doporučení pro inovaci
       stávajícího produktu či pro vytvoření nového produktu.</para>
@@ -763,6 +914,152 @@
 
       <releaseinfo>Dostupné na <ulink
       url="http://tools.ietf.org/html/rfc6265">http://tools.ietf.org/html/rfc6265</ulink></releaseinfo>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>internet-marketing-strategy</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Dave</firstname>
+
+          <surname>Chaffey</surname>
+        </author>
+
+        <author>
+          <firstname>Fiona</firstname>
+
+          <surname>Ellis-Chadwick</surname>
+        </author>
+
+        <author>
+          <firstname>Richard</firstname>
+
+          <surname>Mayer</surname>
+        </author>
+
+        <author>
+          <firstname>Kevin</firstname>
+
+          <surname>Johnston</surname>
+        </author>
+      </authorgroup>
+
+      <title>Internet Marketing: Strategy, Implementation and Practice</title>
+
+      <publisher>
+        <publishername>Pearson Education</publishername>
+      </publisher>
+
+      <pubdate>2009</pubdate>
+
+      <pagenums>702 s.</pagenums>
+
+      <isbn>9780273717409</isbn>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>customers-now</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>David</firstname>
+
+          <surname>Szetela</surname>
+        </author>
+      </authorgroup>
+
+      <title>Customers Now</title>
+
+      <publisher>
+        <publishername>iUniverse</publishername>
+      </publisher>
+
+      <pubdate>2009</pubdate>
+
+      <pagenums>108 s.</pagenums>
+
+      <isbn>978-1440170997</isbn>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>razeni-inzeratu-seznam</abbrev>
+
+      <authorgroup>
+        <author>
+          <surname>Seznam.cz</surname>
+        </author>
+      </authorgroup>
+
+      <title>Řazení inzerátů v systému Sklik</title>
+
+      <pubdate>2014 [cit. 9. 2. 2014]</pubdate>
+
+      <releaseinfo>Dostupné na <ulink
+      url="http://napoveda.sklik.cz/cz/zaciname-inzerovat/inzeraty-razeni/">http://napoveda.sklik.cz/cz/zaciname-inzerovat/inzeraty-razeni/</ulink></releaseinfo>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>partnersky-program-seznam</abbrev>
+
+      <authorgroup>
+        <author>
+          <surname>Seznam.cz</surname>
+        </author>
+      </authorgroup>
+
+      <title>Partnerský program Sklik</title>
+
+      <pubdate>2014 [cit. 9. 2. 2014]</pubdate>
+
+      <releaseinfo>Dostupné na <ulink
+      url="http://napoveda.sklik.cz/cz/partner/">http://napoveda.sklik.cz/cz/partner/</ulink></releaseinfo>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>performance-based-advertising</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Brandt</firstname>
+
+          <surname>Dainow</surname>
+        </author>
+      </authorgroup>
+
+      <title>The rise of performance-based advertising</title>
+
+      <publisher>
+        <publishername>iMedia Connection</publishername>
+      </publisher>
+
+      <pubdate>26. 3. 2008 [cit. 9. 2. 2014]</pubdate>
+
+      <releaseinfo>Dostupné na <ulink
+      url="http://www.imediaconnection.com/content/18800.asp">http://www.imediaconnection.com/content/18800.asp</ulink></releaseinfo>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>referral-marketing</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Dinesh</firstname>
+
+          <surname>Hraju</surname>
+        </author>
+      </authorgroup>
+
+      <title> Referral and Affiliate Marketing: What’s the Difference?</title>
+
+      <publisher>
+        <publishername>Referral Candy</publishername>
+      </publisher>
+
+      <pubdate>5. 11. 2010 [cit. 9. 2. 2014]</pubdate>
+
+      <releaseinfo>Dostupné na <ulink
+      url="http://blog.referralcandy.com/2010/11/05/referral-and-affiliate-marketing-whats-the-difference/">http://blog.referralcandy.com/2010/11/05/referral-and-affiliate-marketing-whats-the-difference/</ulink></releaseinfo>
     </biblioentry>
   </bibliography>
 
