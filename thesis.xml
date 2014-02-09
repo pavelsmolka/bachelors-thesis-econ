@@ -102,8 +102,8 @@
       <citation>performance-based-advertising</citation> Tou bývá typicky
       uskutečnění objednávky v internetovém obchodě inzerenta, výjimečně i
       pouhé nasměrování uživatele do internetového obchodu (tzv. proklik).
-      Jedná se o konkretizaci modelu <emphasis>Cost per action</emphasis>
-      (CPA)<indexterm>
+      <citation>copmlete-guide-to-am</citation> Jedná se o konkretizaci modelu
+      <emphasis>Cost per action</emphasis> (CPA)<indexterm>
           <primary>Cost per action</primary>
         </indexterm>, ve kterém je inzerce považována a úspěšnou (a tedy za ni
       inzerent zaplatí) ve chvíli, kdy uživatel provede nějakou předem
@@ -412,7 +412,11 @@
           </indexterm>. Stejně jako v případě CPI je založena na zobrazení
         předem vytvořené reklamy v textové nebo grafické podobě. Inzerent
         ovšem neplatí za zobrazení reklamy, ale, jak už napovídá název, pouze
-        za proklik. </para>
+        za proklik. Tato metoda sice koreluje s tržbami realizovanými díky
+        inzerci více než CPI, nicméně stále pro obchodníka nepředstavuje
+        jistou investici. I velké množství prokliků a razantní zvýšení
+        návštěvnosti nemusí znamenat zvýšení prodejů.
+        <citation>am-impact</citation></para>
 
         <para>Metoda PPC bývá často využívána společnostmi provozujícími
         vyhledávací stroje.<footnote>
@@ -447,7 +451,38 @@
       <sect2>
         <title>Placený obsah</title>
 
-        <para></para>
+        <para>Poměrně odlišným obchodním modelem oproti doposud zmíněným
+        metodám je přímá platba za obsah. Proces, který je zcela běžný v
+        prostředí klasických tištěných médií, se jen velmi těžko uplatňuje na
+        webu.</para>
+
+        <para>Zpoplatněný obsah na webu lze v zásadě rozdělit do tří skupin.
+        První skupinou je elektronický ekvivalent tištěného obsahu, ať už v
+        podobě elektronické knihy nebo možnosti stáhnout si elektronickou
+        verzi předplaceného magazínu. Do druhé skupiny lze zařadit vysoce
+        specializované a odborné portály, které nemají tištěný ekvivalent,
+        nicméně uživatelé jsou ochotni za přístup k nim platit. Obě dvě
+        zmíněné skupiny mají už v oblasti internetu poměrně silnou tradici,
+        ověřené obchodní modely a stabilní zákaznickou základnu. Kromě
+        elektronických knih mezi ně lze zařadit i elektronické verze odborných
+        akademických časopisů a vědecké databáze.</para>
+
+        <para>Zcela odlišnou skupinou jsou ovšem klasické elektronické
+        magazíny, jejichž čtenáři zpravidla nejsou zvyklí za přístup k nim
+        platit. Může se jednat o spcializované servery, ale i zpravodajské
+        portály. Vzhledem k tomu, že na webu existuje obrovské množství
+        podobných produktů, je poměrně těžké naráz zpoplatnit přístup k obsahu
+        e-magazínu, protože uživatelé mohou snadno přejít k používání
+        konkurenčního produktu.</para>
+
+        <para>Přesto se některé velké zpravodajské severy o obchodní model
+        založený na přímé platbě za přístup k obsahu snaží. Typicky to vede k
+        poměrně razantnímu poklesu návštěvnosti, jehož míru je navíc velmi
+        obtížné dopředu odhadnout. Například elektronická verze The Times po
+        zpoplatnění přišla o dvě třetiny návštěvníků, ovšem očekával se pokles
+        až 90 %. <citation>times-reuters</citation> Zatím také není úplně
+        jasné, na jaké cenové hladině by se měl placený přístup k webovým
+        magazínům nacházet.</para>
       </sect2>
     </sect1>
   </chapter>
@@ -1060,6 +1095,83 @@
 
       <releaseinfo>Dostupné na <ulink
       url="http://blog.referralcandy.com/2010/11/05/referral-and-affiliate-marketing-whats-the-difference/">http://blog.referralcandy.com/2010/11/05/referral-and-affiliate-marketing-whats-the-difference/</ulink></releaseinfo>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>copmlete-guide-to-am</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Bruce</firstname>
+
+          <surname>Brown</surname>
+        </author>
+      </authorgroup>
+
+      <title>The Complete Guide to Affiliate Marketing on the Web</title>
+
+      <publisher>
+        <publishername>Atlantic Publishing</publishername>
+      </publisher>
+
+      <pubdate>2009</pubdate>
+
+      <pagenums>384 s.</pagenums>
+
+      <isbn>978-1601381255</isbn>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>am-impact</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Dennis</firstname>
+
+          <surname>Duffy</surname>
+        </author>
+      </authorgroup>
+
+      <title>Affiliate marketing and its impact on e-commerce</title>
+
+      <publisher>
+        <publishername>The Journal of Consumer Marketing, 22(2),
+        161-163</publishername>
+      </publisher>
+
+      <pubdate>2005 [cit. 9. 2. 2014]</pubdate>
+
+      <releaseinfo>Dostupné po autentizaci na <ulink
+      url="http://search.proquest.com/docview/220134240?accountid=16531">http://search.proquest.com/docview/220134240?accountid=16531</ulink></releaseinfo>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>times-reuters</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Mark</firstname>
+
+          <surname>Potter</surname>
+        </author>
+
+        <author>
+          <firstname>David</firstname>
+
+          <surname>Holmes</surname>
+        </author>
+      </authorgroup>
+
+      <title> Paywall hits The Times online readership - paper</title>
+
+      <publisher>
+        <publishername>Reuters</publishername>
+      </publisher>
+
+      <pubdate>18. 7. 2010 [cit. 9. 2. 2014]</pubdate>
+
+      <releaseinfo>Dostupné <ulink
+      url="http://www.reuters.com/article/2010/07/18/newsinternational-times-idUSLDE66H09F20100718">http://www.reuters.com/article/2010/07/18/newsinternational-times-idUSLDE66H09F20100718</ulink></releaseinfo>
     </biblioentry>
   </bibliography>
 
