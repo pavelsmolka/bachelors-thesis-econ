@@ -55,10 +55,9 @@
   <chapter>
     <title>Úvod</title>
 
-    <para>Tisíce, miliardy</para>
-
-    <para>V práci budou použity tyto metody: deskripce, komparace, analýza,
-    syntéza, dotazování, vhodné matematicko-statistické metody.</para>
+    <para>TODO V práci budou použity tyto metody: deskripce, komparace,
+    analýza, syntéza, dotazování, vhodné matematicko-statistické
+    metody.</para>
 
     <para>TODO obsah jednotlivých kapitol.</para>
   </chapter>
@@ -104,7 +103,7 @@
       pouhé nasměrování uživatele do internetového obchodu (tzv. proklik).
       <citation>copmlete-guide-to-am</citation> Jedná se o konkretizaci modelu
       <emphasis>Cost per action</emphasis> (CPA)<indexterm>
-          <primary>Cost per action</primary>
+          <primary>cost per action</primary>
         </indexterm>, ve kterém je inzerce považována a úspěšnou (a tedy za ni
       inzerent zaplatí) ve chvíli, kdy uživatel provede nějakou předem
       domluvenou akci -- typicky například právě proklik nebo
@@ -151,13 +150,21 @@
       affiliate marketingu je fakt, že marketingová komunikace neprobíhá přímo
       mezi obchodníkem nabízejícím produkt<footnote>
           <para>V anglické terminologii je tento účastník často označován jako
-          <emphasis>retailer</emphasis> nebo
-          <emphasis>merchant</emphasis>.</para>
+          <emphasis>retailer<indexterm>
+              <primary>retailer</primary>
+            </indexterm></emphasis> nebo
+          <emphasis>merchant</emphasis>.<indexterm>
+              <primary>merchant</primary>
+            </indexterm></para>
         </footnote> a zákazníkem, ale je zde zapojena třetí strana. Tou je
       zprostředkovatel, který od inzerenta převezme informaci o tom, jaká
       nabídka má být zobrazena uživateli.<footnote>
           <para>Zprostředkovatel je typicky označován jako
-          <emphasis>affiliate</emphasis>.</para>
+          <emphasis>affiliate</emphasis><indexterm>
+              <primary>affiliate</primary>
+            </indexterm> nebo <emphasis>publisher</emphasis>.<indexterm>
+              <primary>publisher</primary>
+            </indexterm></para>
         </footnote> Typicky je tedy zprostředkovatelem jakýkoli provozovatel
       webu, který disponuje obsahem, a hledá způsob, jak tento obsah
       monetizovat. Lze konstatovat, že struktura affiliate marketingu ve své
@@ -389,12 +396,12 @@
         modelu vychází z principů reklamy, tak jak funguje v tištěných
         médiích. Inzerent si objedná určité množství zobrazení své (dopředu
         vytvořené) reklamy, ať už se jedná o reklamu čistě textovou nebo
-        mající i grafickou podobu. </para>
+        mající i grafickou podobu.</para>
 
         <para>Za každé zobrazení reklamy pak zaplatí určitou, zpravidla fixní
         částku. Tento model se nazývá anglickým termínem <emphasis>Cost per
         impression</emphasis>, často zkracovaným jako CPI<indexterm>
-            <primary>Cost per impression</primary>
+            <primary>cost per impression</primary>
           </indexterm>. V oblasti webového marketingu jde pravděpodobně o
         metodu affiliate marketingu nejvíce vzdálenou, protože není vázána na
         žádnou akci ze strany uživatele. Ten si často reklamy ani nemusí
@@ -408,7 +415,7 @@
 
         <para>O něco bližším modelem inzerce v prostředí webu je metoda
         <emphasis>Pay per click</emphasis> (PPC)<indexterm>
-            <primary>Pay per click</primary>
+            <primary>pay per click</primary>
           </indexterm>. Stejně jako v případě CPI je založena na zobrazení
         předem vytvořené reklamy v textové nebo grafické podobě. Inzerent
         ovšem neplatí za zobrazení reklamy, ale, jak už napovídá název, pouze
@@ -435,7 +442,7 @@
         výsledků vyhledávání pro určité klíčové slovo se řídí principem aukce.
         Pro dané klíčové slovo tedy existuje několik málo pozic, které obsadí
         inzerenti, jež jsou ochotni zaplatit za proklik nejvyšší částku.
-        <citation>razeni-inzeratu-seznam</citation> </para>
+        <citation>razeni-inzeratu-seznam</citation></para>
 
         <para>Hranice mezi modelem PPC a affiliate marketingem je často
         neostrá a oba typy marketingu se vzájemně prolínají. Existují
@@ -563,10 +570,58 @@
     <sect1>
       <title>Zhodnocení současného stavu</title>
 
-      <para>V praktické části práce zhodnotí současný stav provádění affiliate
-      marketingu v konkrétním e-magazínu.</para>
+      <para>V následující části práce je zhodnocen způsob, kterým společnost
+      pracuje s nástroji affiliate marketingu. Stav, který je v této kapitole
+      popisován jako <quote>současný</quote>, odpovídá situaci přibližně z
+      října 2013. Tedy době, ve které byla data pro analytickou část práce
+      sbírána a vyhodnocována.<footnote>
+          <para>Vzhledem ke změnám, které byly v rámci provádění affiliate
+          marketingu ve společnosti Future provedeny, již není možné v době
+          odevzdávání práce popisovanou původní verzi zobrazit standardním
+          způsobem online. Nicméně díky projektu Web Archive je stále
+          dohledatelná, čtenář má tedy možnost posoudit popisované skutečnosti
+          například na adrese <ulink
+          url="http://web.archive.org/web/20130828134941/http://www.techradar.com/reviews/pc-mac/tablets/acer-iconia-a1-1149128/price-comparison">http://web.archive.org/web/20130828134941/http://www.techradar.com/reviews/pc-mac/tablets/acer-iconia-a1-1149128/price-comparison</ulink>.</para>
+        </footnote></para>
 
-      <para></para>
+      <para>Společnost Future figuruje v modelu affiliate marketingu jako
+      vydavatel. </para>
+
+      <para>TODO k jakým programům a jakého druhu má Future přístup</para>
+
+      <sect2>
+        <title>Outsourcing affiliate marketingu</title>
+
+        <para>TODO jakým způsobem jsou data zpracovávána - skrze Reevoo, shody
+        dohledává až 50 zaměstnanců</para>
+
+        <para>TODO způsob dělení příjmů z AM (1 ku 3)</para>
+      </sect2>
+
+      <sect2>
+        <title>Porovnání cen</title>
+
+        <para>TODO jak vypadá Reevoo price comparison, jaké má problémy</para>
+
+        <para>TODO jak na uživatele působí přesměrování, spolu s hláškou
+        "nashle"</para>
+      </sect2>
+
+      <sect2>
+        <title>Uživatelské komentáře</title>
+
+        <para>TODO jak vypadá možnost komentovat recenzi</para>
+
+        <para>TODO neexistence možné zpětné vazby na komentář (ani
+        like/nelike)</para>
+      </sect2>
+
+      <sect2>
+        <title>Celková analýza</title>
+
+        <para>TODO vyhodnocení (metodou SWOT, nebo jinou) výše popsaných
+        faktů</para>
+      </sect2>
     </sect1>
 
     <sect1>
@@ -575,6 +630,12 @@
       <para>Dále též provede výzkum mezi cílovou skupinou magazínu s cílem
       identifikovat míru naplnění jejích požadavků a očekávání od v
       současnosti nabízeného produktu.</para>
+
+      <para>TODO jak dotazník vypadá, jakým způsobem byl šířen, jakou formu
+      mají odpovědi</para>
+
+      <para>TODO nějaké statistické hrátky s výsledky, ideálně s rozumně
+      interpretovatelnými závěry</para>
     </sect1>
 
     <sect1>
@@ -583,16 +644,24 @@
       <para>Na základě uvedeného následně formuluje doporučení pro inovaci
       stávajícího produktu či pro vytvoření nového produktu.</para>
 
+      <para>TODO doporučení dělat vlastní produkt - nemožnost reálně
+      přizpůsobit produkt třetí strany</para>
+
       <sect2>
         <title>Strojové zpracování dat</title>
 
-        <para></para>
+        <para>TODO doporučení strojového zpracování dat (nemáme 50 lidí in
+        house)</para>
       </sect2>
 
       <sect2>
         <title>Popis nového produktu</title>
 
-        <para></para>
+        <para>TODO grafická podoba</para>
+
+        <para>TODO funkcionalita</para>
+
+        <para>TODO vyhodnocení po prvním nasazení?</para>
       </sect2>
     </sect1>
   </chapter>
@@ -600,7 +669,9 @@
   <chapter>
     <title>Závěr</title>
 
-    <para>TODO závěr</para>
+    <para>TODO shrnout výsledky práce</para>
+
+    <para>TODO možnosti dalšího rozšíření</para>
   </chapter>
 
   <bibliography>
@@ -1085,7 +1156,7 @@
         </author>
       </authorgroup>
 
-      <title> Referral and Affiliate Marketing: What’s the Difference?</title>
+      <title>Referral and Affiliate Marketing: What’s the Difference?</title>
 
       <publisher>
         <publishername>Referral Candy</publishername>
@@ -1162,7 +1233,7 @@
         </author>
       </authorgroup>
 
-      <title> Paywall hits The Times online readership - paper</title>
+      <title>Paywall hits The Times online readership - paper</title>
 
       <publisher>
         <publishername>Reuters</publishername>
