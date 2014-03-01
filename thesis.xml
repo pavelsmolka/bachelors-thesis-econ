@@ -495,31 +495,128 @@
   </chapter>
 
   <chapter>
-    <title>Vývoj a inovace softwarového produktu</title>
+    <title>Specifika e-commerce software</title>
 
-    <para>Svou pozornost také zaměří na oblast vývoje a inovace
-    produktu</para>
+    <para>Webové vydavatelské společnosti se pohybují na rozhraní mezi
+    vytvářením produktu a poskytováním služby. Stejně jako klasické magazíny,
+    i obsah zpravodajského webu lze označit za produkt. Má sice elektronickou
+    podobu, ale na obrazovce počítače, tabletu nebo telefonu je zobrazen velmi
+    podobně jako klasický papírový magazín, o jehož produktové povaze není
+    pochyb.</para>
+
+    <para>Na druhou stranu e-magazín (a obecně jakýkoli typ webových
+    dokumentů) splňuje většinu základních charakteristik služeb, jako je
+    nehmotnost a nemožnost vlastnictví ze strany zákazníka. Aspekt služby je
+    pak ještě umocněn v případě, že jakákoli část webu je interaktivní.
+    Zákazníkovi je pak místo prosté konzumace obsahu (tedy jakéhosi používání
+    teoretického produktu) zprostředkovávána služba -- většinou informačního
+    charakteru. Může se jednat o internetový jízdní řád, portál
+    zprostředkovávající pracovní nabídky anebo e-commerce platformu
+    poskytující cenové srovnání a možnost nákupu různých produktů.</para>
+
+    <para>Právě v oblasti e-commerce se nachází většina řešení využívajících
+    affiliate marketing. Z pohledu vydavatele se široký pojem e-commerce
+    omezuje na poskytnutí informace a nasměrování zákazníka do internetového
+    obchodu. Samotné zakoupení produktu nebo služby už není z pohledu
+    provozovatele e-magazínu součástí tohoto procesu. Jedinou klíčovou
+    informací je výše konverzního poměru -- tedy poměr uživatelů, kteří
+    nakonec nákup skutečně provedou, vůči celkovému objemu přesměrovanému do
+    internetového obchodu.</para>
 
     <sect1>
-      <title>Zachycení uživatelských požadavků</title>
+      <title>Rozhodování o nákupu</title>
 
-      <para>TODO různé způsoby, jak zjistit uživatelské požadavky: kartičky,
-      user stories, lean metodika</para>
+      <para>Z pohledu marketingu obecně je klíčové porozumění nákupnímu
+      chování zákazníka. Stejně je tomu i v případě webové platformy a
+      affiliate marketingu. Jak bylo zmíněno v úvodu této kapitoly,
+      rozhodující je nasměrování zákazníka do internetového obchodu. A rovněž
+      zde platí základní modely nákupního chování a rozhodování, které byly
+      původně vytvořeny pro analýzu klasického nákupu. Internet je totiž pouze
+      prostředím, ve kterém se zákazník rozhoduje, nikoliv předmětem samotného
+      rozhodování. Tím zůstává samotný akt nákupu klasického produktu,
+      například spotřební elektroniky, jako je tomu v případě e-magazínu
+      TechRadar.</para>
 
-      <para>TODO specifika toho, že zákazník není externí subjekt, ale samotná
-      firma</para>
+      <sect2>
+        <title>Model DAGMAR</title>
+
+        <para>Tato práce vychází ze dvou modelů nákupního rozhodování. Prvním
+        z nich je <quote>Defining Advertising Goals for Measured Advertising
+        Results</quote>, jejž představil v roce 1961 Russel H. Colley.
+        <citation>dagmar</citation> Tento model v základní podobě popisuje
+        sekvenci, kterou prochází potenciální zákazník při procesu nákupního
+        rozhodování. Prvním krokem je získání povědomí o existenci produktu
+        (awareness). Pokud zákazník získá dostatek informací (fáze
+        comprehension), rozhodne se k nákupu (conviction). Samotný akt nákupu
+        je poslední fází (action).</para>
+
+        <para>Z pohledu vydavatele, který se pomocí nástrojů affiliate
+        marketingu snaží nasměrovat své uživatele k internetovým obchodníkům,
+        jsou klíčové zejména prostřední dvě fáze. Obsahem, tedy zejména
+        recenzemi spotřební elektroniky, zprostředkovává čtenáři velké
+        množství odborných informací o produktu, především z technického úhlu
+        pohledu. Pokud je recenze pozitivní, může čtenáře přesvědčit o
+        nákupu.</para>
+
+        <para>E-magazín jako TechRadar hraje určitou roli i v první fázi, tedy
+        informování zákazníka o existenci nového produktu, vytvoření
+        základního povědomí. Tato úloha ovšem není zdaleka tak silná, jak by
+        se mohlo zdát. Jelikož se nejedná o zpravodajský server, většinu
+        návštěvníků tvoří uživatelé, kteří jsou už dopředu velmi zběžně
+        obeznámeni s tím, jaké produkty na trhu existují. E-magazín jim pak
+        především pomáhá upřesnit a rozšířit si informace o těchto
+        produktech.</para>
+      </sect2>
+
+      <sect2>
+        <title>Matice FCB</title>
+
+        <para>- typ rozhodování - kognitivní, racionální, ...</para>
+
+        <para>- stupeň zaujetí, ...</para>
+
+        <para>- FCB model, Percy Rositer
+        <citation>fcb-how-advertising-works</citation></para>
+
+        <para>- opakovaný nákup -&gt; rutinní chování</para>
+
+        <para>zmínit možnost návratu.</para>
+      </sect2>
     </sect1>
 
     <sect1>
-      <title>Fáze vývoje produktu</title>
+      <title>Vývoj a inovace softwarového produktu</title>
 
-      <para>TODO: Pravděpodobně základ z literatury, k tomu:</para>
+      <para>TODO: Postesknutí - Internet už není tak svobodný jako
+      býval</para>
 
-      <para>a) Jak se to může lišit pro softwarový produkt takového
-      typu</para>
+      <sect2>
+        <title>Zachycení uživatelských požadavků</title>
 
-      <para>b) Popsat, jak fáze konkrétně vypadají pro produkt tohoto
-      typu</para>
+        <para>TODO různé způsoby, jak zjistit uživatelské požadavky: kartičky,
+        user stories, lean metodika</para>
+
+        <para>TODO specifika toho, že zákazník není externí subjekt, ale
+        samotná firma</para>
+
+        <para>TODO: Popsat, že očekávání + realita = spokojenost. Že budeme
+        zkoumat hlavně očekávání, ale dopad to má na spokojenost = úzce
+        provázáno</para>
+      </sect2>
+
+      <sect2>
+        <title>Fáze vývoje produktu</title>
+
+        <para>TODO: Pravděpodobně základ z literatury, k tomu:</para>
+
+        <para>a) Jak se to může lišit pro softwarový produkt takového
+        typu</para>
+
+        <para>b) Popsat, jak fáze konkrétně vypadají pro produkt tohoto
+        typu</para>
+
+        <para>TODO: Nutnost adaptovat se na možnosti affiliate partnerů</para>
+      </sect2>
     </sect1>
   </chapter>
 
@@ -585,9 +682,12 @@
         </footnote></para>
 
       <para>Společnost Future figuruje v modelu affiliate marketingu jako
-      vydavatel. </para>
+      vydavatel.</para>
 
       <para>TODO k jakým programům a jakého druhu má Future přístup</para>
+
+      <para>TODO nebo úplně jinak, co kdybych porovnal Reevoo a Hawk, a
+      zkritizoval obě?</para>
 
       <sect2>
         <title>Outsourcing affiliate marketingu</title>
@@ -625,14 +725,36 @@
     </sect1>
 
     <sect1>
+      <title>Metodika výzkumu</title>
+
+      <para>TODO: Jaká rozhodnutí chceme učinit -&gt; jakou informaci
+      potřebujeme získat</para>
+
+      <para>Kvantitativní výzkum</para>
+
+      <para>téměř žádná zpětná vazba - pokud uživatel není spokojen, z webu
+      odchází</para>
+
+      <sect2>
+        <title>Výzkumné otázky a hypotézy </title>
+
+        <para>formulovat obecné výzkumné otázky</para>
+
+        <para>následně specifičtěji</para>
+      </sect2>
+    </sect1>
+
+    <sect1>
       <title>Marketingový výzkum mezi cílovou skupinou</title>
 
       <para>Dále též provede výzkum mezi cílovou skupinou magazínu s cílem
       identifikovat míru naplnění jejích požadavků a očekávání od v
       současnosti nabízeného produktu.</para>
 
-      <para>TODO jak dotazník vypadá, jakým způsobem byl šířen, jakou formu
-      mají odpovědi</para>
+      <para></para>
+
+      <para>TODO jak dotazník vypadá, jakým způsobem byl distribuován
+      (elektronicky), jakou formu mají odpovědi</para>
 
       <para>TODO nějaké statistické hrátky s výsledky, ideálně s rozumně
       interpretovatelnými závěry</para>
@@ -1243,6 +1365,54 @@
 
       <releaseinfo>Dostupné <ulink
       url="http://www.reuters.com/article/2010/07/18/newsinternational-times-idUSLDE66H09F20100718">http://www.reuters.com/article/2010/07/18/newsinternational-times-idUSLDE66H09F20100718</ulink></releaseinfo>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>dagmar</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Russel</firstname>
+
+          <surname>Colley</surname>
+        </author>
+      </authorgroup>
+
+      <title>Defining Advertising Goals: For Measured Advertising
+      Results</title>
+
+      <publisher>
+        <publishername>The Association</publishername>
+      </publisher>
+
+      <pubdate>1961</pubdate>
+
+      <pagenums>114 s.</pagenums>
+
+      <isbn>978-0844234229</isbn>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>fcb-how-advertising-works</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Jose</firstname>
+
+          <surname>Bacelo</surname>
+        </author>
+      </authorgroup>
+
+      <title>How advertising works</title>
+
+      <publisher>
+        <publishername>SlideShare</publishername>
+      </publisher>
+
+      <pubdate>6. 3. 2012 [cit. 1. 3. 2014]</pubdate>
+
+      <releaseinfo>Dostupné <ulink
+      url="http://www.slideshare.net/jcbarcelo/fcb-grid">http://www.slideshare.net/jcbarcelo/fcb-grid</ulink></releaseinfo>
     </biblioentry>
   </bibliography>
 
