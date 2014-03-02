@@ -526,7 +526,7 @@
     nakonec nákup skutečně provedou, vůči celkovému objemu přesměrovanému do
     internetového obchodu.</para>
 
-    <sect1>
+    <sect1 id="chap-nakupni-rozhodovani">
       <title>Proces nákupního rozhodování</title>
 
       <para>Z pohledu marketingu obecně je klíčové porozumění nákupnímu
@@ -541,7 +541,9 @@
       TechRadar.</para>
 
       <sect2 id="chap-dagmar">
-        <title>Model DAGMAR</title>
+        <title>Model DAGMAR<indexterm>
+            <primary>DAGMAR</primary>
+          </indexterm></title>
 
         <para>Tato práce vychází ze dvou modelů hierarchie účinků nákupního
         rozhodování. Prvním z nich je koncept, jež představil pod názvem
@@ -584,7 +586,9 @@
       </sect2>
 
       <sect2>
-        <title>Matice FCB</title>
+        <title>Matice FCB<indexterm>
+            <primary>FCB</primary>
+          </indexterm></title>
 
         <para>Druhým modelem, ze kterého tato práce vychází, je matice Foote
         Cone Belding (FCB). <citation>fcb-how-advertising-works</citation> Ten
@@ -705,11 +709,41 @@
     <sect1>
       <title>Vývoj a inovace softwarového produktu</title>
 
-      <para>TODO: Postesknutí - Internet už není tak svobodný jako
-      býval</para>
+      <para>Ačkoliv software, obzvláště na webu, postrádá některé klasické
+      aspekty produktů, princip jeho vývoje a inovací je velmi podobný
+      klasickým produktům. Narozdíl od klasických výrobků, u kterých je vývoj
+      a inovace klíčovou a často velmi zdlouhavou a nákladnou fází, která do
+      velké míry nahrazuje fázi výroby. Jednou vytvořený software, opět
+      zejména na webu, není potřeba znovu <quote>vyrábět</quote>. Naopak se
+      zde objevují nové fáze jako je nasazení a údržba.</para>
+
+      <para>Webový e-magazín, stejně jako jiný obsah na webu, je specifický
+      tím, že uživatel je neustále v kontaktu s poskytovatelem služby -- tedy
+      tvůrcem webu. Pokud je vyvinuta nová verze produktu, je pouze na uvážení
+      provozovatele, zda tuto novou verzi uvolní pro všechny uživatele. Ti tak
+      většinou nemají na výběr, zda chtějí používat novou nebo starou verzi
+      produktu, a po určité době testování nové verze je ta stará obvykle
+      znepřístupněna. Příkladem můžou být služby od Twitteru až po Informační
+      systém Masarykovy univerzity.
+      <citation>twitter-redesign</citation><citation>is-mu-redesign</citation></para>
+
+      <para>Výsledky inovace a zlepšování produktu je tak možné sledovat s
+      okamžitým efektem. Pokud je procesem inovace odstraněn nějaký
+      nedostatek, ať už bezpečnostní nebo fukční, s nasazením nové verze se
+      tato záplata okamžitě automaticky vztahuje na všechny
+      uživatele.<footnote>
+          <para>Zde je určitý rozdíl oproti klasickému
+          <quote>krabicovému</quote> software, u kterého často uživatelé ať už
+          vědomě nebo nevědomě odmítají instalovat aktualizace a tím přijmout
+          inovaci, kterou výrobce nabízí.</para>
+        </footnote></para>
 
       <sect2>
         <title>Zachycení uživatelských požadavků</title>
+
+        <para>Inovace nespočívá ve vytvoření perfektního produktu, ale v
+        perfektním uspokojení potřeb zákazníků.
+        <citation>advertising-creative</citation> </para>
 
         <para>TODO různé způsoby, jak zjistit uživatelské požadavky: kartičky,
         user stories, lean metodika</para>
@@ -782,38 +816,43 @@
       zaměřeným obsahem, pravidelně publikovaný na určité doméně.</para>
     </sect1>
 
-    <sect1>
+    <sect1 id="chap-soucasny-stav">
       <title>Zhodnocení současného stavu</title>
 
-      <para>TODO aktualizovat: V následující části práce je zhodnocen způsob,
-      kterým společnost pracuje s nástroji affiliate marketingu. Stav, který
-      je v této kapitole popisován jako <quote>současný</quote>, odpovídá
-      situaci přibližně z října 2013. Tedy době, ve které byla data pro
-      analytickou část práce sbírána a vyhodnocována.<footnote>
-          <para>Vzhledem ke změnám, které byly v rámci provádění affiliate
-          marketingu ve společnosti Future provedeny, již není možné v době
-          odevzdávání práce popisovanou původní verzi zobrazit standardním
-          způsobem online. Nicméně díky projektu Web Archive je stále
-          dohledatelná, čtenář má tedy možnost posoudit popisované skutečnosti
-          například na adrese <ulink
-          url="http://web.archive.org/web/20130828134941/http://www.techradar.com/reviews/pc-mac/tablets/acer-iconia-a1-1149128/price-comparison">http://web.archive.org/web/20130828134941/http://www.techradar.com/reviews/pc-mac/tablets/acer-iconia-a1-1149128/price-comparison</ulink>.</para>
-        </footnote></para>
+      <para>V následující části práce je zhodnocen způsob, kterým společnost
+      pracuje s nástroji affiliate marketingu. Stav, který je v této kapitole
+      popisován jako <quote>současný</quote>, odpovídá situaci přibližně z
+      března 2014. Tedy době, ve které byla data pro analytickou část práce
+      sbírána a vyhodnocována.</para>
 
       <para>Společnost Future figuruje v modelu affiliate marketingu jako
-      vydavatel.</para>
-
-      <para>TODO k jakým programům a jakého druhu má Future přístup</para>
-
-      <para>TODO nebo úplně jinak, co kdybych porovnal Reevoo a Hawk, a
-      zkritizoval obě?</para>
+      vydavatel. V rámci e-magazínu TechRadar vydává řádově jednotky nových
+      článků zpravodajského typu, informující o novinkách ve světě
+      technologií. Mimo to publikuje denně přibližně jednu až pět recenzí, v
+      nichž autor hodnotí vlasnosti vybraného produktu -- typicky spotřební
+      elektroniky. Recenze obsahuje několik fotek, popis vlastností produktu,
+      provnání s alternativami (jak staršími modely od téhož výrobce, tak
+      srovnání s konkurencí) a odkazy do e-shopů, kde si může čtenář produkt
+      zakoupit. Právě poslední zmíněná část úzce souvisí s affiliate
+      marketingem.</para>
 
       <sect2>
         <title>Porovnání cen</title>
 
-        <para>TODO jak vypadá Reevoo price comparison, jaké má problémy</para>
+        <para>Většina recenzí je specificky zaměřena na jeden produkt --
+        konkrétní model, který je recenzí zhodnocen. Ačkoli je u recenze
+        zobrazeno více odkazů, všechny vedou na nákup tohoto stejného modelu
+        produktu. Liší se pouze e-shop, do kterého odkaz vede, a samozřejmě
+        parametry specifické pro konkrétní nabídku produktu -- zejména cena,
+        dodací lhůta a poplatek za doručení zboží.</para>
 
-        <para>TODO jak na uživatele působí přesměrování, spolu s hláškou
-        "nashle"</para>
+        <para>Tento přístup lze hodnotit ambivalentně. Pozitivní je
+        jednoduchost, kterou takový seznam nabízí. Jedná se o cenové srovnání
+        různých nabídek téhož produktu, je tedy jasně vidět, kte</para>
+
+        <para>TODO k jakým programům a jakého druhu má Future přístup</para>
+
+        <para>TODO jak na uživatele působí přesměrování</para>
       </sect2>
 
       <sect2>
@@ -840,7 +879,7 @@
     </sect1>
 
     <sect1>
-      <title>Metodika výzkumu</title>
+      <title>Marketingový výzkum</title>
 
       <para>TODO: Jaká rozhodnutí chceme učinit -&gt; jakou informaci
       potřebujeme získat</para>
@@ -851,28 +890,62 @@
       odchází</para>
 
       <sect2>
-        <title>Výzkumné otázky a hypotézy</title>
+        <title>Metodika výzkumu</title>
 
-        <para>formulovat obecné výzkumné otázky</para>
+        <para>Výzkumným cílem této práce je identifikace míry naplnění
+        požadavků a očekávání od v současnosti nabízeného produktu z oblasti
+        affiliate marketingu, který je popsán v sekci <xref
+        linkend="chap-soucasny-stav" />. Na základě principů fungování
+        affilate marketingu, popsaných v kapitole <xref linkend="chap-am" />,
+        a teorie nákupního rozhodování, kterému se věnuje sekce <xref
+        linkend="chap-nakupni-rozhodovani" />, byly formulovány následující
+        obecné výzkumné otázky:</para>
 
-        <para>následně specifičtěji</para>
+        <itemizedlist>
+          <listitem>
+            <para>Jaký má být obsah webového produktu vytvořeného na základě
+            affiliate marketingu?</para>
+          </listitem>
+
+          <listitem>
+            <para>Jakou vizuální podobu má produkt mít?</para>
+          </listitem>
+
+          <listitem>
+            <para>Jak přesné informace je potřeba uživatelům
+            poskytnout?</para>
+          </listitem>
+
+          <listitem>
+            <para>Jakým způsobem by měli samotní uživatelé spoluvytvářet
+            produkt?</para>
+          </listitem>
+        </itemizedlist>
+
+        <para>Pro každou z těchto obecný výzkumných otázek jsou následně
+        formulovány </para>
       </sect2>
-    </sect1>
 
-    <sect1>
-      <title>Marketingový výzkum mezi cílovou skupinou</title>
+      <sect2>
+        <title>Dotazník</title>
 
-      <para>Dále též provede výzkum mezi cílovou skupinou magazínu s cílem
-      identifikovat míru naplnění jejích požadavků a očekávání od v
-      současnosti nabízeného produktu.</para>
+        <para>TODO jak dotazník vypadá, jakým způsobem byl distribuován
+        (elektronicky), jakou formu mají odpovědi</para>
 
-      <para></para>
+        <para>TODO výběrový soubor - reprezentativní vzorek potenciálních
+        čtenářů</para>
 
-      <para>TODO jak dotazník vypadá, jakým způsobem byl distribuován
-      (elektronicky), jakou formu mají odpovědi</para>
+        <para>TODO vynechali jsme otázky: Nástroj na porovnávání cen by měl
+        mít vždy aktuální informace; Odkazy do všech e-shopů musí vždy
+        fungovat =&gt; odpovědi jsou evidentní. ale dáme doporučení</para>
+      </sect2>
 
-      <para>TODO nějaké statistické hrátky s výsledky, ideálně s rozumně
-      interpretovatelnými závěry</para>
+      <sect2>
+        <title>Analýza odpovědí</title>
+
+        <para>TODO nějaké statistické hrátky s výsledky, ideálně s rozumně
+        interpretovatelnými závěry</para>
+      </sect2>
     </sect1>
 
     <sect1>
@@ -913,13 +986,19 @@
 
   <bibliography>
     <biblioentry>
-      <abbrev>TODO advertising-creative</abbrev>
+      <abbrev>advertising-creative</abbrev>
 
       <authorgroup>
         <author>
           <firstname>Tom</firstname>
 
           <surname>Altstiel</surname>
+        </author>
+
+        <author>
+          <firstname>Jean</firstname>
+
+          <surname>Grow</surname>
         </author>
       </authorgroup>
 
@@ -1546,10 +1625,55 @@
         <publishername>SlideShare</publishername>
       </publisher>
 
-      <pubdate>6. 3. 2010 [cit. 9. 2. 2014]</pubdate>
+      <pubdate>6. 3. 2010 [cit. 1. 3. 2014]</pubdate>
 
       <releaseinfo>Dostupné <ulink
       url="http://www.slideshare.net/jcbarcelo/fcb-grid">http://www.slideshare.net/jcbarcelo/fcb-grid</ulink></releaseinfo>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>is-mu-redesign</abbrev>
+
+      <authorgroup>
+        <author>
+          <surname>Tým IS MU</surname>
+        </author>
+      </authorgroup>
+
+      <title>Nový design zobrazení výsledků podobností</title>
+
+      <publisher>
+        <publishername>Masarykova univerzita</publishername>
+      </publisher>
+
+      <pubdate>8. 10. 2013 [cit. 2. 3. 2014]</pubdate>
+
+      <releaseinfo>Dostupné <ulink
+      url="https://is.muni.cz/blog/is_info/nov_20131008_podobnosti">https://is.muni.cz/blog/is_info/nov_20131008_podobnosti</ulink></releaseinfo>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>twitter-redesign</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Jon</firstname>
+
+          <surname>Russell</surname>
+        </author>
+      </authorgroup>
+
+      <title>The redesigned Twitter.com has now rolled out to all
+      users</title>
+
+      <publisher>
+        <publishername>The Next Web</publishername>
+      </publisher>
+
+      <pubdate>4. 2. 2014 [cit. 2. 3. 2014]</pubdate>
+
+      <releaseinfo>Dostupné <ulink
+      url="http://thenextweb.com/twitter/2014/02/04/the-redesigned-twitter-com-has-now-rolled-out-to-all-users/">http://thenextweb.com/twitter/2014/02/04/the-redesigned-twitter-com-has-now-rolled-out-to-all-users/</ulink></releaseinfo>
     </biblioentry>
   </bibliography>
 
