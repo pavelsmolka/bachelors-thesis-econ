@@ -60,9 +60,12 @@
     metody.</para>
 
     <para>TODO obsah jednotlivých kapitol.</para>
+
+    <para>TODO Dvě roviny marketingu: vývoj softwarového produktu, který ale
+    slouží k marketingu</para>
   </chapter>
 
-  <chapter>
+  <chapter id="chap-am">
     <title>Affiliate marketing</title>
 
     <para>Jedním z velkých problémů vydavatelů elektronického obsahu je
@@ -279,7 +282,7 @@
         affiliate marketingu méně obvyklé.</para>
       </sect2>
 
-      <sect2>
+      <sect2 id="chap-odlozene-rozhodnuti">
         <title>Odložené rozhodnutí o nákupu</title>
 
         <para>Výše popsaný systém provizí se zdá být na první pohled
@@ -524,7 +527,7 @@
     internetového obchodu.</para>
 
     <sect1>
-      <title>Rozhodování o nákupu</title>
+      <title>Proces nákupního rozhodování</title>
 
       <para>Z pohledu marketingu obecně je klíčové porozumění nákupnímu
       chování zákazníka. Stejně je tomu i v případě webové platformy a
@@ -537,18 +540,30 @@
       například spotřební elektroniky, jako je tomu v případě e-magazínu
       TechRadar.</para>
 
-      <sect2>
+      <sect2 id="chap-dagmar">
         <title>Model DAGMAR</title>
 
-        <para>Tato práce vychází ze dvou modelů nákupního rozhodování. Prvním
-        z nich je <quote>Defining Advertising Goals for Measured Advertising
-        Results</quote>, jejž představil v roce 1961 Russel H. Colley.
+        <para>Tato práce vychází ze dvou modelů hierarchie účinků nákupního
+        rozhodování. Prvním z nich je koncept, jež představil pod názvem
+        <quote>Defining Advertising Goals for Measured Advertising
+        Results</quote> v roce 1961 Russel H. Colley.
         <citation>dagmar</citation> Tento model v základní podobě popisuje
         sekvenci, kterou prochází potenciální zákazník při procesu nákupního
         rozhodování. Prvním krokem je získání povědomí o existenci produktu
         (awareness). Pokud zákazník získá dostatek informací (fáze
         comprehension), rozhodne se k nákupu (conviction). Samotný akt nákupu
-        je poslední fází (action).</para>
+        je poslední fází (action). Celý proces zobrazuje diagram <xref
+        linkend="fig-dagmar" />.</para>
+
+        <figure id="fig-dagmar">
+          <title>Hierarchie modelu DAGMAR</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="vp/dagmar.pdf" />
+            </imageobject>
+          </mediaobject>
+        </figure>
 
         <para>Z pohledu vydavatele, který se pomocí nástrojů affiliate
         marketingu snaží nasměrovat své uživatele k internetovým obchodníkům,
@@ -571,16 +586,119 @@
       <sect2>
         <title>Matice FCB</title>
 
-        <para>- typ rozhodování - kognitivní, racionální, ...</para>
+        <para>Druhým modelem, ze kterého tato práce vychází, je matice Foote
+        Cone Belding (FCB). <citation>fcb-how-advertising-works</citation> Ten
+        narozdíl od předchozího teoretického konceptu neurčuje sekvence, které
+        vedou k nákupu, ale rozděluje doménu nakupovaných výrobků (a služeb)
+        do čtyř oblastí určených kombinací dvou binárních proměnných.<footnote>
+            <para>Proměnné jsou ve skutečnosti binární pouze pro účely
+            rozdělení do čtyř oblastí. Ve skutečnosti model počítá i s
+            <quote>fuzzy</quote> hodnotami, takže na škále lze určovat i
+            <quote>vzdálenost</quote> od opačného pólu. Spíše než jedné ze
+            dvou diskrétních hodnot se tedy proměnná pohybuje na spojité
+            škále.</para>
+          </footnote></para>
 
-        <para>- stupeň zaujetí, ...</para>
+        <para>První proměnnou je stupeň zaujetí při rozhodovacím procesu. V
+        FCB modelu vysoký stupeň zaujetí charakterizuje vysokou míru motivace
+        v rozhodovacím procesu. Typicky je tento přístup charakteristický pro
+        dražší výrobky a služby, které zákazník nekupuje často. Naopak výrobky
+        denní spotřeby se v FCB matici nacházejí v oblasti nízkého stupně
+        zaujetí. Rozhodovací proces je zde buď velmi zběžný a povrchní, nebo
+        již proběhl a výrobek je nakupován opakovanně -- nákup se stává
+        rutinním chováním. Vysoký stupeň zaujetí je v FCB matici obvykle
+        zobrazován v horní polovině, nízký stupeň zaujetí ve spodní.</para>
 
-        <para>- FCB model, Percy Rositer
-        <citation>fcb-how-advertising-works</citation></para>
+        <para>Druhou proměnnou, v matici FCB obvykle znázorněnou na pravo-levé
+        ose, je míra racionality zapojená do rozhodování. Levá část FCB matice
+        zobrazuje takové výrobky a služby, při jejichž nákupu zákazník v rámci
+        rozhodovacího procesu více přemýšlí a zkoumá informace. Pravá část
+        matice zahrnuje naopak chování, které je více impulzivní. Zákazník se
+        u těchto výrobků a služeb rozhoduje více <quote>instinktivně</quote> a
+        nezkoumá fakta a podrobnosti.</para>
 
-        <para>- opakovaný nákup -&gt; rutinní chování</para>
+        <para>FCB matici s příklady typických produktů zobrazuje obrázek <xref
+        linkend="fig-fcb" />.
+        <citation>fcb-how-advertising-works-slideshare</citation></para>
 
-        <para>zmínit možnost návratu.</para>
+        <figure id="fig-fcb">
+          <title>Příklad matice FCB</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="img/fcb.png" width="300px" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Pořízení spotřební elektroniky, kterou se z pohledu e-magazínu
+        TechRadar tato práce zabývá, lze obvykle zařadit do prvního kvadrantu
+        (vlevo nahoře). Nákupní rozhodnutí mám v takovém případě obvykle
+        vysoký stupeň zaujetí. Zároveň obvykle spadá do oblasti racionálního
+        zhodnocení existujících možností. Uživatelé často pročítají recenze a
+        porovnávají různé nabídky podobných nebo stejných produktů v různých
+        obchodech.</para>
+      </sect2>
+
+      <sect2>
+        <title>Role affiliate marketingu v nákupním procesu</title>
+
+        <para>Využití znalosti o nákupním rozhodování je užitečné pro správný
+        návrh provádění affiliate marketingu. Cílem vydavatelské společnosti
+        je poskytnutí dodatečných informací o produktu, který zákazníka
+        zajímá. Jak bylo zmíněno v sekci <xref linkend="chap-dagmar" />,
+        prvním krokem je vytvoření základního povědomí o produktu. Většina
+        čtenářů recenzí e-magazínu už takovou znalost má -- chtějí pro
+        konkrétní produkt dohledat dodatečné informace. Přesto může být
+        užitečné vytvářet i rozcestníky a informační články o nových
+        produktech, na které pak navazují recenze. Čtenář tak může i při
+        dohledávání informací o produktu A narazit na jiný produkt B, pro
+        který se nakonec rozhodne.</para>
+
+        <para>Z pohledu modelu DAGMAR je tedy potřeba soustředit se na kroky
+        <quote>Comprehension</quote> a <quote>Conviction</quote>. Vydavatel
+        e-magazínu by měl být schopen čtenáři zprostředkovat takové množství
+        informací, aby si byl schopen udělat dostatečnou představu o nabídce
+        na trhu a vlastnostech konkrétních produktů. To znamená jednak
+        obsahovou úplnost recenzí v e-magazínu, a také přímou aplikaci
+        affiliate marketingu v podobě odkazů do internetových obchodů. V rámci
+        úplnosti informací může být pro zákazníka užitečné vidět nejen
+        vlastnosti produktu a jeho ceny, ale i další atributy jako je dodací
+        lhůta, speciální nabídky nebo slevové kupony. Konkrétně jsou tyto
+        faktory zkoumány v praktické části práce -- kapitole <xref
+        linkend="chap-aplikace-am" />.</para>
+
+        <para>Jedním z nejpalčivějších problémů, které e-magazíny v oblasti
+        affilate marketingu řeší, je tzv. <quote>poslední krok</quote>. Jak
+        bylo popsáno v kapitole <xref linkend="chap-am" />, provize je
+        vyplacena zprostředkovateli (vydavateli e-magazínu) jen v tom případě,
+        že je zákazník do e-shopu nasměrován přímo z daného e-magazínu, tedy
+        učiní zde zpravidla poslední rozhodující krok před nákupem. Pokud
+        forma affiliate marketingu ve webovém magazínu nepostihuje všechny
+        aspekty, může uživatel v zájmu úplnosti informací využít ještě další
+        server, například se slevovými kupony, a poslední krok pak učiní z
+        něj. Tím se vydavatel e-magazínu připravuje o provizi, ačkoliv mohly
+        ve skutečnosti o nákupu zákazníka přesvědčit právě jeho
+        informace.</para>
+
+        <para>Vysoký stupeň zaujetí v nákupním procesu, spolu v kombinaci s
+        recionálním rozhodováním, se často vyznačuje poměrně dlouhým procesem
+        hodnocení existujících možností. Ačkoli je potenciální zákazník
+        přesvědčen o koupi produktu, poměrně dlouho mu může trvat
+        shromažďování potřebných informací, výběr konkrétního modelu a volba
+        obchodu. Implementace affilate marketingu naštěstí s tímto přístupem
+        částečně počítá a (jak bylo popsáno v kapitole <xref
+        linkend="chap-odlozene-rozhodnuti" />) umožňuje započítání konverze i
+        v případě, že zákazník nákupní rozhodnutí neučiní ihned.</para>
+
+        <para>Ne všechny produkty inzerované v rámci affiliate marketingu ale
+        nutně spadají do první kategorie modelu FCB. Pokud se jedná například
+        o doplňky nebo příslušenství, u kterých hraje velkou roli vzhled a
+        jsou obecně méně nákladné, zákazníci budou mít větší tendenci provádět
+        nákup impulzivně a nad rozhodnutím nestráví tolik času. V tomto
+        případě může být vhodné přesvědčit zákazníka o nákupu časovým omezením
+        nabídky, exkluzivní slevou nebo jiným stimulem, který přiměje
+        uživatele provést akci bez většího otálení.</para>
       </sect2>
     </sect1>
 
@@ -620,7 +738,7 @@
     </sect1>
   </chapter>
 
-  <chapter>
+  <chapter id="chap-aplikace-am">
     <title>Aplikace affiliate marketingu ve společnosti Future</title>
 
     <para>Společnost Future PLC byla založena v roce 1985. Jako první
@@ -667,11 +785,11 @@
     <sect1>
       <title>Zhodnocení současného stavu</title>
 
-      <para>V následující části práce je zhodnocen způsob, kterým společnost
-      pracuje s nástroji affiliate marketingu. Stav, který je v této kapitole
-      popisován jako <quote>současný</quote>, odpovídá situaci přibližně z
-      října 2013. Tedy době, ve které byla data pro analytickou část práce
-      sbírána a vyhodnocována.<footnote>
+      <para>TODO aktualizovat: V následující části práce je zhodnocen způsob,
+      kterým společnost pracuje s nástroji affiliate marketingu. Stav, který
+      je v této kapitole popisován jako <quote>současný</quote>, odpovídá
+      situaci přibližně z října 2013. Tedy době, ve které byla data pro
+      analytickou část práce sbírána a vyhodnocována.<footnote>
           <para>Vzhledem ke změnám, které byly v rámci provádění affiliate
           marketingu ve společnosti Future provedeny, již není možné v době
           odevzdávání práce popisovanou původní verzi zobrazit standardním
@@ -690,15 +808,6 @@
       zkritizoval obě?</para>
 
       <sect2>
-        <title>Outsourcing affiliate marketingu</title>
-
-        <para>TODO jakým způsobem jsou data zpracovávána - skrze Reevoo, shody
-        dohledává až 50 zaměstnanců</para>
-
-        <para>TODO způsob dělení příjmů z AM (1 ku 3)</para>
-      </sect2>
-
-      <sect2>
         <title>Porovnání cen</title>
 
         <para>TODO jak vypadá Reevoo price comparison, jaké má problémy</para>
@@ -714,6 +823,12 @@
 
         <para>TODO neexistence možné zpětné vazby na komentář (ani
         like/nelike)</para>
+      </sect2>
+
+      <sect2>
+        <title>Konkurence</title>
+
+        <para>TODO: jak to má konkurence, čím bychom se mohli zabývat</para>
       </sect2>
 
       <sect2>
@@ -736,7 +851,7 @@
       odchází</para>
 
       <sect2>
-        <title>Výzkumné otázky a hypotézy </title>
+        <title>Výzkumné otázky a hypotézy</title>
 
         <para>formulovat obecné výzkumné otázky</para>
 
@@ -1397,19 +1512,41 @@
 
       <authorgroup>
         <author>
-          <firstname>Jose</firstname>
+          <firstname>Richard</firstname>
 
-          <surname>Bacelo</surname>
+          <surname>Vaughan</surname>
         </author>
       </authorgroup>
 
-      <title>How advertising works</title>
+      <title>How Advertising Works: A Planning Model</title>
+
+      <publisher>
+        <publishername>Journal of Advertising Research, 20 (5)</publishername>
+      </publisher>
+
+      <pubdate>1980</pubdate>
+
+      <pagenums>s. 27-33.</pagenums>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>fcb-how-advertising-works-slideshare</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>José</firstname>
+
+          <surname>Barcelo</surname>
+        </author>
+      </authorgroup>
+
+      <title>How Advertising Works</title>
 
       <publisher>
         <publishername>SlideShare</publishername>
       </publisher>
 
-      <pubdate>6. 3. 2012 [cit. 1. 3. 2014]</pubdate>
+      <pubdate>6. 3. 2010 [cit. 9. 2. 2014]</pubdate>
 
       <releaseinfo>Dostupné <ulink
       url="http://www.slideshare.net/jcbarcelo/fcb-grid">http://www.slideshare.net/jcbarcelo/fcb-grid</ulink></releaseinfo>
