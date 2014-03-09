@@ -857,6 +857,18 @@
         (tedy uživatelské požadavky) budou vyvinuty a které nikoliv.
         Samozřejmostí je v takovém případě i finanční a časový odhad vývoje
         těchto kritických bodů.</para>
+
+        <para>V rámci vývoje softwarove jako řešení affiliate marketingové
+        platformy vydavatelské společnosti je kromě standardních technických
+        omezení potřeba brát v úvahu i omezení vyplývající z používání dat
+        třetích stran. Affliate síť typicky zveřejní aplikační programové
+        rozhraní (API), ze kterého je možné získávat data (nabídky produktů,
+        aktuální ceny). Bohužel neexistuje jednotný standard pro specifikaci
+        těchto dat. Každá síť tak má nastaveny parametry přístupu jinak --
+        často zde existuje omezení limitující počet dotazů (požadavků), které
+        API dokáže zpracovat, jindy je omezen zase počet produktů, které je
+        možno jedním dotazem získat. Vyvíjený software by měl být schopen se v
+        maximální míře na tyto různorodé podmínky adaptovat.</para>
       </sect2>
 
       <sect2>
@@ -936,8 +948,6 @@
         vede k neustálému zlepšování existujícího produktu a postupnému
         přidávání další funkcionality (případně odebírání existujících
         vlastností).</para>
-
-        <para>TODO: Nutnost adaptovat se na možnosti affiliate partnerů</para>
       </sect2>
     </sect1>
   </chapter>
