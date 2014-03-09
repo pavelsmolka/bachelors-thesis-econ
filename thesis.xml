@@ -869,7 +869,73 @@
         Kotler jako fáze vývoje, zavádění, růstu, zralosti a útlumu.
         <citation>kotler-mm</citation> Spolu s těmito fázemi se mění náklady
         vynaložené na vývoj, výrobu a propagaci produktu, stejně jako příjmy z
-        tržeb za prodej produktů.</para>
+        tržeb za prodej produktů. Cyklus znázorňuje obrázek <xref
+        linkend="fig-product-lifecycle" /> (iniciální fáze vývoje není
+        znázorněna, vzhledem k tomu, že negeneruje žádné tržby, které jsou
+        zobrazeny na vertikální ose).</para>
+
+        <figure id="fig-product-lifecycle">
+          <title>Životní cyklus produktu (bez fáze vývoje)</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="img/product-lifecycle-simple.png" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Při vývoji softwaru komerčního licenčního typu<footnote>
+            <para>Tento typ software je ze zjevných důvodů často nazýván
+            pojmem <quote>krabicový software</quote>.</para>
+          </footnote> může být v principu zachován stejný model, liší se pouze
+        délka a množství finančních prostředků spotřebovaných v jednotlivých
+        fázích. Naopak při vývoji webové aplikace se životní cyklus poněkud
+        mění. Jak z pohledu uživatele, tak z pohledu výrobce (tedy například
+        vydavatelské společnosti), se smazává rozdíl mezi jednotlivými modely
+        (verzemi) produktu. Webová aplikace je obvykle přístupná uživatelům a
+        průběžně se mění, zpravidla tak, že většinu inovací uživatel ani
+        nepostřehne. Po úvodní fázi vývoje a zavedení produktu se můžou
+        libovolně kombinovat fáze růstu, zralosti a útlumu. Lépe řečeno
+        dochází k opakování životního cyklu a ve skutečnosti je vyvíjena nová
+        verze produktu podobným způsobem, jako tomu je u klasických produktů.
+        Vzhledem k tomu, že rozdíly mezi verzemi mohou být velmi
+        malé,<footnote>
+            <para>Často může jít o bezpečnostní záplaty nebo drobné
+            optimalizační úpravy.</para>
+          </footnote> frekvence iterací vývoje a zveřejnění následující verze
+        může být i několikrát denně a nová verze po nasazení okamžitě střídá
+        předchozí model webové aplikace, tak lze těžko mluvit o samostatných
+        produktech. Celkově tak nastává situace, kdy produkt (resp. služba)
+        funguje nepřetržitě několik let, během kterých se ovšem velmi malými
+        obměnami zcela změní. V duchu paradoxu Théseovy lodi přestává být
+        zřejmé, ve kterém momentě a případně zda vůbec lze hovořit o nové
+        verzi produktu. <citation>theseus-paradox</citation> Graf životního
+        cyklu se tedy mění v tomto duchu, jak ukazuje obrázek <xref
+        linkend="fig-product-lifecycle-sw" />.<footnote>
+            <para>Ve skutečnosti se nejedná u každé iterace o kompletní
+            křivku, ale spíše o navázání na předchozí. Přestává tak být
+            zřetelné dělení na původních pět Kotlerových fází.</para>
+          </footnote></para>
+
+        <figure id="fig-product-lifecycle-sw">
+          <title>Životní cyklus iterativního vývoje webové aplikace</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="img/product-lifecycle-sw.png" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Výše popsané modely životního cyklu softwarového produktu
+        kopírují i metodiky vývoje, nasazení a údržby. Konkrétně můžeme zmínit
+        vývoj způsobem vodopádu, který je v současné době u typických webových
+        aplikací považován za překonaný. <citation>waterfall</citation>
+        Produkt vyvíjený vodopádem kopíruje klasickou křivku životního cyklu.
+        Alternativou je iterativní nebo inkrementální způsob vývoje, který
+        vede k neustálému zlepšování existujícího produktu a postupnému
+        přidávání další funkcionality (případně odebírání existujících
+        vlastností).</para>
 
         <para>TODO: Nutnost adaptovat se na možnosti affiliate partnerů</para>
       </sect2>
@@ -1797,7 +1863,7 @@
         <publishername>Masarykova univerzita</publishername>
       </publisher>
 
-      <pubdate>2009</pubdate>
+      <pubdate>2009 [cit. 9. 3. 2014]</pubdate>
 
       <releaseinfo>Dostupné na <ulink
       url="http://is.muni.cz/do/1456/soubory/oddeleni/svi/skripta/es2009-01.pdf">http://is.muni.cz/do/1456/soubory/oddeleni/svi/skripta/es2009-01.pdf</ulink></releaseinfo>
@@ -1823,6 +1889,50 @@
       <pubdate>2012</pubdate>
 
       <isbn>978-0273755029</isbn>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>waterfall</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Herbert</firstname>
+
+          <surname>Benington</surname>
+        </author>
+      </authorgroup>
+
+      <title>Production of Large Computer Programs</title>
+
+      <publisher>
+        <publishername>IEEE Annals of the History of Computing 5
+        (4)</publishername>
+      </publisher>
+
+      <pubdate>1983 [cit. 9. 3. 2014]</pubdate>
+
+      <releaseinfo>Dostupné na <ulink
+      url="http://sunset.usc.edu/csse/TECHRPTS/1983/usccse83-501/usccse83-501.pdf">http://sunset.usc.edu/csse/TECHRPTS/1983/usccse83-501/usccse83-501.pdf</ulink></releaseinfo>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>theseus-paradox</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Michael</firstname>
+
+          <surname>Rea</surname>
+        </author>
+      </authorgroup>
+
+      <title>The Problem of Material Constitution</title>
+
+      <publisher>
+        <publishername>The Philosophical Review, 104</publishername>
+      </publisher>
+
+      <pubdate>1995</pubdate>
     </biblioentry>
   </bibliography>
 
