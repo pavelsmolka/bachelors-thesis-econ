@@ -739,25 +739,111 @@
         </footnote></para>
 
       <sect2>
-        <title>Zachycení uživatelských požadavků</title>
+        <title>Zachycení potřeb uživatelů</title>
 
-        <para>Inovace nespočívá ve vytvoření perfektního produktu, ale v
-        perfektním uspokojení potřeb zákazníků.
-        <citation>advertising-creative</citation> </para>
+        <para>Základním pravidlem úspěšné inovace není vytvoření perfektního
+        produktu, ale řešení, které maximálně uspokojí potřeby zákazníků.
+        <citation>advertising-creative</citation> Stejné pravidlo platí i v
+        případě webového e-magazínu, resp. jeho části zaměřující se na
+        umožnění jednoduchého nákupu produktů skrze prostředky affiliate
+        marketingu. Cílem je tedy v maximální možné míře zachytit požadavky a
+        očekávání uživatelů.</para>
 
-        <para>TODO různé způsoby, jak zjistit uživatelské požadavky: kartičky,
-        user stories, lean metodika</para>
+        <para>Softwarový produkt, reps. služba webového typu s sebou nese v
+        oblasti zachycení uživatelských požadavků a očekávání několik úskalí.
+        Uživatelé v drtivé většině mají již nějaké zkušenosti s webovými
+        aplikacemi a tedy nastavenou určitou základní úroveň očekávání. Jednak
+        je poměrně obtížné tuto základní úroveň očekávání aproximovat, neboť
+        má obvykle velký rozptyl a zároveň jde o <quote>implicitní</quote>
+        očekávání. Uživatelé (a často ani tvůrci) si tedy neuvědomují
+        doopravdy všechna očekávání, což se týká funkčních i nefunkčních
+        požadavků. Jako příklad můžeme uvést dobu odezvy u webové stránky v
+        řádu stovek milisekund, která je v dnešní době považována za standard,
+        ovšem stále musí být brána v úvahu při tvorbě systému.<footnote>
+            <para>Doba odezvy je jako příklad uvedena záměrně. Základním rysem
+            affiliate systémů je zpracovávání velkého množství dat, která jsou
+            poskytována třetí stranou (obvykle affiliate sítěmi). Technicky je
+            prakticky nemožné provádět zpracování dat až v reakci na
+            uživatelský požadavek, aniž by se zároveň zvýšila doba odezvy
+            minimálně na jednotky sekund. Toto je typický příklad požadavku,
+            který uživatelé ani tvůrci implicitně neuvažují, ale je potřeba s
+            ním při návrhu systému počítat.</para>
+          </footnote></para>
 
-        <para>TODO specifika toho, že zákazník není externí subjekt, ale
-        samotná firma</para>
+        <para>Mnohem efektivnější může být místo zkoumání absolutních
+        hodnot<footnote>
+            <para>Absolutní hodnotou je myšlen jak předmět očekávání (např.
+            zmíněná doba odezvy), tak jeho kvantitativní či kvalitativní
+            hodnota (ve zmíněném případě např. <quote>méně než 100
+            ms</quote>).</para>
+          </footnote> očekávání zjišťování rozdílu mezi očekávanou službou a
+        službou skutečně poskytnutou - tzv. gap skór, který určuje výslednou
+        spokojenost s poskytnutou službou.
+        <citation>spokojenost-lukasova</citation> V takovém případě není
+        zkoumáno očekávání samotné, ale pouze výše naplnění a odchylka od
+        určité základní úrovně. Hlavní nevýhodou je pak fakt, že tato základní
+        úroveň je prakticky nezjistitelná a v rámci různých uživatelů může být
+        výrazně odlišná. Někteří pokročilejší uživatelé mohou považovat za
+        samozřejmost absolutní interaktivitu webové aplikace,<footnote>
+            <para>Webová aplikace načtená celá v prohlížeči, s prakticky
+            nulovou dobou odezvy, tzv. <quote>single page
+            application</quote>.</para>
+          </footnote> u jiných může být základní očekávání omezeno na prosté
+        zobrazení základních informací. Problémem při použití gap skóru je
+        ovšem nutnost nechat uživatele službu vyzkoušet. To může být
+        problematické v případě vývoje nového produktu či služby, případně
+        pokud je prováděna významnější inovace. V takovém případě je řešením
+        iterativní vyvoj a prototypování. V úvodní fázi vývoje produktu je
+        vytvořen prototyp, na základě kterého je zjištěna míra naplnění
+        očekávání ze strany uživatelů. V závislosti na uživatelském testování
+        a výsledcích této analýzy je prototyp zdokonalen (případně je vytvořen
+        prototyp zcela nový). Celý postup je iterován, dokud uživatelské
+        testování nepotvrdí přijatelnou úroveň.</para>
 
-        <para>TODO: Popsat, že očekávání + realita = spokojenost. Že budeme
-        zkoumat hlavně očekávání, ale dopad to má na spokojenost = úzce
-        provázáno</para>
+        <para>Stinnou stránkou zmíněného postupu je jeho časová a finanční
+        náročnost. Kromě vytváření samotného prototypu stojí samotné
+        uživatelské testování velké množství času školených pracovníků, a
+        samozřejmě také testovaných uživatelů.</para>
+
+        <para>Jednodušším způsobem je tedy zjištění obecně platných vzorců
+        chování,<footnote>
+            <para>Jedná se zejména o nákupní chování, ale obecně lze takto
+            postihnou většinu aspektů vyvíjené služby.</para>
+          </footnote> kterými se uživatelé řídí. Na základě těchto vzorců jsou
+        vytvořena základní pravidla, podle který se návrh produktu nebo služby
+        řídí. V případě affiliate marketingu jde o znalost toho, jakým
+        způsobem se návštěvník webu rozhoduje o nákupu, například zda je ve
+        většině případů rozhodnut o koupi produktu určitého typu a vybírá
+        konkrétní model. Anebo jestli má uživatel už vybraný i konkrétní model
+        a hledá jen konkrétní obchod. Následně pak kritéria, na základě
+        kterých vybírá -- zda je nejdůležitější cena, jaký vliv má na
+        rozhodnutí výše poštovného a doručovací lhůta a podobně. Právě na
+        ověření těchto obecnějších konceptů je zaměřena praktická část této
+        práce.</para>
+
+        <para>Posledním aspektem vývoje projektu v oblasti affiliate
+        marketingu ve velké vydavatelské společnosti, který je potřeba zmínit,
+        je fakt, že uživatelé nevystupují v roli zákazníků. Návštěvníci webu
+        (uživatelé) přímo nespecifikují své požadavky a dokonce ani za službu
+        přímo neplatí. Provizi získává vydavatelská společnost od affiliate
+        sítě, případně konkrétního e-shopu.</para>
       </sect2>
 
       <sect2>
-        <title>Fáze vývoje produktu</title>
+        <title>Interně vyvíjený produkt</title>
+
+        <para>TODO specifika toho, že zákazník není externí subjekt, ale
+        samotná firma</para>
+      </sect2>
+
+      <sect2>
+        <title>Technická omezení</title>
+
+        <para></para>
+      </sect2>
+
+      <sect2>
+        <title>Životní cyklus software</title>
 
         <para>TODO: Pravděpodobně základ z literatury, k tomu:</para>
 
@@ -923,7 +1009,7 @@
         </itemizedlist>
 
         <para>Pro každou z těchto obecný výzkumných otázek jsou následně
-        formulovány </para>
+        formulovány</para>
       </sect2>
 
       <sect2>
@@ -1557,7 +1643,7 @@
 
       <pubdate>18. 7. 2010 [cit. 9. 2. 2014]</pubdate>
 
-      <releaseinfo>Dostupné <ulink
+      <releaseinfo>Dostupné na <ulink
       url="http://www.reuters.com/article/2010/07/18/newsinternational-times-idUSLDE66H09F20100718">http://www.reuters.com/article/2010/07/18/newsinternational-times-idUSLDE66H09F20100718</ulink></releaseinfo>
     </biblioentry>
 
@@ -1627,7 +1713,7 @@
 
       <pubdate>6. 3. 2010 [cit. 1. 3. 2014]</pubdate>
 
-      <releaseinfo>Dostupné <ulink
+      <releaseinfo>Dostupné na <ulink
       url="http://www.slideshare.net/jcbarcelo/fcb-grid">http://www.slideshare.net/jcbarcelo/fcb-grid</ulink></releaseinfo>
     </biblioentry>
 
@@ -1648,7 +1734,7 @@
 
       <pubdate>8. 10. 2013 [cit. 2. 3. 2014]</pubdate>
 
-      <releaseinfo>Dostupné <ulink
+      <releaseinfo>Dostupné na <ulink
       url="https://is.muni.cz/blog/is_info/nov_20131008_podobnosti">https://is.muni.cz/blog/is_info/nov_20131008_podobnosti</ulink></releaseinfo>
     </biblioentry>
 
@@ -1672,8 +1758,31 @@
 
       <pubdate>4. 2. 2014 [cit. 2. 3. 2014]</pubdate>
 
-      <releaseinfo>Dostupné <ulink
+      <releaseinfo>Dostupné na <ulink
       url="http://thenextweb.com/twitter/2014/02/04/the-redesigned-twitter-com-has-now-rolled-out-to-all-users/">http://thenextweb.com/twitter/2014/02/04/the-redesigned-twitter-com-has-now-rolled-out-to-all-users/</ulink></releaseinfo>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>spokojenost-lukasova</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Růžena</firstname>
+
+          <surname>Lukášová</surname>
+        </author>
+      </authorgroup>
+
+      <title>Měření spokojenosti občanů s veřejnými službami</title>
+
+      <publisher>
+        <publishername>Masarykova univerzita</publishername>
+      </publisher>
+
+      <pubdate>2009</pubdate>
+
+      <releaseinfo>Dostupné na <ulink
+      url="http://is.muni.cz/do/1456/soubory/oddeleni/svi/skripta/es2009-01.pdf">http://is.muni.cz/do/1456/soubory/oddeleni/svi/skripta/es2009-01.pdf</ulink></releaseinfo>
     </biblioentry>
   </bibliography>
 
