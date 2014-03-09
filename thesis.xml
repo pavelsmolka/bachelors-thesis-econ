@@ -830,28 +830,46 @@
       </sect2>
 
       <sect2>
-        <title>Interně vyvíjený produkt</title>
-
-        <para>TODO specifika toho, že zákazník není externí subjekt, ale
-        samotná firma</para>
-      </sect2>
-
-      <sect2>
         <title>Technická omezení</title>
 
-        <para></para>
+        <para>Při návrhu a implementaci inovací softwarového produktu je také
+        potřeba brát v úvahu technická omezení. První skupinou jsou
+        uživatelské požadavky, převedené do formy návrhové a implementační
+        specifikace, které je prakticky nemožné splnit. Poněkud absurdním
+        příkladem může být požadavek na aktualizaci dat ve webové aplikaci i v
+        případě, že zařízení (počítač, chytrý telefon) není připojeno k
+        internetu. Technická omezení splnění takových požadavků jednoduše
+        neumožňují a v rámci vývoje produktu tyto omezení nelze
+        překonat.</para>
+
+        <para>Druhým typem omezení jsou taková, která sice překonat lze,
+        nicméně stále je potřeba vyvinout netriviální množství úsilí k
+        dosažení takového cíle. Příkladem může být stoprocentní přesnost a
+        aktuálnost zobrazovaných dat. Teoreticky sice lze za všech okolností
+        uživateli zobrazit naprosto přesná data, například aktuální ceny u
+        odkazů na produkty z affiliate programů,<footnote>
+            <para>Některé e-shopy, například Amazon, aktualizují ceny i
+            několikrát za hodinu, u řádově milionů produktů. Technicky je
+            velmi obtížné veškerá data okamžitě synchronizovat.</para>
+          </footnote> v praxi je ovšem často takové omezení za hranicemi
+        možností realizačního týmu. Taková omezení je potřeba zahrnout do
+        procesu vyhodnocování priorit při rozhodování o tom, které vlastnosti
+        (tedy uživatelské požadavky) budou vyvinuty a které nikoliv.
+        Samozřejmostí je v takovém případě i finanční a časový odhad vývoje
+        těchto kritických bodů.</para>
       </sect2>
 
       <sect2>
         <title>Životní cyklus software</title>
 
-        <para>TODO: Pravděpodobně základ z literatury, k tomu:</para>
-
-        <para>a) Jak se to může lišit pro softwarový produkt takového
-        typu</para>
-
-        <para>b) Popsat, jak fáze konkrétně vypadají pro produkt tohoto
-        typu</para>
+        <para>Proces vývoje softwarového produktu, zejména webového typu, se v
+        několika ohledech liší od vývoje klasického produktu. Klasický
+        (fyzický) produkt prochází základními fázemi životního cyklu. Za
+        základní je považováno rozdělení do pěti fází, které popisuje Philip
+        Kotler jako fáze vývoje, zavádění, růstu, zralosti a útlumu.
+        <citation>kotler-mm</citation> Spolu s těmito fázemi se mění náklady
+        vynaložené na vývoj, výrobu a propagaci produktu, stejně jako příjmy z
+        tržeb za prodej produktů.</para>
 
         <para>TODO: Nutnost adaptovat se na možnosti affiliate partnerů</para>
       </sect2>
@@ -1783,6 +1801,28 @@
 
       <releaseinfo>Dostupné na <ulink
       url="http://is.muni.cz/do/1456/soubory/oddeleni/svi/skripta/es2009-01.pdf">http://is.muni.cz/do/1456/soubory/oddeleni/svi/skripta/es2009-01.pdf</ulink></releaseinfo>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>kotler-mm</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Philip</firstname>
+
+          <surname>Kotler</surname>
+        </author>
+      </authorgroup>
+
+      <title>Marketing Management</title>
+
+      <publisher>
+        <publishername>Pearson Education</publishername>
+      </publisher>
+
+      <pubdate>2012</pubdate>
+
+      <isbn>978-0273755029</isbn>
     </biblioentry>
   </bibliography>
 
