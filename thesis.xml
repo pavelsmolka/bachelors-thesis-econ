@@ -497,7 +497,7 @@
     </sect1>
   </chapter>
 
-  <chapter>
+  <chapter id="chap-ecom-soft">
     <title>Specifika e-commerce software</title>
 
     <para>Webové vydavatelské společnosti se pohybují na rozhraní mezi
@@ -644,7 +644,7 @@
         obchodech.</para>
       </sect2>
 
-      <sect2>
+      <sect2 id="chap-role-am-v-nakupnim-procesu">
         <title>Role affiliate marketingu v nákupním procesu</title>
 
         <para>Využití znalosti o nákupním rozhodování je užitečné pro správný
@@ -879,12 +879,22 @@
         funguje nepřetržitě několik let, během kterých se ovšem velmi malými
         obměnami zcela změní. V duchu paradoxu Théseovy lodi přestává být
         zřejmé, ve kterém momentě a případně zda vůbec lze hovořit o nové
-        verzi produktu. <citation>theseus-paradox</citation> Graf životního
-        cyklu se tedy mění v tomto duchu, jak ukazuje obrázek <xref
+        verzi produktu. <citation>theseus-paradox</citation></para>
+
+        <para>V této souvislosti je obvykle u klasických produktů používána
+        nová fáze životního cyklu, nazvaná rozšíření produktu (<quote>product
+        extension</quote>). Pokud výrobce zjistí, že produkt jako takový
+        dosahuje poslední fáze životního cyklu, přidáním nových vlastností a
+        vylepšení může znovu zvýšit objem prodejů a fázi útlumu oddálit. Jak
+        už ale bylo zmíněno v předchozím odstavci, u software webového typu
+        nelze mluvit přímo o rozšíření, jako spíše o nahrazení novým
+        produktem, který je ovšem velmi podobný. Graf životního cyklu se tedy
+        mění v spíše tomto duchu, jak ukazuje obrázek <xref
         linkend="fig-product-lifecycle-sw" />.<footnote>
             <para>Ve skutečnosti se nejedná u každé iterace o kompletní
-            křivku, ale spíše o navázání na předchozí. Přestává tak být
-            zřetelné dělení na původních pět Kotlerových fází.</para>
+            křivku, ale spíše o navázání na předchozí. Stejně jako rozlišení
+            jednotlivých verzí produktu přestává být zřetelné i dělení na
+            původních pět Kotlerových fází.</para>
           </footnote></para>
 
         <figure id="fig-product-lifecycle-sw">
@@ -964,6 +974,15 @@
     softwarem zaplatit dvojnásobnou cenu.
     <citation>independent-chris-anderson</citation></para>
 
+    <para>V praktické části této práce je popsán současný stav provádění
+    affiliate marketingu ve společnosti Future, konkrétně v rámci e-magazínu
+    TechRadar. Následně jsou formulovány výzkumné otázky a prostřednictvím
+    dotazníku je zjišťováno, v jakých oblastech lze provádění affiliate
+    marketingu zlepšit. Na základě výsledků jsou tato doporučení formulována,
+    s ohledem na zákonitosti affiliate marketingu a technická omezení popsaná
+    v kapitolách <xref linkend="chap-am" /> a <xref
+    linkend="chap-ecom-soft" />.</para>
+
     <sect1>
       <title>Webové magazíny a aplikace pro tablety</title>
 
@@ -975,30 +994,41 @@
 
       <para>Pod pojmem webový magazín si můžeme představit soubor webových
       stránek, které obsahují množství tematicky zaměřených článků. Největším
-      magazínem tohoto druhu ve společnosti Future je TechRadar (<ulink
-      url="www.techradar.com">www.techradar.com</ulink>), s průměrnou
-      návštěvností přesahující 20 milionů uživatelů měsíčně.
-      <citation>youtube-mark-wood-interview</citation> Takové velké webové
-      portály jsou ideálním místem pro zobrazování affiliate odkazů a
+      magazínem tohoto druhu ve společnosti Future je TechRadar,<footnote>
+          <para> <ulink
+          url="www.techradar.com">www.techradar.com</ulink></para>
+        </footnote> s průměrnou návštěvností přesahující 20 milionů uživatelů
+      měsíčně. <citation>youtube-mark-wood-interview</citation> Takové velké
+      webové portály jsou ideálním místem pro zobrazování affiliate odkazů a
       sekundárně díky nim vhodným způsobem, jak nenásilně velkou návštěvnost
-      monetizovat.</para>
+      monetizovat. </para>
 
-      <para>Kromě toho ve Future vzniká i několik desítek magazínů v podobě
-      aplikací pro tablety. Technologicky jde jistě o zajímavé produkty,
-      nicméně pro aplikaci affiliate marketingu nejsou vhodnou platformou.
-      Problémem je, že v rámci samostatné aplikace na tabletu s operačním
-      systémem Android nebo iOS uživatel neočekává přesměrování do e-shopu. V
-      mnoha případech by navíc takové řešení nebylo ani dost dobře technicky
-      proveditelné, jelikož se aplikace, narozdíl od webového magazínu, sama v
-      prostředí prohlížeče nenachází, a nemusí mít od operačního systému
-      oprávnění jinou aplikaci (prohlížeč) spustit. Z těchto důvodů se tímto
-      typem magazínů práce dále do hloubky nezabývá a pod pojmem e-magazín je
-      myšlen vždy webový magazín jako soubor webových stránek s tematicky
-      zaměřeným obsahem, pravidelně publikovaný na určité doméně.</para>
+      <para>Tato práce se zabývá primárně magazínem TechRadar, a to z
+      následujících důvodů. TechRadar je největším webovým magazínem
+      společnosti Future. Zároveň je nejnavštěvovanějším webem o elektronice v
+      UK a mezi třemi nejčtenějšími magazíny tohoto typu v USA. TechRadar
+      obsahuje články o elektronice a elektronika je vhodným předmětem
+      affiliate marketingu -- lidé ji často nakupují online a rozhodují se na
+      základě recenzí a porovnání produktů, jak na základě ceny, tak z
+      hlediska technických parametrů.</para>
+
+      <para>Kromě webových e-magazínů ve Future vzniká i několik desítek
+      magazínů v podobě aplikací pro tablety. Technologicky jde jistě o
+      zajímavé produkty, nicméně pro aplikaci affiliate marketingu nejsou
+      vhodnou platformou. Problémem je, že v rámci samostatné aplikace na
+      tabletu s operačním systémem Android nebo iOS uživatel neočekává
+      přesměrování do e-shopu. V mnoha případech by navíc takové řešení nebylo
+      ani dost dobře technicky proveditelné, jelikož se aplikace, narozdíl od
+      webového magazínu, sama v prostředí prohlížeče nenachází, a nemusí mít
+      od operačního systému oprávnění jinou aplikaci (prohlížeč) spustit. Z
+      těchto důvodů se tímto typem magazínů práce dále do hloubky nezabývá a
+      pod pojmem e-magazín je myšlen vždy webový magazín jako soubor webových
+      stránek s tematicky zaměřeným obsahem, pravidelně publikovaný na určité
+      doméně.</para>
     </sect1>
 
     <sect1 id="chap-soucasny-stav">
-      <title>Zhodnocení současného stavu</title>
+      <title>Současný stav provádění affiliate marketingu</title>
 
       <para>V následující části práce je zhodnocen způsob, kterým společnost
       pracuje s nástroji affiliate marketingu. Stav, který je v této kapitole
@@ -1018,7 +1048,7 @@
       marketingem.</para>
 
       <sect2>
-        <title>Porovnání cen</title>
+        <title>Cenové srovnání</title>
 
         <para>Většina recenzí je specificky zaměřena na jeden produkt --
         konkrétní model, který je recenzí zhodnocen. Ačkoli je u recenze
@@ -1029,20 +1059,143 @@
 
         <para>Tento přístup lze hodnotit ambivalentně. Pozitivní je
         jednoduchost, kterou takový seznam nabízí. Jedná se o cenové srovnání
-        různých nabídek téhož produktu, je tedy jasně vidět, kte</para>
+        různých nabídek téhož produktu. Lze tedy jasně srovnat, která nabídka
+        je výhodnější. Zejména v oblasti spotřební elektroniky, kde všechny
+        výrobky téhož typu pocházejí od jednoho výrobce a liší se pouze
+        distributoři -- tedy různé e-shopy. Kromě ceny tak lze porovnávat
+        doručovací lhůtu a cenu doručení, celkovou dostupnost produktu a
+        poněkud méně exaktně i dobré jméno e-shopu.</para>
 
-        <para>TODO k jakým programům a jakého druhu má Future přístup</para>
+        <para>Jak je uvedeno v kapitole <xref
+        linkend="chap-role-am-v-nakupnim-procesu" />, pro vydavatelskou
+        společnost je zásadní, aby zákazník učinil <quote>poslední
+        krok</quote> do e-shopu právě z daného e-magazínu. Je potřeba čtenáře
+        (a tedy potenciálního zákazníka) přesvědčit o tom, že zobrazené
+        porovnání cen je vyčerpávající. Pokud má uživatel pocit, že porovnání
+        není kompletní, je pro něj v prostředí webu velmi jednoduché si jít
+        ověřit cenu jinam. Poslední krok do e-shopu je pak proveden z
+        odlišného webu a ačkoliv většinu informací získal čtenář z recenze
+        e-magazínu, affiliate provize putuje jinam. </para>
 
-        <para>TODO jak na uživatele působí přesměrování</para>
+        <para>Zmíněná úplnost se týká zejména počtu e-shopů, které jsou v
+        porovnání zahrnuty. Často se ovšem stává, že i v rámci jednoho e-shopu
+        existuje několik různých nabídek téhož produktu -- například portál
+        eBay, na kterém jsou často k dispozici použité výrobky prodávané v
+        podstatě systémem dražby. V takovém případě nestačí uvést jednu
+        reprezentativní nabídku, ale je potřeba zahrnout různé varianty. Pro
+        zmíněný obchod eBay toto v současném systému porovnání cen funguje,
+        nicméně například v případě Amazonu nejsou zahrnuty nabídky z Amazon
+        Marketplace, což lze vnímat jako potenciální nedostatek.</para>
+      </sect2>
+
+      <sect2>
+        <title>Zobrazení nabídek</title>
+
+        <para>Cenové srovnání je u každé recenze umístěno v pravé části
+        stránky, a rovněž pod recenzí. V těchto oblastech je ovšem rozložení
+        celé stránky nedovoluje uvést kompletní seznam, takže blok obsahuje
+        jen 4 vybrané nabídky, označené jako <quote>best deals</quote>.
+        Čtenáři ovšem nemusí být jasné, podle jaké logiky jsou tyto nabídky
+        vybrány. Ve skutečnosti za jejich výběrem stojí poměrně sofistikovaný
+        algoritmus, kombinující cenu, doručovací podmínky, přítomnost
+        slevových kuponů a další faktory. Náhled úvodní stránky recenze s
+        postranním panelem je součástí přílohy TODO.</para>
+
+        <para>Stejný algoritmus pak stojí za řazením produktů v úplném cenovém
+        srovnání, na které je uživatel přesměrován po kliknutí na odkaz
+        <quote>Where to buy</quote> v menu recenze, nebo <quote>View all
+        deals</quote> v postranním panelu. V tabulce zahrnující všechny
+        dostupné nabídky sice už uživatel má možnost zvolit vlastní řazení,
+        nicméně implicitní pořadí nabídek je opět skryto a na první pohled
+        postrádá jakoukoli logiku. Jak ukazuje obrázek v příloze TODO, celkové
+        cenové srovnání má formu tabulky obsahující logo e-shopu, název
+        produktu, cenu (s dodatkem <quote>od</quote>, kterou se vydavatel do
+        jisté míry zbavuje odpovědnosti za nepřesnosti), cenu poštovného a
+        dodací lhůtu. V posledním sloupci je pak explicitní odkaz <quote>Buy
+        now</quote>, po jehož kliknutí je zákazník přesměrován do e-shopu. Je
+        otázkou, zda má smysl uvádět například název produktu, vzhledem k
+        tomu, že cenové srovnání zahrnuje různé nabídky, vždy ovšem jednoho
+        stejného produktu, jež je předmětem recenze.</para>
+
+        <para>Kromě implicitního řazení, o kterém již byla řeč, má uživatel
+        možnost tabulku cenového srovnání seřadit podle libovolného sloupce,
+        včetně jména e-shopu a názvu produktu. Zejména řazení podle názvu
+        produktu může být v mnoha případech zbytečné a pro uživatele matoucí.
+        Z pohledu vývojáře aplikace je logické nabídnout řazení podle všech
+        dostupných atributů, nicméně pro uživatele to nemusí znamenat přidanou
+        hodnotu. Naopak řazení podle ceny nemusí být na první pohled uživateli
+        úplně zřejmé. Různými přístupy k řazení výsledků, které je často
+        klíčové pro správnou interpretaci zobrazovaných dat, se dále zabývá
+        výzkum v kapitole <xref linkend="chap-vyzkum" />.</para>
+      </sect2>
+
+      <sect2>
+        <title>Slevové kupony</title>
+
+        <para>Kromě nabídek samotných produktů je v tabulce cenového srovnání
+        (jak v náhledu u recenze, tak v úplné verzi) sloupec
+        <quote>Offers</quote>, obsahující informaci, zda jsou k nabídce daného
+        e-shopu k dispozici slevové kupony neboli vouchery. Jak už název
+        napovídá, tyto slouží jako speciální nabídky e-shopu, obvykle časově
+        omezené. Mohou mít formu slevy na konkrétní produkt, určitý typ nebo
+        kategorii výrobků, nabídky doručení zdarma nebo výhodné koupě při
+        kombinaci určitého zboží (například tašku na notebook zdarma při koupi
+        přenosného počítače).</para>
+
+        <para>V současné podobě zobrazované v e-magazínu slevové kupony často
+        neodpovídají produktu, ke kterému jsou přiřazeny. Například u herní
+        konzole XBox můžeme najít poukázku na 10% slevu při nákupu ledničky.
+        Pro uživatele pak může být takový slevový kupon matoucí. Navíc se
+        často stává, že je k nabídce přiřazeno několik desítek voucherů, z
+        nichž je ale jen několik málo skutečně relevantních. Bohužel ani v
+        tomto případě není možno irelevantní vouchery jednoduše
+        vyfiltrovat.</para>
+
+        <para>Z technického pohledu je výše popsaný nedostatek způsoben
+        faktem, že slevové kupony jsou automaticky zpracovávány systémem,
+        který nedisponuje sémantickou analýzou textu a není tedy možné pomocí
+        něj zjistit, zda je voucher pro konkrétní produkt relevantní. V rámci
+        výzkumu je proto testováno, do jaké míry jsou slevové kupony pro
+        zákazníky důležité, a zda má větší smysl investovat zvýšení jejich
+        relevance, nebo na druhou stranu jejich úplné vyřazení ze
+        systému.</para>
       </sect2>
 
       <sect2>
         <title>Uživatelské komentáře</title>
 
-        <para>TODO jak vypadá možnost komentovat recenzi</para>
+        <para>Čtenářské diskuse jsou v dnešní době standardní součástí
+        e-magazníů. Obzvláště u recenzí, kde se ke konkrétnímu výrobku z
+        kategorie spotřební elektroniky vyjadřuje editor, čtenáři e-magazínu
+        často chtějí znát i názor dalších (běžných) spotřebitelů a jejich
+        zkušenosti s popisovaným výrobkem. Hodnocení ostatních čtenářů se tak
+        vlastně stává součástí recenze.</para>
 
-        <para>TODO neexistence možné zpětné vazby na komentář (ani
-        like/nelike)</para>
+        <para>Současná podoba e-magazínu TechRadar zobrazuje komentáře
+        ostatních uživatelů všem návštěvníkům webu, ale přispívat mohou pouze
+        registrovaní uživatelé. Tím je na jedné straně zajištěna určitá úroveň
+        příspěvků a nemožnost diskusi zahltit spamem, na straně druhé určitá
+        překážka pro čtenáře, který chce do diskuse přispět, ovšem nemá
+        vytvořený uživatelský účet.</para>
+
+        <para>Komentáře samotné jsou řazeny stylem top-post, tedy nejnovější
+        komentář je nahoře. Podobně jsou uveřejňovány novinky na sociálních
+        sítích Facebook a Twitter nebo komentáře na video-serveru YouTube.
+        Naopak většina zpravodajských médií řadí komentáře uživatelů
+        chronologicky, tedy nový příspěvek je zobrazen v diskusi jako
+        poslední. Obzvláště v případě, kdy na sebe komentáře reagují nebo se
+        jedná o delší texty, je čtení top-post příspěvků náročnější.
+        <citation>top-posting</citation></para>
+
+        <para>V současné podobě jsou komentáře moderovány editory e-magazínu.
+        Pokud se tedy v diskusi objeví vulgární nebo nevhodný příspěvek, může
+        být smazán. Sami uživatelé ovšem nemají možnost sekundární zpětné
+        vazby, tedy hodnocení komentářů ostatních čtenářů. Neexistuje prosté
+        hlasování pro kvalitní komentář, není zde možnost nahlásit nevhodný
+        komentář ani na konkrétní příspěvek přímo reagovat. </para>
+
+        <para>I uživatelské komentáře a zapojení čtenářů při nákupu jsou
+        součástí marketingového výzkumu.</para>
       </sect2>
 
       <sect2>
@@ -1055,11 +1208,13 @@
         <title>Celková analýza</title>
 
         <para>TODO vyhodnocení (metodou SWOT, nebo jinou) výše popsaných
-        faktů</para>
+        faktů. nebo spíš ne...</para>
+
+        <para>TODO jak na uživatele působí přesměrování</para>
       </sect2>
     </sect1>
 
-    <sect1>
+    <sect1 id="chap-vyzkum">
       <title>Marketingový výzkum</title>
 
       <para>TODO: Jaká rozhodnutí chceme učinit -&gt; jakou informaci
@@ -1924,6 +2079,25 @@
 
       <releaseinfo>Dostupné na <ulink
       url="http://sunset.usc.edu/csse/TECHRPTS/1983/usccse83-501/usccse83-501.pdf">http://sunset.usc.edu/csse/TECHRPTS/1983/usccse83-501/usccse83-501.pdf</ulink></releaseinfo>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>top-posting</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Jan</firstname>
+
+          <surname>Kasprzak</surname>
+        </author>
+      </authorgroup>
+
+      <title>Top Posting</title>
+
+      <pubdate>9. 9. 2010 [cit. 15. 3. 2014]</pubdate>
+
+      <releaseinfo>Dostupné na <ulink
+      url="http://www.fi.muni.cz/~kas/blog/index.cgi/computers/top-posting.html">http://www.fi.muni.cz/~kas/blog/index.cgi/computers/top-posting.html</ulink></releaseinfo>
     </biblioentry>
 
     <biblioentry>
