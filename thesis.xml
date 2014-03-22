@@ -1371,8 +1371,8 @@
         </itemizedlist>
 
         <para>Pro každou z těchto obecný výzkumných otázek jsou následně
-        formulovány konkrétní otázky, z nichž je sestaven dotazník. Kompletní
-        dotazník, obsahující 25 otázek, je součástí přílohy TODO.</para>
+        formulovány konkrétní otázky, z nichž je sestaven dotazník obsahující
+        25 otázek. Tento je součástí přílohy TODO.</para>
 
         <para>Tato práce zjišťuje požadavky a očekávání<footnote>
             <para>U produktu zkoumaného typu se požadavky a očekávání
@@ -1399,23 +1399,51 @@
         být zobrazovány. Na základě těchto vlastností jsou v kapitole TODO
         jednak ověřeny stávající vlastnosti produktu, dále jsou pak navrženy
         možné způsoby inovace.</para>
+
+        <para>Dotazovanou cílovou skupinou jsou mladí lidé ve věku mezi 20 a
+        25 lety, kteří tvoří podle tvrzení společnosti Future většinu čtenářů
+        e-magazínu. Podle vyjádření společnosti tvoří cílovou skupinu
+        především muži a má tedy smysl se zaměřit na ně. Rozhodl jsem se ale
+        do průzkumu zahrnout i ženy, ze dvou důvodů. Prvním z nich je fakt, že
+        čtenáři TechRadaru nejsou striktně muži, a zcela vynechat ženskou část
+        by tedy byla chyba. Ovšem ani v rámci poměru dotazovaných nebylo
+        množství respondentek sníženo, protože srovnání nákupního chování žen
+        a mužů by mohlo odhalit zajímavé body, na které se lze při inovaci
+        zaměřit, přizpůsobit produkt i ženské části populace a potenciálně tak
+        počet čtenářek zvýšit. Aby byl ovšem průzkum validní v rámci zadání,
+        je základní analýza provedena na vzorku obsahujícím 80 % mužských
+        respondentů. Až následná rozšíření a srovnání zahrnují obě skupiny
+        respondentů.</para>
       </sect2>
 
       <sect2>
         <title>Dotazník</title>
 
+        <para>Pro obecné výzkumné otázky uvedené v předchozí kapitole byly
+        identifikovány konkrétní otázky obsažené v dotazníku. Prvních 6 otázek
+        zjišťuje charakteristiky respondenta samotného; tedy pohlaví, věk,
+        vzdělání, frekvenci nákupu v e-shopech a odhad částky, která je takto
+        utracena. Důvodem pro zařazení těchto otázek je validace cílové
+        skupiny -- tedy zjištění, zda a případně jakým způsobem jsou odpovědi
+        specifické pro mužskou část respondentů, která byla identifikována
+        jako majoritní segment. Díky zahrnutí těchto otázek tak lze jednoduše
+        zkoumat nejen odlišnosti mezi muži a ženami, ale závislost odpovědí na
+        dalších parametrech, jako je frekvence nákupů či průměrná částka
+        utracená v e-shopech s elektronikou. Poslední zmíněná metrika může být
+        pro vydavatele velmi zajímavá, protože provize je počítána jako
+        procentuální díl právě z ceny prodaného zboží.</para>
+
         <para>TODO jak se konkrétní otázky vážou na OVO z předchozího
         bodu</para>
 
-        <para>TODO jak dotazník vypadá, jakým způsobem byl distribuován
-        (elektronicky), jakou formu mají odpovědi</para>
-
-        <para>TODO výběrový soubor - reprezentativní vzorek potenciálních
-        čtenářů</para>
+        <para>TODO jakým způsobem byl dotazník distribuován
+        (elektronicky)</para>
 
         <para>TODO vynechali jsme otázky: Nástroj na porovnávání cen by měl
         mít vždy aktuální informace; Odkazy do všech e-shopů musí vždy
         fungovat =&gt; odpovědi jsou evidentní. ale dáme doporučení</para>
+
+        <para>TODO motivační pětikilo</para>
       </sect2>
 
       <sect2>
