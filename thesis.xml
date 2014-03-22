@@ -1345,7 +1345,8 @@
         základě principů fungování affilate marketingu, popsaných v kapitole
         <xref linkend="chap-am" />, a teorie nákupního rozhodování, kterému se
         věnuje sekce <xref linkend="chap-nakupni-rozhodovani" />, byly
-        formulovány následující obecné výzkumné otázky:</para>
+        formulovány následující obecné výzkumné otázky, zjišťující očekávání z
+        pohledu čtenářů e-magazínu:</para>
 
         <itemizedlist>
           <listitem>
@@ -1354,11 +1355,12 @@
           </listitem>
 
           <listitem>
-            <para>Jakou vizuální podobu má produkt mít?</para>
+            <para>Na základě jakých kritérií by měl být obsah seřazen a
+            prioritizován?</para>
           </listitem>
 
           <listitem>
-            <para>Jak přesné informace je potřeba uživatelům
+            <para>Jak přesné a aktuální informace je potřeba uživatelům
             poskytnout?</para>
           </listitem>
 
@@ -1369,16 +1371,41 @@
         </itemizedlist>
 
         <para>Pro každou z těchto obecný výzkumných otázek jsou následně
-        formulovány</para>
+        formulovány konkrétní otázky, z nichž je sestaven dotazník. Kompletní
+        dotazník, obsahující 25 otázek, je součástí přílohy TODO.</para>
 
-        <para>TODO: Jaká rozhodnutí chceme učinit -&gt; jakou informaci
-        potřebujeme získat</para>
+        <para>Tato práce zjišťuje požadavky a očekávání<footnote>
+            <para>U produktu zkoumaného typu se požadavky a očekávání
+            překrývají. Lze konstatovat, že pokud čtenář e-magazínu očekává
+            funkcionalitu X, je jeho uživatelským požadavkem získat
+            funkcionalitu X.</para>
+          </footnote> potenciálních uživatelů produktu z oblasti affiliate
+        marketingu, tedy čtenářů e-magazínu. Primárně se tedy nezabývá
+        vzájemným vztahem zkoumaných veličin, nýbrž jejich absolutní hodnotou.
+        Proto jsou všechny otázky uzavřené a pro odpovědi byla zvolena
+        pětibodová škála. Lichý počet variant zajišťuje, že odpovídající není
+        nucen vždy vybírat pozitivní nebo nebo negativní odpověď, potenciálně
+        tedy získaný vzorek dat lépe odpovídá realitě. Vzhledem k povaze
+        otázek, které často přímo zjišťují subjektivní míru očekávání nebo
+        názor respondenta, by více než pět bodů na škále nepřineslo větší
+        přesnost odpovědí. Naopak by mohlo docházet k nežádoucímu jevu, kdy
+        dva respondenti s podobně vyhraněným názorem vyberou na škále dvě
+        podobné, nikoli však stejné, odpovědi. Pětibodová stupnice se tak jeví
+        jako ideální.</para>
 
-        <para>TODO: napsat, že se požadavky a očekávání překrývají</para>
+        <para>Dotazník je sestaven tak, aby na základě odpovědí bylo možno
+        rozhodnout, které vlastnosti produktu uživatelé očekávají, případně co
+        konkrétně by tyto vlastnosti měly obsahovat a jakým způsobem by měly
+        být zobrazovány. Na základě těchto vlastností jsou v kapitole TODO
+        jednak ověřeny stávající vlastnosti produktu, dále jsou pak navrženy
+        možné způsoby inovace.</para>
       </sect2>
 
       <sect2>
         <title>Dotazník</title>
+
+        <para>TODO jak se konkrétní otázky vážou na OVO z předchozího
+        bodu</para>
 
         <para>TODO jak dotazník vypadá, jakým způsobem byl distribuován
         (elektronicky), jakou formu mají odpovědi</para>
