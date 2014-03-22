@@ -995,13 +995,13 @@
       <para>Pod pojmem webový magazín si můžeme představit soubor webových
       stránek, které obsahují množství tematicky zaměřených článků. Největším
       magazínem tohoto druhu ve společnosti Future je TechRadar,<footnote>
-          <para> <ulink
+          <para><ulink
           url="www.techradar.com">www.techradar.com</ulink></para>
         </footnote> s průměrnou návštěvností přesahující 20 milionů uživatelů
       měsíčně. <citation>youtube-mark-wood-interview</citation> Takové velké
       webové portály jsou ideálním místem pro zobrazování affiliate odkazů a
       sekundárně díky nim vhodným způsobem, jak nenásilně velkou návštěvnost
-      monetizovat. </para>
+      monetizovat.</para>
 
       <para>Tato práce se zabývá primárně magazínem TechRadar, a to z
       následujících důvodů. TechRadar je největším webovým magazínem
@@ -1033,7 +1033,7 @@
       <para>V následující části práce je zhodnocen způsob, kterým společnost
       pracuje s nástroji affiliate marketingu. Stav, který je v této kapitole
       popisován jako <quote>současný</quote>, odpovídá situaci přibližně z
-      března 2014. Tedy době, ve které byla data pro analytickou část práce
+      února 2014. Tedy době, ve které byla data pro analytickou část práce
       sbírána a vyhodnocována.</para>
 
       <para>Společnost Future figuruje v modelu affiliate marketingu jako
@@ -1075,7 +1075,7 @@
         není kompletní, je pro něj v prostředí webu velmi jednoduché si jít
         ověřit cenu jinam. Poslední krok do e-shopu je pak proveden z
         odlišného webu a ačkoliv většinu informací získal čtenář z recenze
-        e-magazínu, affiliate provize putuje jinam. </para>
+        e-magazínu, affiliate provize putuje jinam.</para>
 
         <para>Zmíněná úplnost se týká zejména počtu e-shopů, které jsou v
         porovnání zahrnuty. Často se ovšem stává, že i v rámci jednoho e-shopu
@@ -1192,7 +1192,7 @@
         být smazán. Sami uživatelé ovšem nemají možnost sekundární zpětné
         vazby, tedy hodnocení komentářů ostatních čtenářů. Neexistuje prosté
         hlasování pro kvalitní komentář, není zde možnost nahlásit nevhodný
-        komentář ani na konkrétní příspěvek přímo reagovat. </para>
+        komentář ani na konkrétní příspěvek přímo reagovat.</para>
 
         <para>I uživatelské komentáře a zapojení čtenářů při nákupu jsou
         součástí marketingového výzkumu.</para>
@@ -1201,16 +1201,119 @@
       <sect2>
         <title>Konkurence</title>
 
-        <para>TODO: jak to má konkurence, čím bychom se mohli zabývat</para>
+        <para>Při hodnocení jakéhokoli produktu nebo služby bývá důležité
+        srovnání s konkurencí. Nejinak je tomu i v případě provádění affiliate
+        marketingu vydavatelskou společností Future. Podobných produktů,
+        nabízejících čtenáři hodnocení v podobě recenze, cenové srovnání a
+        další související informace, je totiž na internetu celá řada. V této
+        sekci jsou diskutovány shody a odlišnosti oproti tomu, co čtenáři vidí
+        v součansnosti v rámci e-magazínu TechRadar.</para>
+
+        <para>Na prvním místě pro srovnání je americký e-magazín
+        cNet,<footnote>
+            <para><ulink url="http://cnet.com">http://cnet.com</ulink></para>
+          </footnote> zaměřený podobně jako TechRadar na novinky a recenze z
+        oblasti spotřební elektroniky. Struktura recenze je velmi podobná
+        TechRadaru. Text a obrázky recenze jsou na pravé straně doplněny
+        vybranými nabídkami produktu. Pod samotnou recenzí je stejně jako v
+        případě TechRadaru diskuse a hodnocení samotných uživatelů. Struktura
+        diskuse se ovšem poněkud liší. Komentáře na sebe totiž mohou navazovat
+        a vytvářet skutečnou diskusi.</para>
+
+        <para>Cenové srovnání všech nabídek na cNetu je velice podobné
+        TechRadaru. S pomocí některého z nástrojů na prohlížení historie
+        webu<footnote>
+            <para>Například <ulink
+            url="http://archive.org/web/">http://archive.org/web/</ulink></para>
+          </footnote> lze vidět, že oba e-magazíny provedly vizuální inovaci
+        na podzim roku 2013.</para>
+
+        <para>Prvním viditelným rozdílem cNetu oproti TechRadaru je absence
+        slevových kuponů. Pokud je nabídka něčím speciální, je tato informace
+        uvedena v čistě textové podobě jako doprovodný popisek. Zajímavým a na
+        první pohled kosmetickým rozdílem je popisek tlačítka, kterým uživatel
+        přejde z e-magazínu do e-shopu. V případě cNetu tento popisek nese
+        název <quote>See it</quote>, zatímco TechRadar uživateli předkládá
+        <quote>Buy now</quote>. Zejména u méně zkušených uživatelů může
+        popisek <quote>Buy now</quote>, tedy doslova <quote>Koupit
+        teď</quote>, vzbuzovat určité obavy z toho, že kliknutím na odkaz už
+        provádí nákup, zatímco ve skutečnosti si chtějí jen nabídku
+        prohlédnout, přesně jak jim tlačítko prezentuje cNet. Reálně lze tento
+        rozdíl změřit A/B testováním. <citation>ab-testing</citation> V duchu
+        zadání této práce uživatelské testování software prováděno nebylo,
+        jedná se však o možnost dalšího rozpracování tématu a navázání na
+        základní poznatky zde uváděné.</para>
+
+        <para>Kromě zmíněného cenového srovnání nabízí cNet dvě řešení, která
+        na TechRadaru zcela chybí. Prvním z nich je cenové srovnání podobných
+        produktů. Pokud si tedy čtenář e-magazínu přečte recenzi například o
+        telefonu Samsung Galaxy S5, je mu nabídnuto srovnání parametrů a
+        cenových nabídek se starším modelem S4 nebo konkurenčním iPhone 6. V
+        rámci dotazníkového šetření, popsaného v kapitole <xref
+        linkend="chap-vyzkum" />, je zjišťováno, jak čtenáři takové srovnání
+        vnímají a zda má smysl ho zařadit do magazínu TechRadar.</para>
+
+        <para>Druhým prvkem, kterým cNet předstihuje TechRadar v bohatosti
+        funkcionality, je analýza cenového trendu. Uživatel má možnost
+        zobrazit si v grafu historii cen a dokonce si nastavit upozornění,
+        které mu zašle e-mail v případě, že cena klesne pod určitou hranici.
+        Tato funkcionalita má smysl v případě, že cena je pro zákazníka
+        rozhodujícím parametrem. Naopak proti zavedení takové funkcionality by
+        hovořil fakt, že zákazník, který se rozhodne koupit si daný produkt, s
+        nákupem obvykle nechce vyčkávat. Oba faktory jsou také zahrnuty do
+        marketingového výzkumu.</para>
+
+        <para>Dalším z poskytovatelů služby z oblasti affiliate marketingu je
+        Google, v rámci platformy Google Shopping. Uživateli je nabídnuto
+        cenové srovnání podobné tomu na TechRadaru nebo cNetu. Nejzajímavějším
+        rozdílem je sloučení ceny produktu s poštovným. Zákazníkovi je tak
+        tedy přehledně zobrazena celková cena, kterou za náku produktu
+        zaplatí. Na druhou stranu takové srovnání nebere v úvahu možnost
+        vyzvednutí zboží na prodejně, která je zejména u méně zkušených
+        zákazníků nebo menších e-shopů často preferována. Google také kromě
+        řazení produktů nabízí jednoduché filtrování, kterým je možné vybrat
+        například pouze nabídky, u nichž je poštovné zdarma.</para>
+
+        <para>Zajímavým portálem pracujícím jako affiliate partner je česká
+        Heuréka. Tento portál se zaměřuje na srovnání nabídek produktů,
+        podobně jako TechRadar nebo cNet. Neomezuje se ale jen na přesměrování
+        zákazníků do různých e-shopů, ale zboží je možno nakoupit přímo na
+        tomto portálu. Nejedná se o internetový obchod v klasickém slova
+        smyslu, který by zajišťoval i skladování a předání fyzického zboží,
+        protože i objednávka dokončená na portálu Heuréka je realizována v
+        některém z konkrétních partnerských e-shopů. Z pohledu uživatele může
+        ale toto odstínění znamenat několik výhod. První z nich je fakt, že
+        pokud je nákup prováděn častěji, pokaždé se zákazník pohybuje ve
+        stejném uživatelském rozhraní, nehledě na to, který e-shop zrovna
+        disponuje nejlepší nabídkou. Druhou výhodou je určitá úroveň garance,
+        kterou může Heuréka nabídnout při nákupu z méně známých
+        e-shopů.</para>
+
+        <para>Posledním významným rozdílem, který byl identifikován na portálu
+        Heuréka, ale vyskytuje se i u jiných affiliate služeb, je rozšíření
+        nabídky o příslušenství k produktu. Pokud má zákazník zájem o telefon
+        iPhone 5, kromě cenového srovnání a nabídek tohoto přístroje jsou mu
+        zobrazeny možnosti koupě napájecího kabelu, ochranného obalu nebo
+        hands-free sady. U tohoto přístupu je pozitivem potenciální rozšíření
+        počtu zákazníků. Nabídka může zaujmout i někoho, kdo už iPhone 5
+        vlastní. Na druhou stranu v rámci e-magazínu obsahujícího recenze
+        produktů lze předpokládat, že valnou většinu čtenářů budou tvořit
+        právě zákazníci, které zajímá především produkt samotný. I z
+        finančního hlediska je pro affiliate program e-magazínu mnohem
+        výhodnější zprostředkovat nákup drahého telefonu, než řádově
+        levnějšího příslušenství. Procentuálně konstantní provize je totiž v
+        prvním případě, přepočítána na konkrétní částku, také řádově
+        vyšší.</para>
       </sect2>
 
       <sect2>
-        <title>Celková analýza</title>
+        <title>Potenciál k inovaci</title>
+
+        <para>TODO nějaké obecné hodnocení, že tady existuje možnost na
+        zlepšení</para>
 
         <para>TODO vyhodnocení (metodou SWOT, nebo jinou) výše popsaných
         faktů. nebo spíš ne...</para>
-
-        <para>TODO jak na uživatele působí přesměrování</para>
       </sect2>
     </sect1>
 
@@ -2118,6 +2221,51 @@
       </publisher>
 
       <pubdate>1995</pubdate>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>ab-testing</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Ron</firstname>
+
+          <surname>Kohavi</surname>
+        </author>
+
+        <author>
+          <firstname>Roger</firstname>
+
+          <surname>Longbotham</surname>
+        </author>
+
+        <author>
+          <firstname>Dan</firstname>
+
+          <surname>Sommerfield</surname>
+        </author>
+
+        <author>
+          <firstname>Randal</firstname>
+
+          <surname>Henne</surname>
+        </author>
+      </authorgroup>
+
+      <title>Controlled experiments on the web: survey and practical
+      guide</title>
+
+      <publisher>
+        <publishername>Data Mining and Knowledge Discovery (Berlin: Springer)
+        18 (1)</publishername>
+      </publisher>
+
+      <pubdate>2009 [cit. 16. 3. 2014]</pubdate>
+
+      <releaseinfo>Dostupné na <ulink
+      url="http://ai.stanford.edu/~ronnyk/2009controlledExperimentsOnTheWebSurvey.pdf">http://ai.stanford.edu/~ronnyk/2009controlledExperimentsOnTheWebSurvey.pdf</ulink></releaseinfo>
+
+      <issn>1384-5810</issn>
     </biblioentry>
   </bibliography>
 
