@@ -1305,40 +1305,47 @@
         prvním případě, přepočítána na konkrétní částku, také řádově
         vyšší.</para>
       </sect2>
-
-      <sect2>
-        <title>Potenciál k inovaci</title>
-
-        <para>TODO nějaké obecné hodnocení, že tady existuje možnost na
-        zlepšení</para>
-
-        <para>TODO vyhodnocení (metodou SWOT, nebo jinou) výše popsaných
-        faktů. nebo spíš ne...</para>
-      </sect2>
     </sect1>
 
     <sect1 id="chap-vyzkum">
       <title>Marketingový výzkum</title>
 
-      <para>TODO: Jaká rozhodnutí chceme učinit -&gt; jakou informaci
-      potřebujeme získat</para>
+      <para>Na základě uvedeného popisu současného stavu provádění affiliate
+      marketingu, a to jak přímo v rámci e-magazínu TechRadar, tak na
+      konkurenčních portálech, je vidět, že zde existuje prostor pro inovaci.
+      Vylepšování a obměňování softwarového produktu ale nelze provést pouze
+      na základě úsudku. Inovace musí být založeny na objektivních datech
+      reflektujících názor a očekávání uživatelů portálu. Jednou z metod
+      získání takových dat je marketingový výzkum formou dotazníku, který byl
+      v rámci této práce proveden a je popsán a zhodnocen v této kapitole.
+      Dalšími možnostmi pro získání informací, které však v rámci této práce
+      nebyly využity, by mohl být rozhovor s několika stávajícími uživateli,
+      uživatelské testování nebo A/B testování.</para>
 
-      <para>Kvantitativní výzkum</para>
-
-      <para>téměř žádná zpětná vazba - pokud uživatel není spokojen, z webu
-      odchází</para>
+      <para>Jedním z důvodů, proč nebyla využita statistická data
+      dokumentující provoz (pohyb uživatelů v rámci e-magazínu), je silné
+      zkreslení takových informací. Vzhledem k velmi snadné dostupnosti
+      konkurenčních produktů uživatel, pokud není s kvalitou produktu, resp.
+      poskytované služby v rámci e-magazínu spokojen, stránku rychle opouští.
+      Některé zdroje uvádí, že více než polovina uživatelů webovou stránku
+      opustí do 15 sekund. <citation>time-15-sec</citation> Důvody
+      nespokojenosti takových uživatelů je pak ze statistických dat provozu
+      velmi těžké identifikovat. Proto je dotazník zaměřen, ve smyslu zadání
+      práce, zejména na očekávání a obecné vzorce chování při nakupování na
+      internetu, a tedy potenciálně využívání prostředků affiliate
+      marketingu.</para>
 
       <sect2>
         <title>Metodika výzkumu</title>
 
-        <para>Výzkumným cílem této práce je identifikace míry naplnění
-        požadavků a očekávání od v současnosti nabízeného produktu z oblasti
-        affiliate marketingu, který je popsán v sekci <xref
-        linkend="chap-soucasny-stav" />. Na základě principů fungování
-        affilate marketingu, popsaných v kapitole <xref linkend="chap-am" />,
-        a teorie nákupního rozhodování, kterému se věnuje sekce <xref
-        linkend="chap-nakupni-rozhodovani" />, byly formulovány následující
-        obecné výzkumné otázky:</para>
+        <para>Provedený marketingový výzkum má kvantitativní povahu. Obecným
+        výzkumným cílem je identifikace míry naplnění požadavků a očekávání od
+        v současnosti nabízeného produktu z oblasti affiliate marketingu,
+        který je popsán v sekci <xref linkend="chap-soucasny-stav" />. Na
+        základě principů fungování affilate marketingu, popsaných v kapitole
+        <xref linkend="chap-am" />, a teorie nákupního rozhodování, kterému se
+        věnuje sekce <xref linkend="chap-nakupni-rozhodovani" />, byly
+        formulovány následující obecné výzkumné otázky:</para>
 
         <itemizedlist>
           <listitem>
@@ -1363,6 +1370,11 @@
 
         <para>Pro každou z těchto obecný výzkumných otázek jsou následně
         formulovány</para>
+
+        <para>TODO: Jaká rozhodnutí chceme učinit -&gt; jakou informaci
+        potřebujeme získat</para>
+
+        <para>TODO: napsat, že se požadavky a očekávání překrývají</para>
       </sect2>
 
       <sect2>
@@ -2266,6 +2278,29 @@
       url="http://ai.stanford.edu/~ronnyk/2009controlledExperimentsOnTheWebSurvey.pdf">http://ai.stanford.edu/~ronnyk/2009controlledExperimentsOnTheWebSurvey.pdf</ulink></releaseinfo>
 
       <issn>1384-5810</issn>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>time-15-sec</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Tony</firstname>
+
+          <surname>Haile</surname>
+        </author>
+      </authorgroup>
+
+      <title>What You Think You Know About the Web Is Wrong</title>
+
+      <pubdate>9. 3. 2014 [cit. 22. 3. 2014]</pubdate>
+
+      <publisher>
+        <publishername>Time Inc.</publishername>
+      </publisher>
+
+      <releaseinfo>Dostupné na <ulink
+      url="http://time.com/12933/what-you-think-you-know-about-the-web-is-wrong/">http://time.com/12933/what-you-think-you-know-about-the-web-is-wrong/</ulink></releaseinfo>
     </biblioentry>
   </bibliography>
 
