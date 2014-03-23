@@ -380,6 +380,8 @@
 
       <para>TODO: Popsat, proč je užitečné zapojit mezičlánek v podobě
       AN.</para>
+
+      <para>TODO že feedy nejsou vždycky úplně aktuální</para>
     </sect1>
 
     <sect1>
@@ -1400,20 +1402,16 @@
         jednak ověřeny stávající vlastnosti produktu, dále jsou pak navrženy
         možné způsoby inovace.</para>
 
-        <para>Dotazovanou cílovou skupinou jsou mladí lidé ve věku mezi 20 a
-        25 lety, kteří tvoří podle tvrzení společnosti Future většinu čtenářů
-        e-magazínu. Podle vyjádření společnosti tvoří cílovou skupinu
-        především muži a má tedy smysl se zaměřit na ně. Rozhodl jsem se ale
-        do průzkumu zahrnout i ženy, ze dvou důvodů. Prvním z nich je fakt, že
-        čtenáři TechRadaru nejsou striktně muži, a zcela vynechat ženskou část
-        by tedy byla chyba. Ovšem ani v rámci poměru dotazovaných nebylo
-        množství respondentek sníženo, protože srovnání nákupního chování žen
-        a mužů by mohlo odhalit zajímavé body, na které se lze při inovaci
-        zaměřit, přizpůsobit produkt i ženské části populace a potenciálně tak
-        počet čtenářek zvýšit. Aby byl ovšem průzkum validní v rámci zadání,
-        je základní analýza provedena na vzorku obsahujícím 80 % mužských
-        respondentů. Až následná rozšíření a srovnání zahrnují obě skupiny
-        respondentů.</para>
+        <para>Dotazovanou cílovou skupinou jsou muži ve věku mezi 20 a 25
+        lety, kteří tvoří podle tvrzení společnosti Future většinu čtenářů
+        e-magazínu. Rozhodl jsem se ale do průzkumu zahrnout i ženy, protože
+        srovnání nákupního chování žen a mužů by mohlo odhalit zajímavé body,
+        na které se lze při inovaci zaměřit, přizpůsobit produkt i ženské
+        části populace a potenciálně tak počet čtenářek zvýšit. Aby byl ovšem
+        průzkum validní v rámci zadání, je základní analýza provedena na
+        vzorku obsahujícím odpovědi mužských respondentů. Až následné
+        rozšíření řeší rozdíly mezi muži a ženami v rámci celého vzorku
+        dotazovaných.</para>
       </sect2>
 
       <sect2>
@@ -1433,24 +1431,190 @@
         pro vydavatele velmi zajímavá, protože provize je počítána jako
         procentuální díl právě z ceny prodaného zboží.</para>
 
-        <para>TODO jak se konkrétní otázky vážou na OVO z předchozího
-        bodu</para>
+        <para>Následujících 6 otázek, tedy čísla 7 až 12, se vztahuje k první
+        obecné výzkumné otázce. Řeší tedy, jaké aspekty jsou obsahově pro
+        uživatele důležité. Tyto otázky byly formulovány na základě současného
+        stavu produktu a analýzy podobných konkurenčních produktů. </para>
 
-        <para>TODO jakým způsobem byl dotazník distribuován
-        (elektronicky)</para>
+        <para>Další výzkumné otázce, tedy problematice řazení a prioritizace
+        obsahu, je věnováno 7 otázek s pořadovými čísly 13 až 19. Problémem,
+        který si tato část klade za úkol vyřešit, je fakt, že uživateli není
+        možno zobrazit vyčerpávající seznam všech nabídek produktů, obzvláště
+        v případě, kdy by seznam měl obsahovat nejen jeden konkrétní model,
+        ale i podobné produkty od dalších výrobců. Rozumnějším přístupem se
+        jeví jistá míra předfiltrování zobrazovaných dat. Poskytovatel služby,
+        tedy vydavatelská společnost, na základě výzkumu může identifikovat
+        nejdůležitější parametry, podle kterých vybere <quote>nejlepší</quote>
+        nabídky. Právě odpověď na otázku, co znamená nejlepší, má zodpovědět
+        tato část.</para>
 
-        <para>TODO vynechali jsme otázky: Nástroj na porovnávání cen by měl
-        mít vždy aktuální informace; Odkazy do všech e-shopů musí vždy
-        fungovat =&gt; odpovědi jsou evidentní. ale dáme doporučení</para>
+        <para>I v případě, by uživatelé preferovali vlastní výběr z delšího
+        seznamu,<footnote>
+            <para>Jak je vidět dále v analýze odpovědí, uživatelé skutečně
+            preferují výběr z více než několika jednotek nabídek, které za ně
+            vybere vydavatel.</para>
+          </footnote> je zapotřebí tento seznam nějakým způsobem seřadit a
+        nabídnout v rámci služby možnosti filtrování a řazení. Bez nich
+        prakticky není možno rozumně pracovat s více než několika málo
+        desítkami záznamů.</para>
+
+        <para>Otázka 20 zkoumá, zda má smysl se v rámci vývoje orientovat na
+        mobilní platformy. V dnešní době je standardem při tvorbě webové
+        aplikace vytvořit i verzi přizpůsobenou prohlížení na telefonu. Tato
+        otázka ale řeší, jestli je mobilní telefon skutečně plnohodnotným
+        zařízením, ze kterého uživatel provede i nákup v e-shopu, nebo slouží
+        jen jako čtečka e-magazínu. V druhém případě totiž mobilní uživatelé
+        nepřináší vydavatelské společnosti z affiliate programu žádný příjem.
+        </para>
+
+        <para>Otázka s číslem 21 spadá tematicky pod řazení obsahu, nicméně
+        ptá se konkrétně na označení tlačítka, kterým je možno obsah
+        uspořádat. Jinými slovy zkoumá, jaký text na tomto tlačítku je pro
+        uživatele nejpochopitelnější. Zajímavostí je, že při konzultaci
+        dotazníku s vydavatelskou společností (ještě před sesbíráním a
+        vyhodnocením odpovědí) bylo původní tlačítko <quote>vzestupně</quote>
+        vyměněno za <quote>od nejnižšího k vyššímu</quote>. Takže první reálná
+        inovace byla provedena na základě této práce ještě dříve, než byly
+        publikovány jakékoli výsledky výzkumu.</para>
+
+        <para>K otázce 22 je potřeba říct, že v současné době nejsou v cenovém
+        srovnání na TechRadaru uváděny produkty, které jsou momentálně v daném
+        e-shopu nedostupné. Z hlediska politiky maximalizace konverze a počtu
+        uskutečněných nákupů to dává smysl, nicméně z pohledu uživatele to tak
+        nutně být nemusí. Proto jsem vytvořil hypotézu, že zákazník v případě
+        pořízení elektroniky raději nákup o několik dní odloží, pokud jde o
+        výhodnou, ale momentálně nedostupnou nabídku. Právě zmíněná hypotéza
+        je testována tímto bodem. Otázka 23 zjišťuje, zda má smysl affiliate
+        odkazy zobrazovat i jako reklamní bannery. Poslední dvě otázky řeší,
+        jak důležitá je součást produktu spoluvytvářená samotnými čtenáři --
+        tedy uživatelské komentáře.</para>
+
+        <para>Většina otázek byla formulována na základě kombinace analýzy
+        stávajícího produktu, jeho historického vývoje, posouzení
+        konkurenčních produktů a uvážení mechanismů affiliate marketingu.
+        Zejména u otázek 22 a 23 byly při konstrukci otázky využity principy
+        nákupního chování, popsané v kapitole <xref
+        linkend="chap-nakupni-rozhodovani" />.</para>
+
+        <para>Vzhledem k povaze zkoumaného problému, kterým je webová aplikace
+        z oblasti affiliate marketingu, byl dotazník distribuován také
+        elektronicky, a to prostřednictvím sociálních sítí. Ačkoliv
+        vydavatelská společnost Future působí ve Velké Británii a produkt je
+        vytvářen v angličtině, tato práce je psána česky a vzorek dotazovaných
+        byl složen z českých respondentů. Tento fakt může způsobit drobné
+        zkreslení dat, nicméně vzhledem ke globální povaze affiliate
+        marketingu a celkové podobnosti těchto platforem (např. již zmíněná
+        česká Heuréka) pravděpodobně nepůjde o významnější problém, který by
+        bránil správné interpretaci dat.</para>
+
+        <para>V rámci obecných výzkumných otázek byl také nastíněn problém
+        aktuálnosti a přesnosti informací. Velké množství dat, se kterými
+        affiliate systém musí pracovat, prakticky znemožňuje mít veškeré
+        informace vždy přesné a aktuální, tak jak bylo popsáno v kapitole
+        <xref linkend="chap-ans" />. Do dotazníku nicméně otázky na toto téma
+        zařazeny nebyly. Důvodem je fakt, že uživatelé chtějí maximálně přesné
+        a aktuální informace, na to není potřeba se jich ptát. V rámci celkové
+        analýzy a doporučených inovací je ale aktuálnost a přesnost
+        poskytovaných dat zahrnuta, ačkoliv se nejedná o metriku, která by
+        mohla být zjišťována marketingovým dotazníkem.</para>
 
         <para>TODO motivační pětikilo</para>
       </sect2>
 
       <sect2>
-        <title>Analýza odpovědí</title>
+        <title>Odpovědi respondentů</title>
 
-        <para>TODO nějaké statistické hrátky s výsledky, ideálně s rozumně
-        interpretovatelnými závěry</para>
+        <para>V této části práce jsou analyzovány agregované odpovědi
+        respondentů. Jak již bylo zmíněno, většina otázek nabízí odpovědi na
+        uzavřené pětibodové škále. Tato uniformita umožňuje vzájemné porovnání
+        číselných reprezentací odpovědí jednotlivých otázek, a tedy i
+        porovnání priorit z pohledu uživatele. Odpovědi na každou otázku tedy
+        byly vyhodnocovány jako výběrové náhodné veličiny založené na
+        odpovědích 89 mužských respondentů.</para>
+
+        <para>Tabulka <xref linkend="tab-obsah" /> zobrazuje číselné
+        charakteristiky odpovědí na otázky 7 až 12. Ukazuje se, že tři
+        základní pilíře affiliate marketingu ve společnosti Future mají smysl:
+        většina uživatelů má zájem o recenze elektroniky, doplněné o obrázky a
+        fotografie produktů, a následně využije služby cenového srovnání.
+        Střední hodnota ve výši 3,76 a malý rozptyl odpovědí na otázku č. 10
+        ukazují, že v očekávání uživatelů je porovnání alternativ, tedy
+        podobných produktů v rámci stejné kategorie, ještě o něco výše než
+        recenze a cenové srovnání nabídek jednoho konkrétního produktu.</para>
+
+        <para><table id="tab-obsah">
+            <title>Obsah produktu -- popisné statistiky</title>
+
+            <tgroup cols="3">
+              <thead>
+                <row>
+                  <entry></entry>
+
+                  <entry>Střední hodnota</entry>
+
+                  <entry>Směrodatná odchylka</entry>
+                </row>
+              </thead>
+
+              <tbody>
+                <row>
+                  <entry>Recenze produktu</entry>
+
+                  <entry>3.5618</entry>
+
+                  <entry>0.65635</entry>
+                </row>
+
+                <row>
+                  <entry>Cenové srovnání</entry>
+
+                  <entry>3.0000</entry>
+
+                  <entry>0.95346</entry>
+                </row>
+
+                <row>
+                  <entry>Vyhledávání podle parametrů</entry>
+
+                  <entry>3.7640</entry>
+
+                  <entry>0.42700</entry>
+                </row>
+
+                <row>
+                  <entry>Zahrnutí podobných produktů</entry>
+
+                  <entry>2.4944</entry>
+
+                  <entry>1.2259</entry>
+                </row>
+
+                <row>
+                  <entry>Obrázky</entry>
+
+                  <entry>3.9213</entry>
+
+                  <entry>0.27072</entry>
+                </row>
+
+                <row>
+                  <entry>Exkluzivní nabídka (sleva)</entry>
+
+                  <entry>1.3258</entry>
+
+                  <entry>0.78008</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table></para>
+
+        <para>TODO další...</para>
+      </sect2>
+
+      <sect2>
+        <title>Rozšíření cílové skupiny</title>
+
+        <para>TODO jaké jsou rozdíly chlapů proti ženským.</para>
       </sect2>
     </sect1>
 
