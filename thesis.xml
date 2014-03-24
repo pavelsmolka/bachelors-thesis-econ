@@ -63,6 +63,8 @@
 
     <para>TODO Dvě roviny marketingu: vývoj softwarového produktu, který ale
     slouží k marketingu</para>
+
+    <para>TODO zkontrolovat čísla odkazů na tabulky (link místo xref)</para>
   </chapter>
 
   <chapter id="chap-am">
@@ -1434,7 +1436,7 @@
         <para>Následujících 6 otázek, tedy čísla 7 až 12, se vztahuje k první
         obecné výzkumné otázce. Řeší tedy, jaké aspekty jsou obsahově pro
         uživatele důležité. Tyto otázky byly formulovány na základě současného
-        stavu produktu a analýzy podobných konkurenčních produktů. </para>
+        stavu produktu a analýzy podobných konkurenčních produktů.</para>
 
         <para>Další výzkumné otázce, tedy problematice řazení a prioritizace
         obsahu, je věnováno 7 otázek s pořadovými čísly 13 až 19. Problémem,
@@ -1464,8 +1466,8 @@
         otázka ale řeší, jestli je mobilní telefon skutečně plnohodnotným
         zařízením, ze kterého uživatel provede i nákup v e-shopu, nebo slouží
         jen jako čtečka e-magazínu. V druhém případě totiž mobilní uživatelé
-        nepřináší vydavatelské společnosti z affiliate programu žádný příjem.
-        </para>
+        nepřináší vydavatelské společnosti z affiliate programu žádný
+        příjem.</para>
 
         <para>Otázka s číslem 21 spadá tematicky pod řazení obsahu, nicméně
         ptá se konkrétně na označení tlačítka, kterým je možno obsah
@@ -1526,13 +1528,14 @@
 
         <para>V této části práce jsou analyzovány agregované odpovědi
         respondentů. Jak již bylo zmíněno, většina otázek nabízí odpovědi na
-        uzavřené pětibodové škále. Tato uniformita umožňuje vzájemné porovnání
-        číselných reprezentací odpovědí jednotlivých otázek, a tedy i
-        porovnání priorit z pohledu uživatele. Odpovědi na každou otázku tedy
-        byly vyhodnocovány jako výběrové náhodné veličiny založené na
-        odpovědích 89 mužských respondentů.</para>
+        uzavřené pětibodové škále, dále reprezentované číselnými hodnotami 0
+        až 4. Tato uniformita umožňuje vzájemné porovnání číselných
+        reprezentací odpovědí jednotlivých otázek, a tedy i porovnání priorit
+        z pohledu uživatele. Odpovědi na každou otázku tedy byly vyhodnocovány
+        jako výběrové náhodné veličiny založené na odpovědích 89 mužských
+        respondentů.</para>
 
-        <para>Tabulka <xref linkend="tab-obsah" /> zobrazuje číselné
+        <para>Tabulka <link linkend="tab-obsah">4.1</link> zobrazuje číselné
         charakteristiky odpovědí na otázky 7 až 12. Ukazuje se, že tři
         základní pilíře affiliate marketingu ve společnosti Future mají smysl:
         většina uživatelů má zájem o recenze elektroniky, doplněné o obrázky a
@@ -1542,73 +1545,332 @@
         podobných produktů v rámci stejné kategorie, ještě o něco výše než
         recenze a cenové srovnání nabídek jednoho konkrétního produktu.</para>
 
-        <para><table id="tab-obsah">
-            <title>Obsah produktu -- popisné statistiky</title>
+        <para>Základní odpovědí na první výzkumnou otázku, zabývající se
+        zobrazovaným obsahem, je tedy to, že stávající podoba obsahující
+        recenzi, obrázky produktu a cenové srovnání je v pořádku. Cenové
+        srovnání, a potažmo i recenze samotná, by měly být rozšířeny o
+        srovnání s podobnými produkty.</para>
 
-            <tgroup cols="3">
-              <thead>
-                <row>
-                  <entry></entry>
+        <table id="tab-obsah">
+          <title>Obsah produktu -- popisné statistiky</title>
 
-                  <entry>Střední hodnota</entry>
+          <tgroup cols="3">
+            <thead>
+              <row>
+                <entry></entry>
 
-                  <entry>Směrodatná odchylka</entry>
-                </row>
-              </thead>
+                <entry>Střední hodnota</entry>
 
-              <tbody>
-                <row>
-                  <entry>Recenze produktu</entry>
+                <entry>Směrodatná odchylka</entry>
+              </row>
+            </thead>
 
-                  <entry>3.5618</entry>
+            <tbody>
+              <row>
+                <entry>Recenze produktu</entry>
 
-                  <entry>0.65635</entry>
-                </row>
+                <entry>3.5618</entry>
 
-                <row>
-                  <entry>Cenové srovnání</entry>
+                <entry>0.65635</entry>
+              </row>
 
-                  <entry>3.0000</entry>
+              <row>
+                <entry>Cenové srovnání</entry>
 
-                  <entry>0.95346</entry>
-                </row>
+                <entry>3.0000</entry>
 
-                <row>
-                  <entry>Vyhledávání podle parametrů</entry>
+                <entry>0.95346</entry>
+              </row>
 
-                  <entry>3.7640</entry>
+              <row>
+                <entry>Vyhledávání podle parametrů</entry>
 
-                  <entry>0.42700</entry>
-                </row>
+                <entry>3.7640</entry>
 
-                <row>
-                  <entry>Zahrnutí podobných produktů</entry>
+                <entry>0.42700</entry>
+              </row>
 
-                  <entry>2.4944</entry>
+              <row>
+                <entry>Zahrnutí podobných produktů</entry>
 
-                  <entry>1.2259</entry>
-                </row>
+                <entry>2.4944</entry>
 
-                <row>
-                  <entry>Obrázky</entry>
+                <entry>1.2259</entry>
+              </row>
 
-                  <entry>3.9213</entry>
+              <row>
+                <entry>Obrázky</entry>
 
-                  <entry>0.27072</entry>
-                </row>
+                <entry>3.9213</entry>
 
-                <row>
-                  <entry>Exkluzivní nabídka (sleva)</entry>
+                <entry>0.27072</entry>
+              </row>
 
-                  <entry>1.3258</entry>
+              <row>
+                <entry>Exkluzivní nabídka (sleva)</entry>
 
-                  <entry>0.78008</entry>
-                </row>
-              </tbody>
-            </tgroup>
-          </table></para>
+                <entry>1.3258</entry>
 
-        <para>TODO další...</para>
+                <entry>0.78008</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+
+        <para>Další výzkumná otázka se zabývá prioritizací obsahu. Jinými
+        slovy řeší, které aspekty jsou při online nakupování zákazníky vnímány
+        jako nejpodstatnější. V současné době jsou totiž zobrazované nabídky
+        řazeny algoritmem kombinujícím parametry uvedené v tabulce <link
+        linkend="tab-prioritizace">4.2</link>. Každému parametru je přiřazena
+        určitá váha, která určuje celkové pořadí. Vzhledem k přibližně
+        podobným směrodatným odchylkám všech náhodných veličin můžeme říct, že
+        optimální poměr pro řadící algoritmus by měl odpovídat váze středních
+        hodnot. Tedy při celkovém součtu 14,38 by měla cena v celkovém řazení
+        reprezentovat přibližně 19% váhu.</para>
+
+        <table id="tab-prioritizace">
+          <title>Prioritizace obsahu -- popisné statistiky</title>
+
+          <tgroup cols="3">
+            <thead>
+              <row>
+                <entry></entry>
+
+                <entry>Střední hodnota</entry>
+
+                <entry>Směrodatná odchylka</entry>
+              </row>
+            </thead>
+
+            <tbody>
+              <row>
+                <entry>Nízká cena</entry>
+
+                <entry>2.7303</entry>
+
+                <entry>1.0086</entry>
+              </row>
+
+              <row>
+                <entry>Slevové kupony</entry>
+
+                <entry>1.3483</entry>
+
+                <entry>1.0011</entry>
+              </row>
+
+              <row>
+                <entry>Dodací lhůta</entry>
+
+                <entry>2.0899</entry>
+
+                <entry>1.2214</entry>
+              </row>
+
+              <row>
+                <entry>Poštovné</entry>
+
+                <entry>2.4045</entry>
+
+                <entry>1.3031</entry>
+              </row>
+
+              <row>
+                <entry>Zkušenosti s e-shopem</entry>
+
+                <entry>3.3483</entry>
+
+                <entry>0.78482</entry>
+              </row>
+
+              <row>
+                <entry>Certifikát spolehlivosti</entry>
+
+                <entry>2.4719</entry>
+
+                <entry>1.0010</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+
+        <para>Na hodnotách z tabulky prioritizace je vidět, že slevové kupony
+        nehrají pro zákazníky velkou roli. V současné podobě je na ně ovšem
+        kladen velký důraz a jsou zobrazovány jak v náhledu cenového srovnání
+        u recenze, tak v plném cenovém srovnání. Jednou z možností je
+        nahrazení tohoto sloupce informací o certifikátu spolehlivosti.</para>
+
+        <para>Nejvyšší prioritu kladou respondenti poměrně překvapivě na to,
+        zda mají již s daným e-shopem zkušenosti. Tento atribut je ovšem
+        závislý na konkrétním uživateli. V kapitole <xref
+        linkend="chap-doporuceni" /> jsou diskutovnány možnosti rozšíření o
+        tento aspekt.</para>
+
+        <para>Zvláštní pozici v otázce prioritizace obsahu zaujímá otázka 14:
+        <quote>Stačí vám vidět 5 nejlepších nabídek produktu, které za vás
+        někdo vybral?</quote>. Jak ukazuje rozložení hodnot odpovědí v grafu
+        <xref linkend="fig-top-5" />, většina respondentů preferuje vlastní
+        výběr z většího množství produktů. Cenové srovnání přímo na stránce s
+        recenzí, obsahující pouze pět vybraných nabídek, by tedy mělo sloužit
+        především jako navigační komponenta, která čtenáře zaujme a po
+        kliknutí ho přesměruje na kompletní cenové srovnání. Toto doporučení
+        bude platit i v případě zahrnutí dalších rozšíření produktu o
+        zobrazení omezeného počtu nabídek.</para>
+
+        <figure id="fig-top-5">
+          <title>Rozložení odpovědí na otázku č. 14</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="pdf/m_just_top_5.pdf" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Posledním tématem, kterým se dotazník zabývá, je očekávání
+        spoluvytváření produktu pomocí uživatelských komentářů, tedy míra
+        jejich důležitosti. Data zobrazená v grafu <xref
+        linkend="fig-user-reviews" /> ukazují, že tato součást je pro cílovou
+        skupinu čtenářů e-magazínu typu TechRadar velmi důležitá. Žádny z
+        respondentů neodpověděl zcela negativně, naopak naprostá většina
+        takovouto funkcionalitu při online nakupování použije.</para>
+
+        <figure id="fig-user-reviews">
+          <title>Rozložení odpovědí na otázku č. 24</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="pdf/m_user_reviews.pdf"
+                         id="fig-user-reviews" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </sect2>
+
+      <sect2>
+        <title>Vliv různých faktorů na hodnotu nákupu</title>
+
+        <para>Kromě obecných preferencí a očekávání uživatelů, které byly
+        diskutované v předchozí části, má smysl zodpovědět otázku, zda
+        existuje závislost rozložení odpovědí na celkové hodnotě nákupního
+        košíku. Nechť dva faktory X a Y mají přibližně stejnou úroveň
+        očekávání (například existence recenze a možnost prohlížení si obrázků
+        produktu). Pokud X preferují zejména zákazníci, kteří utrácí v průměru
+        více, má smysl se při inovaci při výběru mezi X a Y zaměřit právě na
+        vývoj X. Naplnění takového požadavku totiž vede ke zvýšení
+        spokojenosti právě těch zákazníků, kteří na internetu utrácí za
+        elektroniku nejvíce a jsou pro vydavatelskou společnost tedy
+        nejcennější.</para>
+
+        <para>K vyhodnocení otázky z předchozího odstavce byla použita
+        lineární regrese pomocí metody nejmenších čtverců (ordinary least
+        squares -- OLS).<indexterm>
+            <primary>ordinary least squares</primary>
+          </indexterm> Model byl sestaven nejprve ze všech číselných vyjádření
+        otázek 7 až 25. Následně byly z modelu podle pravidel lineární regrese
+        odebírány nevýznamné proměnné. Ukázalo se, že proměnné signifikantní
+        na hladině významnosti 10 % jsou pouze tři. Dvě se vztahují ke způsobu
+        doručení zboží (otázky 17 a 18), poslední proměnná zachycuje očekávání
+        uživatelů z pohledu porovnání produktu s alternativami (otázka č. 10).
+        Model je zobrazen rovnicí <link linkend="eq-ols">4.3.1</link>,
+        konkrétní hodnoty i se směrodatnými odchylkami a p-hodnotami
+        testujícími relevanci jednotlivých parametrů jsou pak v tabulce <link
+        linkend="tab-ols">4.3</link>.</para>
+
+        <equation id="eq-ols">
+          <title>Upravený OLS model vlivu očekávání na hodnotu nákupu</title>
+
+          <graphic fileref="pdf/ols.pdf" />
+        </equation>
+
+        <table id="tab-ols">
+          <title>Koeficienty OLS modelu s p-hodnotami</title>
+
+          <tgroup cols="4">
+            <thead>
+              <row>
+                <entry></entry>
+
+                <entry>Koeficient</entry>
+
+                <entry>Směrodatná chyba</entry>
+
+                <entry>p-hodnota</entry>
+              </row>
+            </thead>
+
+            <tbody>
+              <row>
+                <entry>konstanta</entry>
+
+                <entry>18401.5</entry>
+
+                <entry>4587.01</entry>
+
+                <entry>0.0001</entry>
+              </row>
+
+              <row>
+                <entry>Zahrnutí podobných produktů (Alt)</entry>
+
+                <entry>- 2237.59</entry>
+
+                <entry>1200.46</entry>
+
+                <entry>0.0658</entry>
+              </row>
+
+              <row>
+                <entry>Dodací lhůta (STime)</entry>
+
+                <entry>4467.33</entry>
+
+                <entry>1376.22</entry>
+
+                <entry>0.0017</entry>
+              </row>
+
+              <row>
+                <entry>Poštovné (SCost)</entry>
+
+                <entry>- 4047.22</entry>
+
+                <entry>1289.46</entry>
+
+                <entry>0.0023</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+
+        <para>OLS model není nejpřesnějším vyjádřením závislosti, zejména v
+        případě, kdy všechny vysvětlující proměnné jsou umělé, jelikož jejich
+        číselné vyjádření je pouze číselnou reprezentací diskrétní pětibodové
+        škály. Konstanta je v tomto případě zcela bezvýznamná, jelikož
+        stupnici škály lze reprezentovat libovolnou linární řadou. Nicméně,
+        přibližně je z OLS modelu vidět, že pro zákazníky, kteří v průměru
+        více utrácejí, je důležitá dodací lhůta. Bez ohledu na model je tento
+        fakt vcelku logický, neboť je pravděpodobné, že jde o zkušenější
+        uživatele zaměřující se více na dražší novinky. Naopak lidé, kteří
+        nakupují elektroniku jednou ročně jako dárek k Vánocům si mohou
+        obvykle nákup naplánovat a delší dodací lhůta pro ně nepředstavuje
+        výraznější negativum.</para>
+
+        <para>Zhruba na podobné úrovni intenzity, ovšem s opačným znaménkem,
+        můžeme v modelu vidět vliv vztahu zákazníka k výši poštovného na
+        celkovou hodnotu nákupu. Lidé, kteří v průměru utrácejí více, tedy
+        neřeší výši poštovného (cenu dopravy zboží). Zde se nabízí dvě
+        vysvětlení, že zákazník nakupuje větší množství elektroniky nebo velmi
+        drahý kus, a výše poštovného tak na celkově utracené částce hraje
+        marginální roli. Zahrnutí alternativních produktů je možno
+        interpretovat podobně, nicméně kvůli vyšší p-hodnotě zde není vliv tak
+        silný.</para>
+
+        <para>Model splňuje klasické předpoklady OLS. Homoskedasticita reziduí
+        byla ověřena White testem s p-hodnotou 0.157628. Celkový počet 89
+        pozorování je dostatečný k tomu, aby mohlo být využito asymptotické
+        teorie a prohlásit rezidua za normálně rozdělená.
+        <citation>ols-asymptotic</citation> </para>
       </sect2>
 
       <sect2>
@@ -1618,31 +1880,28 @@
       </sect2>
     </sect1>
 
-    <sect1>
+    <sect1 id="chap-doporuceni">
       <title>Doporučená inovace produktu</title>
 
       <para>Na základě uvedeného následně formuluje doporučení pro inovaci
       stávajícího produktu či pro vytvoření nového produktu.</para>
 
-      <para>TODO doporučení dělat vlastní produkt - nemožnost reálně
-      přizpůsobit produkt třetí strany</para>
+      <para>TODO říct že v zásadě ok, jen drobná vylepšení</para>
 
-      <sect2>
-        <title>Strojové zpracování dat</title>
+      <para>TODO zařazení alternativních produktů do comparisonu</para>
 
-        <para>TODO doporučení strojového zpracování dat (nemáme 50 lidí in
-        house)</para>
-      </sect2>
+      <para>TODO certifikáty spolehlivosti (důvěryhodnosti)</para>
 
-      <sect2>
-        <title>Popis nového produktu</title>
+      <para>TODO personalizované "zkušenosti s e-shopem"</para>
 
-        <para>TODO grafická podoba</para>
+      <para>TODO není třeba dělat mobilní verzi</para>
 
-        <para>TODO funkcionalita</para>
+      <para>TODO zvážit dobře všechny popisky (ukázat na rozdíl u "od
+      nejlevnějšího")</para>
 
-        <para>TODO vyhodnocení po prvním nasazení?</para>
-      </sect2>
+      <para>TODO pořádné user reviews, moderované</para>
+
+      <para>TODO vyhodnocení po prvním nasazení?</para>
     </sect1>
   </chapter>
 
@@ -2520,6 +2779,36 @@
 
       <releaseinfo>Dostupné na <ulink
       url="http://time.com/12933/what-you-think-you-know-about-the-web-is-wrong/">http://time.com/12933/what-you-think-you-know-about-the-web-is-wrong/</ulink></releaseinfo>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>ols-asymptotic</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Kilian</firstname>
+
+          <surname>Lutz</surname>
+        </author>
+
+        <author>
+          <firstname>Ufuk</firstname>
+
+          <surname>Demiroglu</surname>
+        </author>
+      </authorgroup>
+
+      <title>Residual-Based Tests for Normality in Autoregressions: Asymptotic
+      Theory and Simulation Evidence</title>
+
+      <publisher>
+        <publishername>Journal of Business &amp; Economic Statistics 18
+        (1)</publishername>
+      </publisher>
+
+      <pubdate>2000</pubdate>
+
+      <pagenums>s. 40-50</pagenums>
     </biblioentry>
   </bibliography>
 
