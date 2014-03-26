@@ -1404,7 +1404,7 @@
         jednak ověřeny stávající vlastnosti produktu, dále jsou pak navrženy
         možné způsoby inovace.</para>
 
-        <para>Dotazovanou cílovou skupinou jsou muži ve věku mezi 20 a 25
+        <para>Dotazovanou cílovou skupinou jsou muži ve věku mezi 20 a 30
         lety, kteří tvoří podle tvrzení společnosti Future většinu čtenářů
         e-magazínu. Rozhodl jsem se ale do průzkumu zahrnout i ženy, protože
         srovnání nákupního chování žen a mužů by mohlo odhalit zajímavé body,
@@ -1867,41 +1867,165 @@
         silný.</para>
 
         <para>Model splňuje klasické předpoklady OLS. Homoskedasticita reziduí
-        byla ověřena White testem s p-hodnotou 0.157628. Celkový počet 89
+        byla ověřena White testem s p-hodnotou 0,157628. Celkový počet 89
         pozorování je dostatečný k tomu, aby mohlo být využito asymptotické
         teorie a prohlásit rezidua za normálně rozdělená.
-        <citation>ols-asymptotic</citation> </para>
+        <citation>ols-asymptotic</citation></para>
       </sect2>
 
       <sect2>
         <title>Rozšíření cílové skupiny</title>
 
-        <para>TODO jaké jsou rozdíly chlapů proti ženským.</para>
+        <para>Základní cílová skupina čtenářů e-magazínu TechRadar byla
+        identifikována ve spolupráci se společností Future jako mladí muži ve
+        věku mezi 20 a 25 lety. Nabízí se ovšem otázka, jakým způsobem jsou
+        jejich očekávání od produktu tohoto typu odlišná od podobně
+        strukturované skupiny ženského pohlaví. Proto byly v rámci
+        dotazníkového šetření zkoumány názory obou pohlaví.</para>
+
+        <para>TODO dvouvýběrový t-test</para>
       </sect2>
     </sect1>
 
     <sect1 id="chap-doporuceni">
-      <title>Doporučená inovace produktu</title>
+      <title>Doporučení k inovaci</title>
 
-      <para>Na základě uvedeného následně formuluje doporučení pro inovaci
-      stávajícího produktu či pro vytvoření nového produktu.</para>
+      <para>Na základě vyhodnocení dotazníku a analýzy z předchozí sekce práce
+      jsou v této části prezentovány návrhy na zlepšení a inovaci provádění
+      affiliate marketingu v rámci e-magazínu TechRadar. V zásadě lze
+      konstatovat, že veškeré připomínky a doporučení jsou poměrně
+      marginálního charakteru. Dotazníkovým šetřením a následnou analýzou dat
+      bylo zjištěno, že způsob provádění affiliate marketingu je v zásadě
+      správný a je vhodné ho pouze částečně upravit ve smyslu následujících
+      odstavců. Všechna doporučení jsou založena na statistikách a faktech
+      uvedených v kapitole <xref linkend="chap-vyzkum" />.</para>
 
-      <para>TODO říct že v zásadě ok, jen drobná vylepšení</para>
+      <sect2>
+        <title>Rozšíření funkcionality</title>
 
-      <para>TODO zařazení alternativních produktů do comparisonu</para>
+        <para>Tabulka <link linkend="tab-obsah">4.1</link> ukazuje, že
+        klíčovou součástí, která momentálně není uživatelům k dispozici, ale
+        bylo by vhodné ji doplnit, je možnost vyhledávání produktů podle
+        parametrů. Tato funkcionalita může být na webu umístěna jako zvláštní
+        komponenta, nazvaná například <quote>vyhledávání produktů</quote> nebo
+        <quote>najít produkt podle parametrů</quote>. Z hlediska user
+        experience by měl uživatel komponentou procházet postupně. Jako první
+        se jeví logický výběr z kategorií produktů, například
+        <quote>fotoaparáty</quote> nebo <quote>televize</quote>. Následně se
+        zobrazí podle vybrané kategorie specifičtější parametry, které mohou
+        mít v zásadě tři podoby. Pro vyhledávání podle kvantitativních
+        parametrů jako je cena nebo velikost paměti je nejvhodnější vhodně
+        kalibrovaná stupnice s posuvníkem. Druhou možností je filtrování
+        produktů zahrnujících určitou kvalitativní vlastnost. Jako příklad v
+        kategorii notebooků můžeme uvést <quote>pouze s předinstalovaným
+        OS</quote>. Pokud se ale jedná přímo o podkategorii, například
+        <quote>pouze LED televize</quote>, je vhodnějším způsobem opět výběr z
+        kategorií, tak jako tomu bylo u prvního kroku.</para>
 
-      <para>TODO certifikáty spolehlivosti (důvěryhodnosti)</para>
+        <para>Podobným směrem se ubírá i druhé doporučení, totiž rozšíření
+        stávajícího cenového srovnání o alternativy, tedy nabídky produktů v
+        podobné technické i cenové kategorii. Výsledky zobrazené v tabulce
+        <link linkend="tab-obsah">4.1</link> ale už nejsou tak jednoznačné
+        jako v předchozím případě, proto je nejvhodnějším řešením přidání
+        ovládacího prvku (například tlačítka), kterým bude moci uživatel
+        alternativy skrýt nebo opět zobrazit.</para>
+      </sect2>
 
-      <para>TODO personalizované "zkušenosti s e-shopem"</para>
+      <sect2>
+        <title>Prioritizace a řazení zobrazovaných produktů</title>
 
-      <para>TODO není třeba dělat mobilní verzi</para>
+        <para>Odpovědi na druhou obecnou výzkumnou otázku zobrazené v tabulce
+        <link linkend="tab-prioritizace">4.2</link> ukazují, že klíčovým
+        atributem při prioritizaci výběru (a tedy i finálním rozhodnutí, ve
+        kterém e-shopu produkt zakoupit), je pro zkoumanou cílovou skupinu
+        pozitivní zkušenost s daným internetovým obchodem. Problémem u této
+        části zjevně je, že každý uživatel má zkušenosti poněkud odlišné. Jako
+        řešení se jeví investice do vývoje personalizované verze pro
+        přihlášené uživatele, která bude sledovat jejich aktivitu v rámci
+        nákupů. E-shopy, ve kterých bude daný zákazník nakupovat nejčastěji,
+        je pak vhodné při zobrazování výsledků prioritizovat, například jejich
+        nabídky zobrazit při srovnání produktů jako první. Cestou
+        personalizace se v posledních dvou letech vydávají i další velcí
+        internetoví hráči; v době sociálních sítí a webu 2.0 není jiná možnost
+        než uživatele do konečné podoby obsahu zapojit.
+        <citation>personalisation</citation></para>
 
-      <para>TODO zvážit dobře všechny popisky (ukázat na rozdíl u "od
-      nejlevnějšího")</para>
+        <para>Podobným způsobem může být implementováno další doporučení,
+        založené na preferenci e-shopů s certifikáty důvěryhodnosti. Nabídky z
+        těchto obchodů lze poměrně jednoduše označit například obrázkem pečetě
+        s razítkem, medaile nebo hvězdy. Dále je vhodné takové nabídky v rámci
+        řadícího algoritmu v cenovém srovnání o něco upřednostňovat, takže
+        pokud je produkt k nabízen v e-shopu s certifikátem a za stejnou cenu
+        v obchodě bez certifikátu, první nabídka bude zobrazena s větší
+        prioritou.</para>
 
-      <para>TODO pořádné user reviews, moderované</para>
+        <para>V současné době jsou v rámci řazení a prioritizace obsahu velmi
+        znevýhodněny produkty, které nejsou v daném e-shopu skladem a není je
+        tedy možno okamžitě zakoupit. Obvykle je priorita snížena natolik, že
+        nejsou v cenovém srovnání vůbec zobrazeny. Odpovědi respondentů
+        ukazují, že jsou obvykle ochotni několik dní počkat, pokud se jedná o
+        výhodnou nabídku. Doporučením je tedy takové produkty z cenového
+        srovnání nevyřazovat, pouze je označit jako momentálně nedostupné --
+        například zeslabit řez písma.</para>
+      </sect2>
 
-      <para>TODO vyhodnocení po prvním nasazení?</para>
+      <sect2>
+        <title>Vizuální vylepšení</title>
+
+        <para>Odpovědi uživatelů ohledně zařízení, ze kterého provádí nákupy
+        na internetu, ukazují, že není potřeba se výrazněji soustředit na
+        optimalizaci komponent affiliate marketingu pro mobilní platformy.
+        Chytré telefony sice často slouží ke čtení e-magazínu, ale vzhledem k
+        tomu, že z nich uživatelé prakticky neprovádí nákupy, nemá příliš
+        smysl investovat do zobrazování nabídek na těchto zařízeních. Tendenci
+        uživatelů k nákupům čistě ze stolního počítače nebo notebooku ukazuje
+        graf <xref linkend="fig-smartphone" />.</para>
+
+        <figure id="fig-smartphone">
+          <title>Rozložení odpovědí na otázku č. 20</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="pdf/m_smartphone.pdf" id="fig-user-reviews" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Zdánlivou drobností než skutečným podnětem k inovaci je
+        doporučení k přezkumu všech textových označení v zobrazovaných
+        komponentách. Jak ukazuje obrázek <xref linkend="fig-sorting" />,
+        původní popisek pro seřazení ceny <quote>vzestupně</quote> byl zvolen
+        zcela nevhodně. O něco málo srozumitelnější je z pohledu uživatelů
+        název <quote>nejnižší cena</quote>, nicméně zdaleka nejlépe zvolený
+        popisek je <quote>od nejlevnějšího</quote>. Podobným způsobem je možné
+        přezkoumat i další textové popisky, například již dříve zmíněný
+        přechod do e-shopu označený jako <quote>Buy now</quote>.</para>
+
+        <figure id="fig-smartphone">
+          <title>Odpovědi na otázku č. 21</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="img/sorting.png" id="fig-sorting"
+                         width="400px" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Oblíbeným způsobem zobrazení affiliate odkazů v rámci e-magazínů
+        jsou i reklamní bannery a vyčleněné reklamní sloty na webové stránce.
+        Odpovědi na otázku č. 23 ovšem ukazují, že efektivita takového odkazu
+        a tedy následně sledovaný konverzní poměr jsou velmi nízké.
+        Doporučujeme tedy primárně zobrazovat affiliate nabídky jako součást
+        obsahu u recenzí produktů, případně ve speciální sekci dedikované
+        vyhledávání podle parametrů.</para>
+      </sect2>
+
+      <sect2>
+        <title>Uživatelské komentáře</title>
+
+        <para>TODO pořádné user reviews, moderované</para>
+      </sect2>
     </sect1>
   </chapter>
 
@@ -1909,6 +2033,8 @@
     <title>Závěr</title>
 
     <para>TODO shrnout výsledky práce</para>
+
+    <para>TODO vyhodnocení po prvním nasazení?</para>
 
     <para>TODO možnosti dalšího rozšíření</para>
   </chapter>
@@ -2809,6 +2935,25 @@
       <pubdate>2000</pubdate>
 
       <pagenums>s. 40-50</pagenums>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>personalisation</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Charlie</firstname>
+
+          <surname>Reverte</surname>
+        </author>
+      </authorgroup>
+
+      <title>Personalization Innovators: Amazon, Netflix, and Yahoo!</title>
+
+      <pubdate>28. 8. 2013 [cit. 26. 3. 2014]</pubdate>
+
+      <releaseinfo>Dostupné na <ulink
+      url="https://www.addthis.com/blog/2013/08/28/personalization-innovators-amazon-netflix-and-yahoo/">https://www.addthis.com/blog/2013/08/28/personalization-innovators-amazon-netflix-and-yahoo/</ulink></releaseinfo>
     </biblioentry>
   </bibliography>
 
