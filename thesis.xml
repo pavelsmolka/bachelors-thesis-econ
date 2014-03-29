@@ -1168,7 +1168,7 @@
         systému.</para>
       </sect2>
 
-      <sect2>
+      <sect2 id="sect-user-reviews-current">
         <title>Uživatelské komentáře</title>
 
         <para>Čtenářské diskuse jsou v dnešní době standardní součástí
@@ -1721,11 +1721,12 @@
         zobrazení omezeného počtu nabídek.</para>
 
         <figure id="fig-top-5">
-          <title>Rozložení odpovědí na otázku č. 14</title>
+          <title>Rozložení odpovědí na otázku č. 14 -- pouze 5
+          produktů</title>
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="pdf/m_just_top_5.pdf" />
+              <imagedata fileref="img/top-5.png" width="400px" />
             </imageobject>
           </mediaobject>
         </figure>
@@ -1739,12 +1740,12 @@
         takovouto funkcionalitu při online nakupování použije.</para>
 
         <figure id="fig-user-reviews">
-          <title>Rozložení odpovědí na otázku č. 24</title>
+          <title>Odpovědi na otázku č. 24 -- komentáře ostatních
+          uživatelů</title>
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="pdf/m_user_reviews.pdf"
-                         id="fig-user-reviews" />
+              <imagedata fileref="img/user-reviews.png" width="400px" />
             </imageobject>
           </mediaobject>
         </figure>
@@ -1856,7 +1857,7 @@
         více utrácejí, je důležitá dodací lhůta. Bez ohledu na model je tento
         fakt vcelku logický, neboť je pravděpodobné, že jde o zkušenější
         uživatele zaměřující se více na dražší novinky. Naopak lidé, kteří
-        nakupují elektroniku jednou ročně jako dárek k Vánocům si mohou
+        nakupují elektroniku jednou ročně jako dárek k Vánocům, si mohou
         obvykle nákup naplánovat a delší dodací lhůta pro ně nepředstavuje
         výraznější negativum.</para>
 
@@ -2184,11 +2185,13 @@
         graf <xref linkend="fig-smartphone" />.</para>
 
         <figure id="fig-smartphone">
-          <title>Rozložení odpovědí na otázku č. 20</title>
+          <title>Rozložení odpovědí na otázku č. 20 -- počítač nebo
+          telefon</title>
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="pdf/m_smartphone.pdf" id="fig-user-reviews" />
+              <imagedata fileref="img/pc-telefon.png" id="fig-user-reviews"
+                         width="400px" />
             </imageobject>
           </mediaobject>
         </figure>
@@ -2203,13 +2206,12 @@
         přezkoumat i další textové popisky, například již dříve zmíněný
         přechod do e-shopu označený jako <quote>Buy now</quote>.</para>
 
-        <figure id="fig-smartphone">
-          <title>Odpovědi na otázku č. 21</title>
+        <figure id="fig-sorting">
+          <title>Odpovědi na otázku č. 21 -- název řazení nabídek</title>
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="img/sorting.png" id="fig-sorting"
-                         width="400px" />
+              <imagedata fileref="img/sorting.png" id="d" width="380px" />
             </imageobject>
           </mediaobject>
         </figure>
@@ -2226,7 +2228,38 @@
       <sect2>
         <title>Uživatelské komentáře</title>
 
-        <para>TODO pořádné user reviews, moderované</para>
+        <para>Marketingový výzkum ukázal, že komentáře ostatních čtenářů jsou
+        pro cílovou skupinu velmi důležitou součástí produktu. Nejčastější
+        odpovědí respondentů je <quote>spíše ano</quote>, střední hodnota je
+        dokonce vychýlena lehce k <quote>určitě ano</quote>, jak ukazuje graf
+        <xref linkend="fig-user-reviews" />. Žádný z respondentů se nevyjádřil
+        zcela negativně. </para>
+
+        <para>V kapitole <xref linkend="sect-user-reviews-current" /> byl
+        popsán současný stav uživatelských komentářů. Je evidentní, že
+        množství úsilí věnované této komponentě neodpovídá očekávání čtenářů.
+        V rámci inovace produktu je potřeba tuto část graficky vyladit a
+        obohatit o další funkcionalitu. Nejzákladnějším rozšířením je možnost
+        reagovat na existující komentáře a tvořit tak diskusi. Čtenáři jinak
+        používají pro reakce na konkrétní komentář značku zavináče s
+        uživatelským jménem autora, což sice k rekonstrukci diskusního vlákna
+        teoreticky vede, nicméně taková rozprava je absolutně
+        nepřehledná.</para>
+
+        <para>Ačkoliv čtenáři nechtějí od e-magazínu, aby jim komentáře
+        cenzuroval, určitá míra kontroly slušnosti a věcnosti je obecně
+        očekávána, jak ukazují odpovědi na poslední otázku dotazníku s číslem
+        25. Kromě samotného moderování diskuse administrátory a editory
+        magazínu je možné zavést institut nahlašování nevhodných komentářů. U
+        každého příspěvku diskuse bude zobrazen vykřičník, vlajka nebo podobný
+        symbol, kterým může kterýkoliv ze čtenářů upozornit na nevhodný
+        komentář. Tímto se jednak zvýší podíl spoluvytváření produktu
+        uživatelem (engagement), a zároveň tento přístup ušetří práci
+        moderátorům. Užitečnou drobností pro správce diskuse může být také
+        automatický systém, který automaticky nahlásí komentář obsahující
+        některé z předem specifikovaných výrazů -- vulgárních slov, ale i
+        takových spojení, která často vedou k nevhodné, například rasistické,
+        diskusi.</para>
       </sect2>
 
       <sect2>
