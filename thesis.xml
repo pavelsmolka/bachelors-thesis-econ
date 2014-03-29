@@ -8,7 +8,7 @@
 -->
 <book lang="cs">
   <bookinfo>
-    <title>Affiliate marketing</title>
+    <title>htělAffiliate marketing</title>
 
     <subtitle>Bakalářská práce</subtitle>
 
@@ -987,6 +987,9 @@
     v kapitolách <xref linkend="chap-am" /> a <xref
     linkend="chap-ecom-soft" />.</para>
 
+    <para>K vyhodnocení dat byly použity programy Google Documents,
+    LibreOffice, Gretl a PSPP.</para>
+
     <sect1>
       <title>Webové magazíny a aplikace pro tablety</title>
 
@@ -1753,14 +1756,14 @@
         <para>Kromě obecných preferencí a očekávání uživatelů, které byly
         diskutované v předchozí části, má smysl zodpovědět otázku, zda
         existuje závislost rozložení odpovědí na celkové hodnotě nákupního
-        košíku. Nechť dva faktory X a Y mají přibližně stejnou úroveň
-        očekávání (například existence recenze a možnost prohlížení si obrázků
-        produktu). Pokud X preferují zejména zákazníci, kteří utrácí v průměru
-        více, má smysl se při inovaci při výběru mezi X a Y zaměřit právě na
-        vývoj X. Naplnění takového požadavku totiž vede ke zvýšení
-        spokojenosti právě těch zákazníků, kteří na internetu utrácí za
-        elektroniku nejvíce a jsou pro vydavatelskou společnost tedy
-        nejcennější.</para>
+        košíku, agregovaného ze všech nákupů (tedy součet hodnot nákupů).
+        Nechť dva faktory X a Y mají přibližně stejnou úroveň očekávání
+        (například existence recenze a možnost prohlížení si obrázků
+        produktu). Pokud X preferují zejména zákazníci, kteří utrácí více, má
+        smysl se při inovaci při výběru mezi X a Y zaměřit právě na vývoj X.
+        Naplnění takového požadavku totiž vede ke zvýšení spokojenosti právě
+        těch zákazníků, kteří na internetu utrácí za elektroniku nejvíce a
+        jsou pro vydavatelskou společnost tedy nejcennější.</para>
 
         <para>K vyhodnocení otázky z předchozího odstavce byla použita
         lineární regrese pomocí metody nejmenších čtverců (ordinary least
@@ -1778,7 +1781,8 @@
         linkend="tab-ols">4.3</link>.</para>
 
         <equation id="eq-ols">
-          <title>Upravený OLS model vlivu očekávání na hodnotu nákupu</title>
+          <title>Upravený OLS model vlivu očekávání na agregovanou hodnotu
+          nákupu</title>
 
           <graphic fileref="pdf/ols.pdf" />
         </equation>
@@ -1873,32 +1877,228 @@
         <citation>ols-asymptotic</citation></para>
       </sect2>
 
-      <sect2>
+      <sect2 id="chap-men-women">
         <title>Rozšíření cílové skupiny</title>
 
         <para>Základní cílová skupina čtenářů e-magazínu TechRadar byla
         identifikována ve spolupráci se společností Future jako mladí muži ve
-        věku mezi 20 a 25 lety. Nabízí se ovšem otázka, jakým způsobem jsou
-        jejich očekávání od produktu tohoto typu odlišná od podobně
-        strukturované skupiny ženského pohlaví. Proto byly v rámci
-        dotazníkového šetření zkoumány názory obou pohlaví.</para>
+        věku mezi 20 a 25 lety. Veškeré závěry a analýzy v předchozích
+        odstavcích byly prováděny pouze s touto skupinou. Nabízí se ovšem
+        otázka, jakým způsobem jsou očekávání mužů od produktu tohoto typu
+        odlišná od podobně strukturované skupiny ženského pohlaví. Proto byly
+        v rámci dotazníkového šetření zkoumány názory obou pohlaví.</para>
 
-        <para>TODO dvouvýběrový t-test</para>
+        <para>Analýza rozdílů mezi oběma skupinami byla provedena na všech
+        otázkách. Z důvodů přehlednosti byly z následující diskuse vyřazeny
+        dotazníkové položky, u kterých se odpovědi mezi oběma skupinami
+        statisticky významněji neliší.</para>
+
+        <para>Pro formální zjištění signifikance rozdílů mezi středními
+        hodnotami výběrů ze dvou skupin respondentů je nejvhodnějším nástrojem
+        dvouvýběrový (studentův) t-test. Pro každou otázku z dotazníku tak
+        můžeme formulovat nulovou hypotézu o shodě středních hodnot odpovědí
+        mužů a žen, kterou následně testujeme.</para>
+
+        <para>Podmínkou statistické spolehlivosti t-testu je normální
+        rozdělení náhodných veličin. Vzhledem k velmi malému oboru hodnot, ve
+        kterém se realizují jednotlivé odpovědi na diskrétní škále 0 až 4, je
+        prakticky nemožné získat data s normálním rozdělením. Toto platí
+        obzvláště v případě, kdy může odpovídající zvolit extrémní hodnotu se
+        stejnou pravděpodobností jako hodnotu střední. Obecně lze konstatovat,
+        že data založená na odpovědích dotazovaných, nikoli na měření, budou
+        mít spíše studentovo rozdělení, <footnote>
+            <para>Problém nastává kvůli tomu, že relativně velké množství
+            odpovědí nabývá některé z okrajových (extrémních) hodnot.</para>
+          </footnote> v extrémním případě budou distribuována až
+        rovnoměrně.<footnote>
+            <para>Pokud je škála ordinální, odpovědi by neměly mít bimodální
+            rozdělení (resp. multimodální v případě vícerozměrné škály).
+            Jinými slovy je nepravděpodobné, že by většina odpovědí ležela ve
+            dvou nebo více extrémních hodnotách, zatímco středních
+            nevyhraněných odpovědí by bylo málo. Výjimkou z tohoto pravidla
+            mohou být otázky týkající se přesvědčení respondentů, například
+            vztahu k určité politické straně.</para>
+          </footnote></para>
+
+        <para>Statistické testy normality skutečně ukazují, že žádný z výběrů
+        reprezentující odpovědi na jednotlivé otázky nepochází z normálního
+        rozdělení. Všechny výběry (zvlášť pro skupinu mužů a žen) byly
+        testovány pomocí Doornik–Hansen testu, Shapiro-Wilk testu, Lilliefors
+        testu a testu Jarque–Bera. Tyto testy mají různě nastavené parametry,
+        proto nepodávají vždy stejné výsledky. Například relativně nový
+        Doornik-Hansen, založený na šikmosti a špičatosti vícerozměrného
+        normálního rozdělení, test pro frekvenci nákupů u mužského výběru
+        hypotézu o normalitě poměrně přesvědčivě s p-hodnotou 0,5363 nezamítá.
+        <citation>dh-test</citation> Naopak Lilliefors test ve stejném případě
+        hypotézu normality dat jasně zamítá p-hodnotou velmi blízkou
+        nule.</para>
+
+        <para>První možností, jak data analyzovat, je prosté porovnání
+        aritmetických průměrů odpovědí na jednotlivé otázky u obou výběrů.
+        Vybrané hodnoty zobrazuje tabulka <link
+        linkend="tab-prumery">4.4</link>.</para>
+
+        <table id="tab-prumery">
+          <title>Aritmetické průměry odpovědí obou pohlaví u vybraných
+          otázek</title>
+
+          <tgroup cols="3">
+            <thead>
+              <row>
+                <entry>Otázka</entry>
+
+                <entry>muži</entry>
+
+                <entry>ženy</entry>
+              </row>
+            </thead>
+
+            <tbody>
+              <row>
+                <entry>č. 2: Frekvence nákupů online</entry>
+
+                <entry>2,38</entry>
+
+                <entry>0,86</entry>
+              </row>
+
+              <row>
+                <entry>č. 3: Agregovaná hodnota nákupu</entry>
+
+                <entry>12 424,78</entry>
+
+                <entry>4 607,63</entry>
+              </row>
+
+              <row>
+                <entry>č. 7: Pročítáte si recenze?</entry>
+
+                <entry>3,56</entry>
+
+                <entry>3,61</entry>
+              </row>
+
+              <row>
+                <entry>č. 8: Používáte cenové srovnání?</entry>
+
+                <entry>3,00</entry>
+
+                <entry>3,43</entry>
+              </row>
+
+              <row>
+                <entry>č. 9: Vyhledávání podle parametrů</entry>
+
+                <entry>3,76</entry>
+
+                <entry>3,34</entry>
+              </row>
+
+              <row>
+                <entry>č. 10: Alternativní produkty</entry>
+
+                <entry>2,49</entry>
+
+                <entry>3,04</entry>
+              </row>
+
+              <row>
+                <entry>č. 14: Stačí vám vidět 5 produktů?</entry>
+
+                <entry>1,31</entry>
+
+                <entry>1,51</entry>
+              </row>
+
+              <row>
+                <entry>č. 13: Důležitost ceny</entry>
+
+                <entry>2,73</entry>
+
+                <entry>2,45</entry>
+              </row>
+
+              <row>
+                <entry>č. 17: Důležitost výše poštovného</entry>
+
+                <entry>2,40</entry>
+
+                <entry>2,85</entry>
+              </row>
+
+              <row>
+                <entry>č. 19: Důležitost certifikátů důvěryhodnosti</entry>
+
+                <entry>2,47</entry>
+
+                <entry>3,17</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+
+        <para>Na první pohled je vidět rozdíl v množství nákupů, které v
+        průměru respondenti z obou skupin učiní.<footnote>
+            <para>Přesné číselné porovnání není možné provést kvůli
+            rozsahovému charakteru odpovědí u otázky č. 2, nicméně pro
+            přibližnou analýzu a zjištění obecné tendence jsou data
+            dostačující.</para>
+          </footnote> Ukauje se, že muži nakupují v průměru téměř třikrát
+        častěji než ženy. Tímto koeficientem je téměř přesně proporciálně
+        vyšší celková částka utracená za online nákup elektroniky. Průměrně
+        tak obě skupiny za elektroniku utratí při jednom nákupu stejnou
+        částku. To je vcelku logický závěr vzhledem k tomu, že průměrná cena
+        elektroniky je udávána trhem a nezávisí na nakupujícím. Průměrná
+        hodnota nákupu tak činí u mužů průměrně přibližně 5571 korun ročně, u
+        respondentek je to zhruba 5356 korun.</para>
+
+        <para>Průměrné hodnoty odpovědí na otázku č. 7 ukazují, že internetové
+        recenze elektroniky čtou muži i ženy v průměru stejně často. Toto je
+        poměrně překvapivé zjištění a poměrně zásadně zpochybňuje původní
+        informaci vydavatelské společnosti, která označuje za cílovou skupinu
+        čtenářů téměř výhradně muže. Nabízí se vysvětlení, že ženy mají o
+        internetové recenze zájem, nicméně čtou jiné portály než muži. Jinými
+        slovy existují <quote>ženské recenze</quote> a <quote>mužské</quote>,
+        přičemž TechRadar patří do druhé skupiny.</para>
+
+        <para>Následující čtyři řádky v tabulce <link
+        linkend="tab-prumery">4.4</link>, tedy zprůměrované odpovědi na otázky
+        8, 9, 10 a 14 ukazují, že ženy obecně preferují pestřejší výběr.
+        Dokonce více využívají aplikace cenového srovnání, zajímají se o
+        alternativní produkty a preferují výběr z většího množství nabídek.
+        Odpovědi na otázku č. 9 ale ukazují, že pokud jde o vyhledávání podle
+        technických parametrů produktu, jsou to spíše muži, kdo využijí tuto
+        variantu.</para>
+
+        <para>Průměrné hodnoty odpovědí na otázky č. 13 a 17 jsou v tabulce
+        uvedeny záměrně v přilehlých řádcích. Ukazují, že ženy (narozdíl od
+        mužů) obecně považují za důležitější výši poštovného, než cenu vlastní
+        nakupované elektroniky. Ačkoliv t-test nelze ani v tomto případě
+        považovat formálně za validní nástroj, p-hodnoty testu shody středních
+        hodnot odpovědí na tyto otázky nabývají hodnot 0,05 a 0,01. Rozdíly
+        lze tedy považovat za poměrně signifikantní.</para>
+
+        <para>Poslední proměnnou, u které je velký rozdíl mezi hodnotami
+        odpovědí mužů a žen, je důležitost certifikátů důvěryhodnosti. V
+        očekávání kvalitní služby v oblasti affiliate marketingu hraje u žen
+        poměrně významnější roli než u mužů. S výběrovou střední hodnotou 3,17
+        jde u žen o druhou nejvýznamnější položku týkající se druhé výzkumné
+        otázky -- tedy řazení a prioritizace jednotlivých nabídek.</para>
       </sect2>
     </sect1>
 
     <sect1 id="chap-doporuceni">
       <title>Doporučení k inovaci</title>
 
-      <para>Na základě vyhodnocení dotazníku a analýzy z předchozí sekce práce
-      jsou v této části prezentovány návrhy na zlepšení a inovaci provádění
-      affiliate marketingu v rámci e-magazínu TechRadar. V zásadě lze
-      konstatovat, že veškeré připomínky a doporučení jsou poměrně
-      marginálního charakteru. Dotazníkovým šetřením a následnou analýzou dat
-      bylo zjištěno, že způsob provádění affiliate marketingu je v zásadě
-      správný a je vhodné ho pouze částečně upravit ve smyslu následujících
-      odstavců. Všechna doporučení jsou založena na statistikách a faktech
-      uvedených v kapitole <xref linkend="chap-vyzkum" />.</para>
+      <para>Na základě vyhodnocení dotazníku a analýzy z kapitoly <xref
+      linkend="chap-vyzkum" /> jsou v této části prezentovány návrhy na
+      zlepšení a inovaci provádění affiliate marketingu v rámci e-magazínu
+      TechRadar. V zásadě lze konstatovat, že veškeré připomínky a doporučení
+      jsou poměrně marginálního charakteru. Dotazníkovým šetřením a následnou
+      analýzou dat bylo zjištěno, že způsob provádění affiliate marketingu je
+      v zásadě správný a je vhodné ho pouze částečně upravit ve smyslu
+      následujících odstavců. Všechna doporučení jsou založena na statistikách
+      a faktech uvedených v kapitole <xref linkend="chap-vyzkum" />.</para>
 
       <sect2>
         <title>Rozšíření funkcionality</title>
@@ -1957,7 +2157,9 @@
         řadícího algoritmu v cenovém srovnání o něco upřednostňovat, takže
         pokud je produkt k nabízen v e-shopu s certifikátem a za stejnou cenu
         v obchodě bez certifikátu, první nabídka bude zobrazena s větší
-        prioritou.</para>
+        prioritou. Pokud by vydavatelská společnost měla zájem na širším
+        oslovení žen, je tato funkcionalita na základě výzkumu z kapitoly
+        <xref linkend="chap-men-women" /> ještě důležitější.</para>
 
         <para>V současné době jsou v rámci řazení a prioritizace obsahu velmi
         znevýhodněny produkty, které nejsou v daném e-shopu skladem a není je
@@ -2025,6 +2227,14 @@
         <title>Uživatelské komentáře</title>
 
         <para>TODO pořádné user reviews, moderované</para>
+      </sect2>
+
+      <sect2>
+        <title>Rozšíření cílové skupiny</title>
+
+        <para>TODO jak to přizpůsobit pro ženské</para>
+
+        <para>TODO když je zdarma shipping - bomba</para>
       </sect2>
     </sect1>
   </chapter>
@@ -2954,6 +3164,35 @@
 
       <releaseinfo>Dostupné na <ulink
       url="https://www.addthis.com/blog/2013/08/28/personalization-innovators-amazon-netflix-and-yahoo/">https://www.addthis.com/blog/2013/08/28/personalization-innovators-amazon-netflix-and-yahoo/</ulink></releaseinfo>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>dh-test</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>J</firstname>
+
+          <surname>Doornik</surname>
+        </author>
+
+        <author>
+          <firstname>H</firstname>
+
+          <surname>Hansen</surname>
+        </author>
+      </authorgroup>
+
+      <title>An Omnibus test for univariate and multivariate normality</title>
+
+      <publisher>
+        <publishername>Oxford Bulletin of Economics and Statistics,
+        70</publishername>
+      </publisher>
+
+      <pubdate>2008</pubdate>
+
+      <pagenums>s. 927-939</pagenums>
     </biblioentry>
   </bibliography>
 
