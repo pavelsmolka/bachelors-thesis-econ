@@ -380,10 +380,144 @@
     <sect1 id="chap-ans">
       <title>Affiliate sítě</title>
 
-      <para>TODO: Popsat, proč je užitečné zapojit mezičlánek v podobě
-      AN.</para>
+      <para>V kapitole <xref linkend="chap-roles" /> byly popsány tři role
+      figurující v procesu fungování affiliate marketingu: obchodník,
+      affiliate a zákazník. V této části je schéma rozšířeno o dalšího
+      účastníka, kterým je affiliate síť.</para>
 
-      <para>TODO že feedy nejsou vždycky úplně aktuální</para>
+      <sect2>
+        <title>Problém přímé interakce</title>
+
+        <para>V modelu v tuto chvíli nebudeme uvažovat zákazníka. Ten je sice
+        důležitý, ale hraje ve struktuře pouze roli konzumenta obsahu a pro
+        rozšíření o affiliate síť se jeho role nemění. Situace je tedy taková,
+        že na jedné straně e-shopy uveřejňují svou nabídku a snaží se
+        přesvědčit vydavatelské společnosti, aby jejich produkty zobrazovaly u
+        recenzí. Na straně druhé se vydavatelské společnosti snaží získat
+        nabídky pro své e-magazíny. Schéma zobrazující příklad takových vztahů
+        se jmény známými z českého prostředí zobrazuje diagram <xref
+        linkend="fig-an-m-to-n" />.</para>
+
+        <figure id="fig-an-m-to-n">
+          <title>Přímá interakce mezi obchodníky a vydavateli</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="vp/am-m-to-n.pdf" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Každý vztah mezi e-shopem a vydavatelem, vyjádřený v diagramu
+        čárou, musí být vyjednán zvlášť. A to jak obchodní podmínky, tak
+        zejména technická stránka celého procesu. Nabídka produktů může mít u
+        každého obchodníka jinou strukturu a může být dostupná rozdílnými
+        způsoby (jako soubor na FTP serveru, přes REST rozhraní, ...). Stejně
+        tak každý obchodník může mít jinak nastavenou výši provizí nebo
+        frekvenci jejich vyplácení. Toto jsou jen příklady problémů, kterým
+        jsou účastníci vystaveni ve velké míře při přímé komunikaci. Většinu
+        těchto problémů řeší právě další účastník -- affiliate síť.</para>
+      </sect2>
+
+      <sect2>
+        <title>Sjednocení komunikace</title>
+
+        <para>Affiliate síť je třetí strana, která sama o sobě není e-shopem
+        (nemá vlastní nabídku produktů) a není ani vydavatelem, tedy
+        nezobrazuje žádné nabídky zákazníkům. Affiliate síť funguje jako
+        zprostředkovatel mezi obchodníky a affiliate partnery (tedy typicky
+        vydavateli). Princip jejího fungování spočívá v tom, že tvoří jakési
+        odstínění pro obě strany. Agreguje nabídky jednotlivých obchodníků,
+        zaznamenává jejich podmínky a ty potom v jednotném a dobře definovaném
+        formátu předává vydavatelům. Podobně transparentní je při zahrnutí
+        affiliate sítě celý proces i pro e-shopy, které přestávají řešit
+        separátně jednotlivé vydavatele. Pouze zveřejní svou nabídku v rámci
+        affiliate sítě, která řeší komunikaci s vydavateli a technické řešení
+        za ně. Z původního schématu M:N se tak ve skutečnosti stávají dvě
+        skupiny s kardinalitami M:1 a 1:N. Jak je vidět z diagramu <xref
+        linkend="fig-am-m-to-n-with-an" />, množství nutných interakcí se
+        snížilo z kvadratického na lineární.</para>
+
+        <figure id="fig-am-m-to-n-with-an">
+          <title>Interakce mezi obchodníky, affiliate sítí a
+          vydavateli</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="vp/am-m-to-n-with-an.pdf" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </sect2>
+
+      <sect2>
+        <title>Důsledky využití affiliate sítě</title>
+
+        <para>Využití affiliate sítě má několik důsledků. Zahrnutí třetí
+        strany znamená, že obchodník nebo vydavatel musí za poskytnutou službu
+        tuto stranu, tedy affiliate síť, kompenzovat. Existují dva obvyklé
+        modely: rozdělení provize za prodej výrobku mezi síť a vydavatele,
+        nebo přímé zpoplatnění přístupu k datům poskytovaným affiliate
+        sítí.</para>
+
+        <para>Jednoznačně pozitivním důsledkem z hlediska vydavatelské
+        společnosti je sjednocení komunikačních kanálů a datových formátů. I
+        přesto, že různí obchodníci mohou mít jinak nastaveno například
+        rozdělení produktů do kategorií nebo frekvenci vyplácení provizí, je
+        úlohou affiliate sítě tyto rozdíly minimalizovat. Vydavatel tak může
+        sledovat výši provize od všech obchodníků naráz v administrační
+        konzoli affiliate sítě. Stejně tak samotná data jsou dostupná obvykle
+        na jednom místě a v jednotném formátu.</para>
+
+        <para>Samozřejmě neexistuje pouze jedna univerzální affiliate síť s
+        monopolem na veškerá data týkající se affiliate marketingu. Affiliate
+        sítí je celá řada a zejména ve Velké Británii a v USA jsou jejich
+        služby vydavateli hojně využívány. Se vzrůstajícím počtem affiliate
+        sítí přestává být zřetelná výhoda sjednocení komunikačních kanálů,
+        zatímco nutnost sdílení zisku zůstává. Evidentně se ale vydavatelům
+        vyplácí využívání affiliate sítí. Komunikace s deseti affiliate sítěmi
+        jednodušší než vlastní řešení pro každý z několika stovek nebo tisíců
+        e-shopů. Navíc často platí, že nabídky některých obchodníků nejsou
+        dostupné jinak než prostřednictvím některé z affiliate sítí --
+        vydavatelé tak nemají příliš na výběr.</para>
+
+        <para>Snížení počtu interakcí popsané v předchozí sekci nezahrnuje jen
+        komunikaci podmínek a získání nabídky obchodníka, ale figuruje i při
+        nákupní akci samotného uživatele. Veškeré odkazy na nabídky produktů,
+        které vydavatel přes affiliate síť získá, nevedou přímo do e-shopu,
+        ale obsahují adresu affiliate sítě. Po kliknutí na nabídku je tedy
+        uživatel přesměrován tam, affiliate síť požadavek zaznamená a
+        přesměruje uživatele do e-shopu. Přestože návštěvník webu tento krok
+        navíc téměře nepostřehne, pro princip fungování celého systému
+        affiliate marketingu je velmi důležitý. Na webové stránce obchodníka
+        je totiž zaznamenán pouze příchod z affiliate sítě, takže veškeré
+        provize jsou vypláceny pouze síti. Pokud tedy do určtitého e-shopu
+        přes affiliate síť přicházejí zákazníci z deseti vydavatelských
+        portálů, obchodník počítá a vyplácí provizi pouze jednou, ve smyslu
+        čáry interakce zobrazené v diagramu <xref
+        linkend="fig-am-m-to-n-with-an" />. Stejným způsobem jsou pak
+        výsledky, jak finanční tak informační, předávány vydavateli v
+        agregované podobě.<footnote>
+            <para>Vydavatelé i obchodníci mají obvykle zájem být informováni o
+            tom, kam nebo odkud konkrétně jsou jejich uživatelé směrováni.
+            Tento tzv. <quote>tracking</quote> je obvykle řešen na úrovni
+            speciálního parametru v URL adrese a neovlivní tak významněji
+            popsané schéma.</para>
+          </footnote></para>
+
+        <para>Posledním důsledkem využití affiliate sítí jako dalšího článku v
+        komunikačním řetězci je zpoždění, které může při předávání informací
+        nastat. Kritické je zejména při aktualizaci nabídky jednotlivých
+        obchodníků. Pokud se tedy obchodník rozhodne určitý produkt zlevnit,
+        tuto informaci předá přes programové rozhraní nikoliv přímo
+        vydavateli, ale affiliate síti. Obvykle trvá až 24 hodin, než je cena
+        aktualizována a změna je tak dostupná vydavateli. Zejména u
+        obchodníků, kteří mění ceny velmi často (např. Amazon), se může jednat
+        o podstatný nedostatek. Z toho důvodu jsou někdy k dispozici tzv.
+        <quote>delta soubory</quote>, které jsou aktualizovány častěji (např.
+        jednou za hodinu) a obsahují pouze ty produkty, jejichž cena byla
+        změněna.</para>
+      </sect2>
     </sect1>
 
     <sect1>
@@ -2294,6 +2428,10 @@
 
   <chapter>
     <title>Závěr</title>
+
+    <para>V rámci bakalářské práce byly shrnuty základní principy fungování
+    affiliate marketingu. Následně byly popsány specifika nákupního chování a
+    vývoje softwarového produktu, s ohledem na .... TODO </para>
 
     <para>TODO shrnout výsledky práce</para>
 
