@@ -934,7 +934,7 @@
       </sect2>
     </sect1>
 
-    <sect1>
+    <sect1 id="sect-vyvoj-a-inovace">
       <title>Vývoj a inovace softwarového produktu</title>
 
       <para>Ačkoliv software, obzvláště na webu, postrádá některé klasické
@@ -2521,13 +2521,39 @@
 
     <para>V rámci bakalářské práce byly shrnuty základní principy fungování
     affiliate marketingu. Následně byly popsány specifika nákupního chování a
-    vývoje softwarového produktu, s ohledem na .... TODO</para>
+    vývoje softwarového produktu, s ohledem na specifika webového e-magazínu.
+    V praktické části byl zhodnocen současný stav provádění affiliate
+    marketingu britskou vydavatelskou společností Future. Na základě prvotní
+    analýzy byl sestaven marketingový výzkum mezi cílovou skupinou, na základě
+    jehož výsledků byla formulována doporučení pro inovaci produktu.</para>
 
-    <para>TODO shrnout výsledky práce</para>
+    <para>Lze konstatovat, že základní očekávání cílové skupiny jsou současnou
+    podobou produktu naplňována. Přesto byly identifikovány možnosti inovace
+    produktu, zejména jeho rozšíření o kvalitnější vyhledávání nabídek
+    produktů. Část zabývající se prioritizací a řazením jednotlivých nabídek,
+    reprezentovaných affiliate odkazy, ukazuje, že je možno současný řadící
+    algoritmus rozšířit o další vstupní parametry, jako je certifikát
+    důvěryhodnosti e-shopu nebo zahrnutí i těch produktů, které nejsou
+    momentálně dostupné, ale jejichž nabídka může být pro čtenáře i přesto
+    zajímavá.</para>
 
-    <para>TODO vyhodnocení po prvním nasazení?</para>
+    <para>Formulovaná doporučení budou předána pracovníkům společnosti Future
+    zodpovědným za provádění affiliate marketingu. Implementace některých
+    inovací může být poměrně náročná (například personalizace týkající se
+    reflektování pozitivních zkušeností s konkrétním e-shopem), u většiny
+    vylepšení je ale technické řešení velmi snadné. Doporučení byla záměrně
+    formulována tak, aby bylo možné je skutečně v poměrně krátkém časovém
+    horizontu vyvinout a nasadit v nové verzi e-magazínu.</para>
 
-    <para>TODO možnosti dalšího rozšíření</para>
+    <para>Pokud budou doporučení skutečně provedena, dalším logickým krokem je
+    analýza výsledků těchto změn a jejich vyhodnocení. V případě, že se
+    inovace ukáže správnou, je zde možnost provedení další iterace vývoje
+    produktu, tak jak bylo popsáno v kapitole <xref
+    linkend="sect-vyvoj-a-inovace" />. Inovaci produktu tohoto typu totiž
+    nikdy nelze prohlásit za ukončenou. Stejně jako vydavatelé, kteří se včas
+    neadaptovali na digitální prostředí, mají velké problémy, tak i ti, kteří
+    nebudou elektronické verze svých magazínů pravidelně a znatelně inovovat,
+    časem zjistí, že rychle se pohybující trh už je úplně jinde.</para>
   </chapter>
 
   <bibliography>
