@@ -34,7 +34,8 @@
     <pubdate>2014</pubdate>
 
     <abstract>
-      <para>Abstract TODO</para>
+      <para>Abstract TODO TODO zkontrolovat čísla odkazů na tabulky (link
+      místo xref)</para>
     </abstract>
 
     <keywordset>
@@ -55,16 +56,105 @@
   <chapter>
     <title>Úvod</title>
 
-    <para>TODO V práci budou použity tyto metody: deskripce, komparace,
-    analýza, syntéza, dotazování, vhodné matematicko-statistické
-    metody.</para>
+    <para>Statisíce, miliony, miliardy. V takových číslech se v dnešní době
+    pohybují počty lidí majících přístup k internetu. Internet se z původní
+    komunikační sítě vyvinul v platformu, v rámci které se vzrůstajícím počtem
+    uživatelů roste i množství firem, které v tomto prostředí realizují
+    většinu svého zisku. Jedním z typických příkladů jsou internetové obchody,
+    díky nimž je možno si dnes zakoupit prakticky cokoliv online. Jiným druhem
+    společnosti, která spoléhá na internet jako médium pro snadné šíření
+    informací, je vydavatelská společnost publikující nejrůznější magazíny. Od
+    počátku 21. století je celosvětovým trendem pokles popularity tištěných
+    médií -- novin i časopisů. To ale nemusí znamenat konec pro jejich
+    vydavatele, pokud se dokáží adaptovat a digitalizovat svou nabídku.
+    <citation>decline-of-print</citation></para>
 
-    <para>TODO obsah jednotlivých kapitol.</para>
+    <para>Málo tištěných novinových i časopisových titulů se mohlo chlubit
+    tím, že byly schopny pokrýt veškeré náklady pouze z tržeb inkasovaných
+    prodejem výtisků. Esenciální součástí drtivé většiny z nich se tak staly
+    reklamní a inzerční rubriky. S nástupem elektronických magaznínů, zejména
+    těch, které jsou publikovány přímo na webových stránkách, se tento trend
+    ještě zvýšil. Většina čtenárů není zvyklá za obsah na webu platit a
+    vydavatelé jsou tak nuceni hledat alternatnivní zdroje příjmů. Kromě
+    klasických reklam a recenzí ovšem web, díky své interaktivitě a snadné
+    propojitelnosti, nabízí nové možnosti, jak ze zveřejněného obsahu získat
+    příjmy.</para>
 
-    <para>TODO Dvě roviny marketingu: vývoj softwarového produktu, který ale
-    slouží k marketingu</para>
+    <para>Jedním z takových modelů je affiliate marketing. Základním
+    předpokladem je, že provozovatelé internetových obchodů se snaží získat co
+    největší počet zákazníků. Vydavatelé tak mají příležitost své e-magazíny,
+    zejména pokud tematicky souvisí s druhem zboží prodávaným v daném e-shopu,
+    rozšířit o odkazy směřující právě do internetového obchodu. Za každého
+    čtenáře, kterého nabídka zaujme a do e-shopu přejde, je vydavatel odměněn.
+    Rozdílem proti klasické inzerci je především to, že u affiliate marketingu
+    sami vydavatelé řídí, jakým způsobem a v jakém kontextu budou affiliate
+    odkazy zobrazovány.</para>
 
-    <para>TODO zkontrolovat čísla odkazů na tabulky (link místo xref)</para>
+    <para>Tato práce popisuje principy fungování affiliate marketingu a
+    prakticky se zabývá právě posledním zmíněným problémem -- jakým způsobem
+    by měla vydavatelské společnost affiliate marketing provádět tak, aby to
+    vedlo k maximální spokojenosti čtenářů. Pokud budou affiliate marketingu
+    vydavatelské společnosti její čtenáři důvěřovat, vede to jednak ke
+    zkvalitnění celkového dojmu z e-magazínu, a sekundárně i zvýšení příjmů
+    vydavatele.</para>
+
+    <para>Kapitola <xref linkend="chap-am" /> se na teoretické úrovni zabývá
+    principy fungování affiliate marketingu. Jsou zde popsány jednotlivé
+    účastnické role a jejich vzájemná interakce. Jsou zde také uvedeny rozdíly
+    mezi přímou spoluprací vydavatelů s e-shopy, a obohacení procesu o dalšího
+    aktéra -- affiliate síť. Vzhledem k tomu, že affiliate marketing je úzce
+    navázán na rozhodování o nákupu a nákup samotný, kapitola <xref
+    linkend="chap-ecom-soft" /> uvádí základy teorie nákupního rozhodování,
+    podle nichž by softwarová affiliate-marketingová platforma měla být
+    vytvářena. Druhá část této kapitoly řeší obecně specifika vývoje a inovace
+    software, zejména webového typu.</para>
+
+    <para>Právě webový e-magazín vydavatelské společnosti Future, nazvaný
+    TechRadar, je předmětem praktické části této práce, kterou pokrývá
+    kapitola <xref linkend="chap-aplikace-am" />. Jedná se o webový e-magazín
+    obsahující recenze a novinky z oblasti počítačových technologií a
+    spotřební elektroniky. V kapitole <xref linkend="chap-soucasny-stav" /> je
+    popsán současný stav provádění affiliate marketingu a jeho porovnání s
+    konkurenčními platformami podobného typu. Následně jsou formulovány
+    výzkumné otázky, které řeší možnosti inovace provádění affiliate
+    marketingu společností Future. Na základě výzkumných otázek bylo provedeno
+    dotazníkové šetření, jehož výsledky jsou prezentovány v kapitolách <xref
+    linkend="chap-vyzkum" /> a <xref linkend="chap-doporuceni" />.</para>
+
+    <para>Marketingový výzkum nepokrývá zcela všechny aspekty, které jsou
+    obecně v rámci marketingu řešeny. Důvodem je to, že principy affiliate
+    marketingu vytváří omezení, která není možno v rámci výsledného produktu
+    překročit. Například produkt musí být součástí webové stránky (tedy
+    webového e-magazínu). Také prakticky není možné určovat cenu produktu --
+    samotný e-magazín s affiliate odkazy je přístupný zdarma, a cenová
+    politika celého e-magazínu není věcí affiliate marketingu, ale záležitostí
+    daného magazínu jako takového. Z těchto důvodů se výzkum a následná
+    doporučení zaměřují prakticky výhradně na produktovou stránku marketingu,
+    tedy obsah a způsob zobrazení komponent sloužících k affiliate
+    marketingu.</para>
+
+    <para>V rámci celé práce je pracováno s pojmy marketing a produkt ve dvou
+    rovinách. Na první úrovni je produktem e-magazín, resp. jeho součást
+    zobrazující affiliate odkazy, a v rámci marketingu e-magazínu se má smysl
+    zabývat jeho cílovou skupinou, podobou produktu (tedy e-magazínu) a
+    způsobem zobrazení čtenářům. Ve druhé rovině je celým tématem práce
+    affiliate marekting jako <emphasis>předmět</emphasis> primárního produktu
+    -- e-magazínu. Tato část je samozřejmě propojena s první dimenzí a
+    affiliate marketing je součástí primárního produktu. Na druhou stranu, jak
+    již bylo zmíněno, je affiliate marketing pouze jednou z mnoha součástí
+    e-magazínu. Pod slovem <quote>produkt</quote> se, ve druhé rovině, obvykle
+    v rámci práce myslí nabídka konkrétního produktu z e-shopu, symbolizována
+    jedním z mnoha affiliate odkazů zobrazených v rámci e-magazínu.</para>
+
+    <para>Výsledkem práce je zjištění, že principiálně je affiliate marketing
+    vydavatelskou společností prováděn správně. Základní očekávání čtenářů
+    jsou v současné době naplňována. Na základě analýzy výsledků dotazníkového
+    výzkumu bylo ovšem identifikováno několik oblastí, ve kterých je možné
+    produkt vylepšit. Doporučeními formulovanými v kapitole <xref
+    linkend="chap-doporuceni" /> je především rozšíření funkcionality o další
+    možnosti vyhledávání nabídek produktů, drobné změny při prioritizaci a
+    řazení obsahu a vylepšení části, ve které mohou sami čtenáři produkty
+    hodnotit.</para>
   </chapter>
 
   <chapter id="chap-am">
@@ -2367,7 +2457,7 @@
         odpovědí respondentů je <quote>spíše ano</quote>, střední hodnota je
         dokonce vychýlena lehce k <quote>určitě ano</quote>, jak ukazuje graf
         <xref linkend="fig-user-reviews" />. Žádný z respondentů se nevyjádřil
-        zcela negativně. </para>
+        zcela negativně.</para>
 
         <para>V kapitole <xref linkend="sect-user-reviews-current" /> byl
         popsán současný stav uživatelských komentářů. Je evidentní, že
@@ -2431,7 +2521,7 @@
 
     <para>V rámci bakalářské práce byly shrnuty základní principy fungování
     affiliate marketingu. Následně byly popsány specifika nákupního chování a
-    vývoje softwarového produktu, s ohledem na .... TODO </para>
+    vývoje softwarového produktu, s ohledem na .... TODO</para>
 
     <para>TODO shrnout výsledky práce</para>
 
@@ -3384,6 +3474,29 @@
       <pubdate>2008</pubdate>
 
       <pagenums>s. 927-939</pagenums>
+    </biblioentry>
+
+    <biblioentry>
+      <abbrev>decline-of-print</abbrev>
+
+      <authorgroup>
+        <author>
+          <firstname>Mary</firstname>
+
+          <surname>Kissel</surname>
+        </author>
+      </authorgroup>
+
+      <title>The decline of print doesn't mean the end of journalism</title>
+
+      <pubdate>29. 10. 2013 [cit. 30. 3. 2014]</pubdate>
+
+      <publisher>
+        <publishername>The Guardian</publishername>
+      </publisher>
+
+      <releaseinfo>Dostupné na <ulink
+      url="http://www.theguardian.com/commentisfree/2013/oct/29/decline-print-media-journalism-web">http://www.theguardian.com/commentisfree/2013/oct/29/decline-print-media-journalism-web</ulink></releaseinfo>
     </biblioentry>
   </bibliography>
 
