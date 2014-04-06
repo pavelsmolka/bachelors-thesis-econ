@@ -8,7 +8,7 @@
 -->
 <book lang="cs">
   <bookinfo>
-    <title>htělAffiliate marketing</title>
+    <title>Affiliate marketing</title>
 
     <subtitle>Bakalářská práce</subtitle>
 
@@ -28,7 +28,14 @@
     </author>
 
     <fi:thanks xmlns:fi="http://www.fi.muni.cz/~xpavlov/fithesis">
-      <para>Poděkování TODO</para>
+      <para>Rád bych na tomto místě poděkoval své vedoucí, paní Kláře
+      Kašparové. Nejen za její rady a připomínky k mé bakalářské práci, ale i
+      za zaujetí pro marketing, které na mě do značné míry přenesla. Stejně
+      tak děkuji všem, kteří mi při studiu pomáhali pronikat do tajů
+      matematiky a statistiky, nutných nástrojů při jakékoli analýze dat.
+      Zároveň bych chtěl poděkovat všem svým blízkým za trpělivost, se kterou
+      snášeli, když jsem se věnoval studiu a závěrečné práci na úkor času,
+      který bych mohl trávit s nimi.</para>
     </fi:thanks>
 
     <pubdate>2014</pubdate>
@@ -47,7 +54,9 @@
 
       <keyword>inovace softwarového produktu</keyword>
 
-      <keyword>TODO</keyword>
+      <keyword>e-magazín</keyword>
+
+      <keyword>webový magazín</keyword>
     </keywordset>
   </bookinfo>
 
@@ -2553,7 +2562,7 @@
     nikdy nelze prohlásit za ukončenou. Stejně jako vydavatelé, kteří se včas
     neadaptovali na digitální prostředí, mají velké problémy, tak i ti, kteří
     nebudou elektronické verze svých magazínů pravidelně a znatelně inovovat,
-    časem zjistí, že rychle se pohybující trh už je úplně jinde.</para>
+    časem zjistí, že rychle se vyvíjející trh už je úplně jinde.</para>
   </chapter>
 
   <bibliography>
