@@ -41,8 +41,15 @@
     <pubdate>2014</pubdate>
 
     <abstract>
-      <para>Abstract TODO TODO zkontrolovat čísla odkazů na tabulky (link
-      místo xref)</para>
+      <para>Bakalářská práce se zabývá problematikou affiliate marketingu z
+      pohledu velké vydavatelské společnosti. V teoretické části je popsán
+      princip fungování affiliate marketingu. Dále jsou vybrány relevantní
+      kapitoly z teorie nákupního rozhodování a vývoje produktu. V praktické
+      části analyzován způsob provádění affiliate marketingu ve vydavatelské
+      společnosti Future a srovnání s konkurenčními službami. Následuje
+      analýza výsledků provedeného marketingového výzkumu, na jejichž základě
+      jsou formulována doporučení týkající se inovace softwarového
+      produktu.</para>
     </abstract>
 
     <keywordset>
@@ -1574,6 +1581,8 @@
       práce, zejména na očekávání a obecné vzorce chování při nakupování na
       internetu, a tedy potenciálně využívání prostředků affiliate
       marketingu.</para>
+
+      <para>TODO zkontrolovat čísla odkazů na tabulky (link místo xref)</para>
 
       <sect2>
         <title>Metodika výzkumu</title>
