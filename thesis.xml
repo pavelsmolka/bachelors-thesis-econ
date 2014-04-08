@@ -104,7 +104,10 @@
     čtenáře, kterého nabídka zaujme a do e-shopu přejde, je vydavatel odměněn.
     Rozdílem proti klasické inzerci je především to, že u affiliate marketingu
     sami vydavatelé řídí, jakým způsobem a v jakém kontextu budou affiliate
-    odkazy zobrazovány.</para>
+    odkazy zobrazovány. Tzv. <quote>shopper marketing digital</quote>,
+    reprezentovaný do značné míry právě affiliate marketingem, je v dnešní
+    době na internetu poměrně běžnou věcí.
+    <citation>marketingova-komunikace</citation></para>
 
     <para>Tato práce popisuje principy fungování affiliate marketingu a
     prakticky se zabývá právě posledním zmíněným problémem -- jakým způsobem
@@ -1346,7 +1349,8 @@
         vybrány. Ve skutečnosti za jejich výběrem stojí poměrně sofistikovaný
         algoritmus, kombinující cenu, doručovací podmínky, přítomnost
         slevových kuponů a další faktory. Náhled úvodní stránky recenze s
-        postranním panelem je součástí přílohy TODO.</para>
+        postranním panelem je zobrazen v příloze jako obrázek <xref
+        linkend="fig-widget" />.</para>
 
         <para>Stejný algoritmus pak stojí za řazením produktů v úplném cenovém
         srovnání, na které je uživatel přesměrován po kliknutí na odkaz
@@ -1354,15 +1358,16 @@
         deals</quote> v postranním panelu. V tabulce zahrnující všechny
         dostupné nabídky sice už uživatel má možnost zvolit vlastní řazení,
         nicméně implicitní pořadí nabídek je opět skryto a na první pohled
-        postrádá jakoukoli logiku. Jak ukazuje obrázek v příloze TODO, celkové
-        cenové srovnání má formu tabulky obsahující logo e-shopu, název
-        produktu, cenu (s dodatkem <quote>od</quote>, kterou se vydavatel do
-        jisté míry zbavuje odpovědnosti za nepřesnosti), cenu poštovného a
-        dodací lhůtu. V posledním sloupci je pak explicitní odkaz <quote>Buy
-        now</quote>, po jehož kliknutí je zákazník přesměrován do e-shopu. Je
-        otázkou, zda má smysl uvádět například název produktu, vzhledem k
-        tomu, že cenové srovnání zahrnuje různé nabídky, vždy ovšem jednoho
-        stejného produktu, jež je předmětem recenze.</para>
+        postrádá jakoukoli logiku. Jak ukazuje obrázek <xref
+        linkend="fig-price-comparison" /> v příloze práce, celkové cenové
+        srovnání má formu tabulky obsahující logo e-shopu, název produktu,
+        cenu (s dodatkem <quote>od</quote>, kterou se vydavatel do jisté míry
+        zbavuje odpovědnosti za nepřesnosti), cenu poštovného a dodací lhůtu.
+        V posledním sloupci je pak explicitní odkaz <quote>Buy now</quote>, po
+        jehož kliknutí je zákazník přesměrován do e-shopu. Je otázkou, zda má
+        smysl uvádět například název produktu, vzhledem k tomu, že cenové
+        srovnání zahrnuje různé nabídky, vždy ovšem jednoho stejného produktu,
+        jež je předmětem recenze.</para>
 
         <para>Kromě implicitního řazení, o kterém již byla řeč, má uživatel
         možnost tabulku cenového srovnání seřadit podle libovolného sloupce,
@@ -1621,7 +1626,9 @@
 
         <para>Pro každou z těchto obecný výzkumných otázek jsou následně
         formulovány konkrétní otázky, z nichž je sestaven dotazník obsahující
-        25 otázek. Tento je součástí přílohy TODO.</para>
+        25 otázek. Každá z těchto otázek už je poměrně specifická a váže se na
+        konkrétní aspekt očekávání. <citation>navrh-vyzkumu</citation>
+        Kompletní dotazník je součástí přílohy TODO.</para>
 
         <para>Tato práce zjišťuje požadavky a očekávání<footnote>
             <para>U produktu zkoumaného typu se požadavky a očekávání
@@ -1645,7 +1652,7 @@
         <para>Dotazník je sestaven tak, aby na základě odpovědí bylo možno
         rozhodnout, které vlastnosti produktu uživatelé očekávají, případně co
         konkrétně by tyto vlastnosti měly obsahovat a jakým způsobem by měly
-        být zobrazovány. Na základě těchto vlastností jsou v kapitole TODO
+        být zobrazovány. Na základě těchto vlastností jsou v této kapitole
         jednak ověřeny stávající vlastnosti produktu, dále jsou pak navrženy
         možné způsoby inovace.</para>
 
@@ -1763,9 +1770,14 @@
         a aktuální informace, na to není potřeba se jich ptát. V rámci celkové
         analýzy a doporučených inovací je ale aktuálnost a přesnost
         poskytovaných dat zahrnuta, ačkoliv se nejedná o metriku, která by
-        mohla být zjišťována marketingovým dotazníkem.</para>
-
-        <para>TODO motivační pětikilo</para>
+        mohla být zjišťována marketingovým dotazníkem.<footnote>
+            <para>K dotazníku byl také připojena informace, slibující jednomu
+            náhodně vybranému respondentovi finanční odměnu ve výši 500 Kč.
+            Důvodem této pobídky byla snaha získat maximální množství
+            relevantních odpovědí. Vzhledem k tomu, že celkový počet
+            odpovídajících přesahuje 200, lze považovat tento bod za
+            funkční.</para>
+          </footnote></para>
       </sect2>
 
       <sect2>
@@ -2128,8 +2140,11 @@
         věku mezi 20 a 25 lety. Veškeré závěry a analýzy v předchozích
         odstavcích byly prováděny pouze s touto skupinou. Nabízí se ovšem
         otázka, jakým způsobem jsou očekávání mužů od produktu tohoto typu
-        odlišná od podobně strukturované skupiny ženského pohlaví. Proto byly
-        v rámci dotazníkového šetření zkoumány názory obou pohlaví.</para>
+        odlišná od podobně strukturované skupiny ženského pohlaví. Správná
+        inovace totiž respektuje nejen požadavky cílové skupiny, ale snaží se
+        také produkt nebo službu rozšířit mezi další uživatele.
+        <citation>managing-innovation</citation> Proto byly v rámci
+        dotazníkového šetření zkoumány názory obou pohlaví.</para>
 
         <para>Analýza rozdílů mezi oběma skupinami byla provedena na všech
         otázkách. Z důvodů přehlednosti byly z následující diskuse vyřazeny
@@ -2646,7 +2661,7 @@
     </biblioentry>
 
     <biblioentry>
-      <abbrev>TODO managing-inovation</abbrev>
+      <abbrev>managing-innovation</abbrev>
 
       <authorgroup>
         <author>
@@ -2679,7 +2694,7 @@
     </biblioentry>
 
     <biblioentry>
-      <abbrev>TODO marketingova-komunikace</abbrev>
+      <abbrev>marketingova-komunikace</abbrev>
 
       <authorgroup>
         <author>
@@ -2705,7 +2720,7 @@
     </biblioentry>
 
     <biblioentry>
-      <abbrev>TODO navrh-vyzkumu</abbrev>
+      <abbrev>navrh-vyzkumu</abbrev>
 
       <authorgroup>
         <author>
@@ -3545,4 +3560,29 @@
   </bibliography>
 
   <index></index>
+
+  <appendix>
+    <title>Obrázky cenového srovnání</title>
+
+    <para><figure id="fig-widget">
+        <title>Cenové srovnání jako postranní komponenta přímo u
+        recenze</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="img/widget.png" width="400px" />
+          </imageobject>
+        </mediaobject>
+      </figure></para>
+
+    <figure id="fig-price-comparison">
+      <title>Velká tabulka cenového srovnání</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="img/price-comparison.png" width="400px" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+  </appendix>
 </book>
