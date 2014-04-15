@@ -45,11 +45,11 @@
       pohledu velké vydavatelské společnosti. V teoretické části je popsán
       princip fungování affiliate marketingu. Dále jsou vybrány relevantní
       kapitoly z teorie nákupního rozhodování a vývoje produktu. V praktické
-      části analyzován způsob provádění affiliate marketingu ve vydavatelské
-      společnosti Future a srovnání s konkurenčními službami. Následuje
-      analýza výsledků provedeného marketingového výzkumu, na jejichž základě
-      jsou formulována doporučení týkající se inovace softwarového
-      produktu.</para>
+      části je analyzován způsob provádění affiliate marketingu ve
+      vydavatelské společnosti Future a srovnání s konkurenčními službami.
+      Následuje analýza výsledků provedeného marketingového výzkumu, na
+      jejichž základě jsou formulována doporučení týkající se inovace
+      softwarového produktu.</para>
     </abstract>
 
     <keywordset>
@@ -85,14 +85,14 @@
     vydavatele, pokud se dokáží adaptovat a digitalizovat svou nabídku.
     <citation>decline-of-print</citation></para>
 
-    <para>Málo tištěných novinových i časopisových titulů se mohlo chlubit
+    <para>Málo tištěných novinových či časopisových titulů se mohlo chlubit
     tím, že byly schopny pokrýt veškeré náklady pouze z tržeb inkasovaných
     prodejem výtisků. Esenciální součástí drtivé většiny z nich se tak staly
     reklamní a inzerční rubriky. S nástupem elektronických magaznínů, zejména
     těch, které jsou publikovány přímo na webových stránkách, se tento trend
     ještě zvýšil. Většina čtenárů není zvyklá za obsah na webu platit a
     vydavatelé jsou tak nuceni hledat alternatnivní zdroje příjmů. Kromě
-    klasických reklam a recenzí ovšem web, díky své interaktivitě a snadné
+    klasických reklam a inzercí ovšem web, díky své interaktivitě a snadné
     propojitelnosti, nabízí nové možnosti, jak ze zveřejněného obsahu získat
     příjmy.</para>
 
@@ -104,7 +104,7 @@
     čtenáře, kterého nabídka zaujme a do e-shopu přejde, je vydavatel odměněn.
     Rozdílem proti klasické inzerci je především to, že u affiliate marketingu
     sami vydavatelé řídí, jakým způsobem a v jakém kontextu budou affiliate
-    odkazy zobrazovány. Tzv. <quote>shopper marketing digital</quote>,
+    odkazy zobrazovány. Tzv. <quote>digital shopper marketing</quote>,
     reprezentovaný do značné míry právě affiliate marketingem, je v dnešní
     době na internetu poměrně běžnou věcí.
     <citation>marketingova-komunikace</citation></para>
@@ -114,13 +114,16 @@
     by měla vydavatelské společnost affiliate marketing provádět tak, aby to
     vedlo k maximální spokojenosti čtenářů. Pokud budou affiliate marketingu
     vydavatelské společnosti její čtenáři důvěřovat, vede to jednak ke
-    zkvalitnění celkového dojmu z e-magazínu, a sekundárně i zvýšení příjmů
+    zkvalitnění celkového dojmu<footnote>
+        <para>Celkový dojem uživatele, typicky z poskytnuté služby, se
+        označuje často termínem <quote>user experience</quote>.</para>
+      </footnote> z e-magazínu, a sekundárně i zvýšení příjmů
     vydavatele.</para>
 
     <para>Kapitola <xref linkend="chap-am" /> se na teoretické úrovni zabývá
     principy fungování affiliate marketingu. Jsou zde popsány jednotlivé
     účastnické role a jejich vzájemná interakce. Jsou zde také uvedeny rozdíly
-    mezi přímou spoluprací vydavatelů s e-shopy, a obohacení procesu o dalšího
+    mezi přímou spoluprací vydavatelů s e-shopy a obohacení procesu o dalšího
     aktéra -- affiliate síť. Vzhledem k tomu, že affiliate marketing je úzce
     navázán na rozhodování o nákupu a nákup samotný, kapitola <xref
     linkend="chap-ecom-soft" /> uvádí základy teorie nákupního rozhodování,
@@ -133,10 +136,10 @@
     kapitola <xref linkend="chap-aplikace-am" />. Jedná se o webový e-magazín
     obsahující recenze a novinky z oblasti počítačových technologií a
     spotřební elektroniky. V kapitole <xref linkend="chap-soucasny-stav" /> je
-    popsán současný stav provádění affiliate marketingu a jeho porovnání s
-    konkurenčními platformami podobného typu. Následně jsou formulovány
-    výzkumné otázky, které řeší možnosti inovace provádění affiliate
-    marketingu společností Future. Na základě výzkumných otázek bylo provedeno
+    popsán současný stav provádění affiliate marketingu včetně porovnání s
+    dalšími platformami podobného typu. Následně jsou formulovány výzkumné
+    otázky, které řeší možnosti inovace provádění affiliate marketingu
+    společností Future. Na základě výzkumných otázek bylo provedeno
     dotazníkové šetření, jehož výsledky jsou prezentovány v kapitolách <xref
     linkend="chap-vyzkum" /> a <xref linkend="chap-doporuceni" />.</para>
 
@@ -149,12 +152,12 @@
     politika celého e-magazínu není věcí affiliate marketingu, ale záležitostí
     daného magazínu jako takového. Z těchto důvodů se výzkum a následná
     doporučení zaměřují prakticky výhradně na produktovou stránku marketingu,
-    tedy obsah a způsob zobrazení komponent sloužících k affiliate
+    tedy obsah a způsob zobrazení komponent sloužících k účelům affiliate
     marketingu.</para>
 
     <para>V rámci celé práce je pracováno s pojmy marketing a produkt ve dvou
     rovinách. Na první úrovni je produktem e-magazín, resp. jeho součást
-    zobrazující affiliate odkazy, a v rámci marketingu e-magazínu se má smysl
+    zobrazující affiliate odkazy. V rámci marketingu e-magazínu se má smysl
     zabývat jeho cílovou skupinou, podobou produktu (tedy e-magazínu) a
     způsobem zobrazení čtenářům. Ve druhé rovině je celým tématem práce
     affiliate marekting jako <emphasis>předmět</emphasis> primárního produktu
@@ -169,7 +172,7 @@
     vydavatelskou společností prováděn správně. Základní očekávání čtenářů
     jsou v současné době naplňována. Na základě analýzy výsledků dotazníkového
     výzkumu bylo ovšem identifikováno několik oblastí, ve kterých je možné
-    produkt vylepšit. Doporučeními formulovanými v kapitole <xref
+    produkt vylepšit. Doporučením formulovaným v kapitole <xref
     linkend="chap-doporuceni" /> je především rozšíření funkcionality o další
     možnosti vyhledávání nabídek produktů, drobné změny při prioritizaci a
     řazení obsahu a vylepšení části, ve které mohou sami čtenáři produkty
@@ -191,14 +194,15 @@
     <para>Problémem je, že uživatelé na webu obecně, nejen čtenáři e-magazínů,
     jsou zvyklí na to, že obsah je k dispozici zdarma, narozdíl například od
     samotného internetového připojení. <citation>lupa-datator</citation> Z
-    pohledu vydavatelské společnosti to vytváření a správa obsahu ale
-    představuje nezanedbatelný náklad. A to jednak v podobě mzdových nákladů
-    pro autory recenzí a článků, jednak náklady na vývoj a údržbu technické
-    infrastruktury (správa serverů, zabezpečení).</para>
+    pohledu vydavatelské společnosti ale vytváření a správa obsahu představuje
+    nezanedbatelný náklad. A to jednak v podobě mzdových nákladů pro autory
+    recenzí a článků, a sekundárně také jako náklady na vývoj a údržbu
+    technické infrastruktury (správa serverů, zabezpečení).</para>
 
     <para>Jedním ze způsobů, jak webový obsah monetizovat, je právě affiliate
-    marketing, jehož principy budou podrobněji popsány právě v této
-    kapitole.</para>
+    marketing, jehož principy budou podrobněji popsány právě v této kapitole.
+    Dále je affiliate marketing porovnán s dalšími možnými cestami, kterými
+    lze realizovat provozem webového magazínu zisk.</para>
 
     <sect1>
       <title>Definice</title>
@@ -218,10 +222,9 @@
       <citation>copmlete-guide-to-am</citation> Jedná se o konkretizaci modelu
       <emphasis>Cost per action</emphasis> (CPA)<indexterm>
           <primary>cost per action</primary>
-        </indexterm>, ve kterém je inzerce považována a úspěšnou (a tedy za ni
-      inzerent zaplatí) ve chvíli, kdy uživatel provede nějakou předem
-      domluvenou akci -- typicky například právě proklik nebo
-      objednávku.</para>
+        </indexterm>, ve kterém je inzerce považována za úspěšnou (a tedy za
+      ni inzerent zaplatí) ve chvíli, kdy uživatel provede nějakou předem
+      domluvenou akci -- například právě proklik nebo objednávku.</para>
 
       <para>Účastnické role vystupující v modelu affiliate marketingu jsou
       podrobněji popsány v kapitole <xref linkend="chap-roles" />. Základním
@@ -241,11 +244,11 @@
       Nejedná se v pravém slova smyslu o inzerci, neboť většinou affiliate
       program obsahuje kompletní nabídku obchodníka. Obchodník tak spíše
       specifikuje, jaké produkty nabízí, než které z nich chce uživateli
-      inzerovat. Tato volba je pak na zprostředkovateli, který obvykle volí
-      konkrétní produkt z nabídky podle kontextu svého vlastního obsahu.
-      Například vydavatelský portál publikující novinky z oblasti elektroniky,
-      jako je například vlajková loď společnosti Future TechRadar, si z
-      nabídky vybírá spotřební elektroniku.</para>
+      inzerovat. Tato volba je pak na zprostředkovateli, který volí konkrétní
+      produkt z nabídky podle kontextu svého vlastního obsahu. Například
+      vydavatelský portál publikující novinky z oblasti elektroniky, jako je
+      například vlajková loď společnosti Future TechRadar, si z nabídky vybírá
+      spotřební elektroniku.</para>
 
       <para>Vztahy mezi účastníky affiliate marketingu jsou tedy založeny
       čistě na finančí bázi, narozdíl například od referral
@@ -299,9 +302,9 @@
       <para>Proces interakce mezi jednotlivými aktéry je iniciován
       obchodníkem. Ten vytvoří tzv. affiliate program<indexterm>
           <primary>affiliate program</primary>
-        </indexterm>, ve kterém specifikuje svou svou nabídku, kterou chce
-      pomocí affiliate marketingu předložit zákazníkovi. Obvykle se jedná o
-      seznam produktů nebo služeb, s jejich parametry (popis, cena). Může jít
+        </indexterm>, ve kterém specifikuje svou nabídku, kterou chce pomocí
+      affiliate marketingu předložit zákazníkovi. Obvykle se jedná o seznam
+      produktů nebo služeb, spolu s jejich parametry (popis, cena). Může jít
       však i o nabídku v podobě slevových kuponů, které nejsou vázány na
       konkrétní zboží, nebo obecnou inzerci (reklamní banner).</para>
 
@@ -315,27 +318,27 @@
       kterého se objeví. V takovém případě totiž nepochybně dochází ke zvýšení
       konverzního poměru, tedy množství uživatelů, které zobrazená reklama
       přiměje k určité akci - typicky nákupu.<footnote>
-          <para>Jako příklad můžeme uvést technologický článek, popisující
+          <para>Jako příklad můžeme uvést technologický článek popisující
           vlasnosti nového mobilního telefonu, který se právě objevil na trhu.
           Obsah tohoto typu bude pravděpodobně vyhledáván zejména uživateli,
           kteří mají potenciálně zvýšený zájem o koupi tohoto přístroje, a
           tedy i větší tendenci využít zobrazené nabídky tohoto
           produktu.</para>
-        </footnote>Zároveň dochází k situaci, ve které přestává být reklama
+        </footnote> Zároveň dochází k situaci, ve které přestává být reklama
       vnímána jako reklama a díky kontextu okolního obsahu se sama stává
       obsahem.<footnote>
           <para>V návaznosti na předchozí příklad si můžeme představit, že
           pokud vydavatel zobrazí tři různé nabídky téhož produktu, spolu s
           cenovým srovnáním, dává tak čtenáři článku kromě odborného názoru na
           samotný produkt i základní analýzu toho, kde a za jakou cenu je
-          produkt možné zakoupit.</para>
+          produkt možno zakoupit.</para>
         </footnote> V takovém případě má vhodně zvolený affiliate program
       kromě pozitivního vlivu na příjmy vydavatelské společnosti také
       pozitivní vliv na spokojenost uživatelů, nebo minimálně na redukci
       jejich nespokojenosti s nutností konzumace reklamy.</para>
 
-      <para>Posledním nutným článkem k úspěšnému provozování affiliate
-      marketingu je samotný uživatel. Ten se stává konzumentem nabídky, a v
+      <para>Posledním článkem nezbytným k úspěšnému provozování affiliate
+      marketingu je samotný uživatel. Ten se stává konzumentem nabídky a v
       případě úspěšné konverze provádí nákupní rozhodnutí, díky němuž
       profitují všechny zúčastněné strany (win-win-win model).</para>
     </sect1>
@@ -345,7 +348,7 @@
 
       <para>Jelikož affiliate marketing je záležitostí internetových obchodů a
       webových poskytovatelů obsahu, je užitečné se zaměřit i na technickou
-      stránku celého procesu interakce mezi jednotlivými aktéry, popsanými v
+      stránku celého procesu interakce mezi jednotlivými aktéry popsanými v
       kapitole <xref linkend="chap-roles" />.</para>
 
       <sect2>
@@ -369,7 +372,7 @@
         chvíli, kdy čtenář obsahu nabídky využije, je přesměrován na stránku
         obchodníka. Zároveň je však tímto přesměrováním přenesen i
         identifikátor a obchodník tak může dohledat, od kterého affiliate
-        partnerova daný zákazník přišel.</para>
+        partnera daný zákazník přišel.</para>
       </sect2>
 
       <sect2>
@@ -408,8 +411,11 @@
 
         <para>Dalším případem, kdy je rozhodnutí o nákupu odkládáno,
         specifické pro svět webového marketingu, je existence slevových
-        voucherů. Existují specializované servery, které nabízí velké množství
-        slevových kuponů a kódů, které mohou zákazníci využít.<footnote>
+        voucherů<indexterm>
+            <primary>slevový kupon</primary>
+          </indexterm>. Existují specializované servery, které nabízí velké
+        množství slevových kuponů a kódů, které mohou zákazníci
+        využít.<footnote>
             <para>Velmi známým příkladem ve Velké Británii je server <ulink
             url="http://www.vouchercodes.com">http://www.vouchercodes.com</ulink>.</para>
           </footnote> Často jsou i tyto kupóny předmětem affiliate marketingu
@@ -418,7 +424,7 @@
         zprostředkovatelé.</para>
 
         <para>Podstatou vyplácení provize, a potažmo celého affiliate
-        marketingu, je ovšem odměna a za přivedení zákazníka, resp. napomožení
+        marketingu, je ovšem odměna za přivedení zákazníka, resp. napomožení
         učinění nákupního rozhodnutí. Cílem všech zúčastněných stran je tedy
         maximální možné očištění o zmíněné vlivy, které by vedly k výraznému
         snížení provizí a tedy i nižší ochotě zprostředkovatelů na affiliate
@@ -429,7 +435,7 @@
         <title>Cookies</title>
 
         <para>Řešením problému popsaného v předchozí sekci je vytvoření jakési
-        <quote>paměti</quote> e-shopu, který by byl schopen znovu
+        <quote>paměti</quote> e-shopu, díky níž by byl schopen znovu
         identifikovat zákazníka, který na e-shop přišel skrze
         zprostředkovatele affiliate programu, neučinil nákupní rozhodnutí, ale
         následně se vrátil (tentokrát už ovšem ne nutně přes affiliate odkaz
@@ -447,26 +453,25 @@
         rozpoznat, že se zákazník do internetového obchodu dostal právě přes
         affiliate partnera a podle toho vyplatí provizi.</para>
 
-        <para>Cookies v affiliate marketingu dokonce obvykle nejsou specifické
-        pro konkrétní produkt. Pokud se tedy zákazník dostane do e-shopu s
-        elektronikou díky odkazu propagujícímu chytrý telefon, ale nakonec si
-        koupí televizi, je zprostředkovateli vyplacena provize v podobě
-        procentuální sazby z ceny koupené televize. Aby byla zachována silná
-        korelace mezi přivedením zákazníka prostřednictvím zprostředkovatele a
-        nákupním rozhodnutím, je nutné dobu existence cookie časově omezit. Po
-        určité době je tedy <quote>paměť</quote> e-shopu vynulována a pro
-        přiznání provize je nutné, aby zákazník znovu využil affiliate
-        odkaz.</para>
+        <para>Cookies v affiliate marketingu dokonce většinou nejsou
+        specifické ani pro konkrétní produkt. Pokud se tedy zákazník dostane
+        do e-shopu s elektronikou díky odkazu propagujícímu chytrý telefon,
+        ale nakonec si koupí televizi, je zprostředkovateli vyplacena provize
+        v podobě procentuální sazby z ceny koupené televize. </para>
 
-        <para>Tato doba se liší podle povahy a především velikosti
-        internetového obchodu. Typicky je to 30 dní, ale například největší
-        světový e-shop Amazon má životnost cookie pouhých 24 hodin.
-        <citation>amazon-cookie</citation> Zdůvodnění je poměrně logické. Lidé
-        na Amazonu nakupují tak často, že připisování nákupu provedeného déle
-        než 24 hodin po prokliknutí affiliate odkazu by místo pozitivního
-        efektu zpřesnění přineslo více nepřesností v podobě uznání provize i
-        za nákupy, které zprostředkovatel díky affiliate programu neměl šanci
-        nijak ovlivnit.<footnote>
+        <para>Aby byla zachována silná korelace mezi přivedením zákazníka
+        prostřednictvím zprostředkovatele a nákupním rozhodnutím, je nutné
+        dobu existence cookie časově omezit. Po určité době je tedy
+        <quote>paměť</quote> e-shopu vynulována a pro přiznání provize je
+        nutné, aby zákazník znovu využil affiliate odkaz. Tato doba se liší
+        podle povahy a především velikosti internetového obchodu. Typicky je
+        to 30 dní, ale například největší světový e-shop Amazon má životnost
+        cookie pouhých 24 hodin. <citation>amazon-cookie</citation> Zdůvodnění
+        je poměrně logické. Lidé na Amazonu nakupují tak často, že připisování
+        nákupu provedeného déle než 24 hodin po prokliknutí affiliate odkazu
+        by místo pozitivního efektu zpřesnění přineslo více nepřesností v
+        podobě uznání provize i za nákupy, které zprostředkovatel díky
+        affiliate programu neměl šanci nijak ovlivnit.<footnote>
             <para>Zajímavým zlepšením tohoto problému by nepochybně bylo
             vytvoření unikátních cookies pro konkrétní produkt. Lze odůvodněně
             předpokládat, že v takovém případě by bylo možné životnost cookies
@@ -474,7 +479,8 @@
             podobě nákupů nemajícíh nic společného s původní nabídkou
             affiliate programu. Evidentně je ale implementační náročnost na
             straně e-shopu natolik složitá, resp. neefektivní, že žádný z
-            velkých e-shopů podobnou taktiku nezvolil.</para>
+            velkých internetových obchodů podobnou taktiku zatím
+            nezvolil.</para>
           </footnote></para>
 
         <para>Podobně jako expiraci cookie je nutné zařídit i situaci, ve
@@ -498,7 +504,7 @@
         <title>Problém přímé interakce</title>
 
         <para>V modelu v tuto chvíli nebudeme uvažovat zákazníka. Ten je sice
-        důležitý, ale hraje ve struktuře pouze roli konzumenta obsahu a pro
+        důležitý, ale hraje ve struktuře pouze roli konzumenta obsahu a při
         rozšíření o affiliate síť se jeho role nemění. Situace je tedy taková,
         že na jedné straně e-shopy uveřejňují svou nabídku a snaží se
         přesvědčit vydavatelské společnosti, aby jejich produkty zobrazovaly u
@@ -541,11 +547,11 @@
         formátu předává vydavatelům. Podobně transparentní je při zahrnutí
         affiliate sítě celý proces i pro e-shopy, které přestávají řešit
         separátně jednotlivé vydavatele. Pouze zveřejní svou nabídku v rámci
-        affiliate sítě, která řeší komunikaci s vydavateli a technické řešení
-        za ně. Z původního schématu M:N se tak ve skutečnosti stávají dvě
-        skupiny s kardinalitami M:1 a 1:N. Jak je vidět z diagramu <xref
-        linkend="fig-am-m-to-n-with-an" />, množství nutných interakcí se
-        snížilo z kvadratického na lineární.</para>
+        affiliate sítě, která za ně řeší komunikaci s vydavateli a konkrétní
+        technické řešení. Z původního schématu M:N se tak ve skutečnosti
+        stávají dvě skupiny s kardinalitami M:1 a 1:N. Jak je vidět z diagramu
+        <xref linkend="fig-am-m-to-n-with-an" />, množství nutných interakcí
+        se snížilo z kvadratického na lineární.</para>
 
         <figure id="fig-am-m-to-n-with-an">
           <title>Interakce mezi obchodníky, affiliate sítí a
