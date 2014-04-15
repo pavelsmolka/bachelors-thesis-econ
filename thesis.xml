@@ -572,16 +572,16 @@
         strany znamená, že obchodník nebo vydavatel musí za poskytnutou službu
         tuto stranu, tedy affiliate síť, kompenzovat. Existují dva obvyklé
         modely: rozdělení provize za prodej výrobku mezi síť a vydavatele,
-        nebo přímé zpoplatnění přístupu k datům poskytovaným affiliate
-        sítí.</para>
+        nebo přímé (paušální) zpoplatnění přístupu k datům poskytovaným
+        affiliate sítí.</para>
 
         <para>Jednoznačně pozitivním důsledkem z hlediska vydavatelské
         společnosti je sjednocení komunikačních kanálů a datových formátů. I
         přesto, že různí obchodníci mohou mít jinak nastaveno například
         rozdělení produktů do kategorií nebo frekvenci vyplácení provizí, je
         úlohou affiliate sítě tyto rozdíly minimalizovat. Vydavatel tak může
-        sledovat výši provize od všech obchodníků naráz v administrační
-        konzoli affiliate sítě. Stejně tak samotná data jsou dostupná obvykle
+        sledovat výši provize od všech obchodníků naráz v administračním
+        rozhraní affiliate sítě. Stejně tak samotná data jsou dostupná obvykle
         na jednom místě a v jednotném formátu.</para>
 
         <para>Samozřejmě neexistuje pouze jedna univerzální affiliate síť s
@@ -589,11 +589,11 @@
         sítí je celá řada a zejména ve Velké Británii a v USA jsou jejich
         služby vydavateli hojně využívány. Se vzrůstajícím počtem affiliate
         sítí přestává být zřetelná výhoda sjednocení komunikačních kanálů,
-        zatímco nutnost sdílení zisku zůstává. Evidentně se ale vydavatelům
+        zatímco nutnost sdílení příjmů zůstává. Evidentně se ale vydavatelům
         vyplácí využívání affiliate sítí. Komunikace s deseti affiliate sítěmi
-        jednodušší než vlastní řešení pro každý z několika stovek nebo tisíců
-        e-shopů. Navíc často platí, že nabídky některých obchodníků nejsou
-        dostupné jinak než prostřednictvím některé z affiliate sítí --
+        je jednodušší než vlastní řešení pro každý z několika stovek nebo
+        tisíců e-shopů. Navíc často platí, že nabídky některých obchodníků
+        nejsou dostupné jinak než prostřednictvím některé z affiliate sítí --
         vydavatelé tak nemají příliš na výběr.</para>
 
         <para>Snížení počtu interakcí popsané v předchozí sekci nezahrnuje jen
@@ -602,14 +602,14 @@
         které vydavatel přes affiliate síť získá, nevedou přímo do e-shopu,
         ale obsahují adresu affiliate sítě. Po kliknutí na nabídku je tedy
         uživatel přesměrován tam, affiliate síť požadavek zaznamená a
-        přesměruje uživatele do e-shopu. Přestože návštěvník webu tento krok
-        navíc téměře nepostřehne, pro princip fungování celého systému
-        affiliate marketingu je velmi důležitý. Na webové stránce obchodníka
-        je totiž zaznamenán pouze příchod z affiliate sítě, takže veškeré
-        provize jsou vypláceny pouze síti. Pokud tedy do určtitého e-shopu
-        přes affiliate síť přicházejí zákazníci z deseti vydavatelských
-        portálů, obchodník počítá a vyplácí provizi pouze jednou, ve smyslu
-        čáry interakce zobrazené v diagramu <xref
+        přesměruje uživatele do e-shopu. Přestože návštěvník webu tento
+        <quote>krok navíc</quote> téměře nepostřehne, pro princip fungování
+        celého systému affiliate marketingu je velmi důležitý. Na webové
+        stránce obchodníka je totiž zaznamenán pouze příchod z affiliate sítě,
+        takže veškeré provize jsou vypláceny pouze síti. Pokud tedy do
+        určtitého e-shopu přes affiliate síť přicházejí zákazníci z deseti
+        vydavatelských portálů, obchodník počítá a vyplácí provizi pouze
+        jednou, ve smyslu čáry interakce zobrazené v diagramu <xref
         linkend="fig-am-m-to-n-with-an" />. Stejným způsobem jsou pak
         výsledky, jak finanční tak informační, předávány vydavateli v
         agregované podobě.<footnote>
@@ -641,7 +641,7 @@
       <para>Kromě affiliate marketingu, kterým se tato práce zabývá, existuje
       mnoho dalších způsobů, jakými lze zajistit stabilní proud příjmů z
       webového obsahu, resp. e-magazínů. V této části jsou tyto alternativy
-      zhruba popsány a jejich fungování je porovnáno s principy affiliate
+      zevrubně popsány a jejich fungování je porovnáno s principy affiliate
       marketingu.</para>
 
       <sect2>
@@ -652,17 +652,18 @@
         modelu vychází z principů reklamy, tak jak funguje v tištěných
         médiích. Inzerent si objedná určité množství zobrazení své (dopředu
         vytvořené) reklamy, ať už se jedná o reklamu čistě textovou nebo
-        mající i grafickou podobu.</para>
-
-        <para>Za každé zobrazení reklamy pak zaplatí určitou, zpravidla fixní
-        částku. Tento model se nazývá anglickým termínem <emphasis>Cost per
-        impression</emphasis>, často zkracovaným jako CPI<indexterm>
+        mající i grafickou podobu. Za každé zobrazení reklamy pak zaplatí
+        určitou, zpravidla fixní částku. Tento model se nazývá anglickým
+        termínem <emphasis>Cost per impression</emphasis>, často zkracovaným
+        jako CPI<indexterm>
             <primary>cost per impression</primary>
-          </indexterm>. V oblasti webového marketingu jde pravděpodobně o
-        metodu affiliate marketingu nejvíce vzdálenou, protože není vázána na
-        žádnou akci ze strany uživatele. Ten si často reklamy ani nemusí
-        všimnout, cena za zobrazení tak bývá obvykle stanovena poměrně nízko a
-        téměř nikdy není vázána na konkrétní produkt, který je reklamním
+          </indexterm>. </para>
+
+        <para>V oblasti webového marketingu jde pravděpodobně o metodu
+        affiliate marketingu nejvíce vzdálenou, protože není vázána na žádnou
+        akci ze strany uživatele. Ten si často reklamy ani nemusí všimnout,
+        cena za zobrazení tak bývá obvykle stanovena poměrně nízko a téměř
+        nikdy není vázána kontextově na konkrétní produkt, který je reklamním
         bannerem inzerován.</para>
       </sect2>
 
@@ -688,7 +689,7 @@
           </footnote> U výsledků vyhledávání je tak kromě samotných reálných
         výsledků založených na porovnávání obsahu webových dokumentů obvykle
         zařazeno několik <quote>sponzorovaných</quote> položek.
-        <citation>customers-now</citation> Ty jsou obvykle vizuálně odlišeny,
+        <citation>customers-now</citation> Ty jsou většinou vizuálně odlišeny,
         nicméně ne natolik, aby je uživatel nepovažoval za relevantní výsledek
         vyhledávání. Tento fakt umocňuje skutečnost, že PPC reklama je obvykle
         kontextově koherentní s ostatními výsledky vyhledávání.</para>
