@@ -1,7 +1,0 @@
-\select@language {slovak}
-\contentsline {chapter}{\textbf {\uppercase {\IeC {\'U}vod}}}{1}{section*.4}
-\contentsline {chapter}{\textbf {\uppercase {Z\IeC {\'A}ver}}}{3}{section*.6}
-\contentsline {chapter}{\textbf {\uppercase {ZOZNAM POU\IeC {\v Z}ITEJ LITERAT\IeC {\'U}RY}}}{5}{chapter*.7}
-\contentsline {chapter}{\textbf {\uppercase {Zoznam grafov a tabuliek }}}{5}{section*.8}
-\contentsline {chapter}{\textbf {\uppercase {Zoznam pr\IeC {\'I}loh}}}{6}{section*.9}
-\contentsline {chapter}{\textbf {\uppercase {Pr\IeC {\'I}lohy}}}{7}{section*.11}
