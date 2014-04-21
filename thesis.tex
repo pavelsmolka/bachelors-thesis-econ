@@ -9,10 +9,10 @@
 \pdfpkresolution=1200
 \usepackage{cmap}
 
-\usepackage[lmargin=35mm,
+\usepackage[lmargin=40mm,
 	        rmargin=25mm,	
             tmargin=25mm,
-            bmargin=30mm,
+            bmargin=25mm,
             includeheadfoot,
             heightrounded,
            ]{geometry}
@@ -27,15 +27,25 @@
 \usepackage[isu,small,bf,up]{caption}
 \usepackage{pdfpages}
 
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+
+\usepackage[hyphens]{url}
+
 
 \usepackage{tocloft}
-
-%fasrhdfhdhatdh \usepackage[labelformat=Obrázek]{caption}
+\definecolor{darkgreen}{RGB}{50,150,0}
+\definecolor{royalblue}{RGB}{10,65,200}
 
 \pdfpkresolution1200
 \usepackage[protrusion,expansion,step=1]{microtype}
 \usepackage[unicode=true,
-            colorlinks=true,
+            %colorlinks=true,
+            hidelinks,
+            linktoc=all,
+            linkcolor=royalblue,
+            citecolor=darkgreen,
             plainpages=false,
             pdfpagelabels=true,
             %pdfborder={0 0 0},
@@ -94,11 +104,11 @@
 \newcommand{\spj}{\cssplit{-}}
 \newcommand{\sls}{\cssplit{/}}
 \newcommand{\bsls}{\char`\\}
-\let\origurl\url
-\def\url#1{\texttt{<\origurl{#1}>}}
-\def\email#1{\texttt{<\href{mailto:#1}{#1}>}}
-\def\odkaz#1#2{#1 (\url{#2})}
-\def\skrytyodkaz#1#2{\href{#2}{#1}}
+%\let\origurl\url
+%\def\url#1{\texttt{<\origurl{#1}>}}
+%\def\email#1{\texttt{<\href{mailto:#1}{#1}>}}
+%\def\odkaz#1#2{#1 (\url{#2})}
+%\def\skrytyodkaz#1#2{\href{#2}{#1}}
 
 \widowpenalty10000
 \clubpenalty10000
@@ -141,7 +151,7 @@
 \thesislang{cs} % Makro umožní stanovit jazyk, ve kterém je práce napsaná
                 % (v současné době jsou podporovany variany cs, sk, en).
 % Makro pro definici klíčových slov práce.
-\def\klicovaslova{\hspace{5mm}
+\def\klicovaslova{
       affiliate marketing, 
       webový marketing, 
       e-shop,
@@ -271,7 +281,7 @@ děkuji všem, kteří mi při studiu pomáhali pronikat do tajů matematiky a
 statistiky, nutných nástrojů při jakékoli analýze dat. 
 
 Jsem vděčný kolegům ze společnosti Future, díky jejichž důvěře
-jsem měl v uplynulém roce rozhodovat o nové podobě platformy affiliate
+jsem mohl v uplynulém roce rozhodovat o nové podobě platformy affiliate
 marketingu v této vydavatelské společnosti. Zároveň bych 
 chtěl také poděkovat všem svým blízkým za trpělivost, se kterou snášeli, 
 když jsem se věnoval studiu a závěrečné práci na úkor času, který 
@@ -1035,11 +1045,9 @@ poslední fází (action). Celý proces zobrazuje diagram
     \hypertarget{fig-dagmar}{}%
     \begin{center}
 
-        {{\includegraphics[]{vp/dagmar}}\hypertarget{idp54801136}{}%
-            \label{idp54801136}
-        }
-        {{\caption[{Hierarchie modelu DAGMAR}]{{{Hierarchie modelu 
-        DAGMAR (zdroj: autor)}}}\label{fig-dagmar}}}
+        \includegraphics[]{vp/dagmar}
+        \caption[{Hierarchie modelu DAGMAR}]{Hierarchie modelu DAGMAR (zdroj: autor)}
+        \label{fig-dagmar}
     \end{center}
 \end{figure}
 
@@ -1099,10 +1107,9 @@ FCB matici s~příklady typických produktů zobrazuje obrázek
     \hypertarget{fig-fcb}{}%
     \begin{center}
 
-        {{\includegraphics[width=300px]{img/fcb}}\hypertarget{idp54815600}{}%
-            \label{idp54815600}
-        }
-        {{\caption[{Příklad matice FCB}]{{{Příklad matice FCB \cite{fcb-how-advertising-works-slideshare}{}}}}\label{fig-fcb}}}
+        \includegraphics[width=300px]{img/fcb}
+        \caption[{Příklad matice FCB}]{Příklad matice FCB \cite{fcb-how-advertising-works-slideshare}{}}
+        \label{fig-fcb}
     \end{center}
 \end{figure}
 
@@ -1318,11 +1325,9 @@ tržby, které jsou zobrazeny na vertikální ose).
     \begin{center}
 
         
-{{\includegraphics[]{img/product-lifecycle-simple}}\hypertarget{idp54862560}{}%
-            \label{idp54862560}
-        }
-        {{\caption[{Životní cyklus produktu}]{{{Životní 
-        cyklus produktu (bez fáze vývoje) \cite{product-lifecycle-graph}}}}\label{fig-product-lifecycle}}}
+        \includegraphics[]{img/product-lifecycle-simple}
+        \caption[{Životní cyklus produktu}]{Životní cyklus produktu (bez fáze vývoje) \cite{product-lifecycle-graph}}
+        \label{fig-product-lifecycle}
     \end{center}
 \end{figure}
 
@@ -1377,12 +1382,10 @@ Kotlerových fází.}
     \begin{center}
 
         
-{{\includegraphics[]{img/product-lifecycle-sw}}\hypertarget{idp54873952}{}%
-            \label{idp54873952}
-        }
-        {{\caption[{Životní cyklus iterativního vývoje webové 
-aplikace}]{{{Životní cyklus iterativního vývoje webové 
-aplikace (zdroj: autor, \cite{product-lifecycle-graph})}}}\label{fig-product-lifecycle-sw}}}
+        \includegraphics[]{img/product-lifecycle-sw}
+        
+        \caption[{Životní cyklus iterativního vývoje webové aplikace}]{Životní cyklus iterativního vývoje webové aplikace (zdroj: autor, \cite{product-lifecycle-graph})}
+        \label{fig-product-lifecycle-sw}
     \end{center}
 \end{figure}
 
@@ -1487,8 +1490,7 @@ společnosti Future. Zároveň je nejnavštěvovanějším webem o~elektronice
 v~UK a mezi třemi nejčtenějšími magazíny tohoto typu v~USA. TechRadar 
 obsahuje články o~elektronice a elektronika je vhodným předmětem affiliate 
 marketingu -- lidé ji často nakupují online a rozhodují se na základě 
-recenzí a porovnání produktů, jak na základě ceny, tak z~hlediska 
-technických parametrů.
+recenzí a porovnání produktů, a to z~hlediska ceny i technických parametrů.
 
 Kromě webových e-magazínů ve Future vzniká i několik desítek magazínů 
 v~podobě aplikací pro tablety. Technologicky jde jistě o~zajímavé 
@@ -1516,7 +1518,7 @@ přibližně z~února 2014. Tedy době, ve které byla data pro analytickou
 část práce sbírána a vyhodnocována.
 
 Společnost Future figuruje v~modelu affiliate marketingu jako vydavatel. 
-V~rámci e-magazínu TechRadar vydává řádově jednotky nových článků 
+V~rámci e-magazínu TechRadar vydává denně řádově jednotky nových článků 
 zpravodajského typu, informující o~novinkách ve světě technologií. Mimo 
 to publikuje denně přibližně jednu až pět recenzí, v~nichž autor 
 hodnotí vlasnosti vybraného produktu -- typicky spotřební elektroniky. 
@@ -1539,7 +1541,7 @@ takový seznam nabízí. Jedná se o~cenové srovnání různých nabídek
 téhož produktu. Lze tedy jasně srovnat, která nabídka je výhodnější. 
 Zejména v~oblasti spotřební elektroniky, kde všechny výrobky téhož typu 
 pocházejí od jednoho výrobce a liší se pouze distributoři -- tedy různé 
-e-shopy. Kromě ceny tak lze porovnávat doručovací lhůtu a cenu doručení, 
+e-shopy. Kromě ceny tak lze porovnávat doručovací lhůtu a výši poštovného, 
 celkovou dostupnost produktu a poněkud méně exaktně i dobré jméno e-shopu.
 
 Jak je uvedeno v~kapitole 
@@ -1565,8 +1567,8 @@ Marketplace, což lze vnímat jako potenciální nedostatek.
 \subsection{Zobrazení nabídek}
 \label{idp54926368}\hypertarget{idp54926368}{}%
 
-Cenové srovnání je u~každé recenze umístěno v~pravé části stránky, a 
-rovněž pod recenzí. V~těchto oblastech je ovšem rozložení celé stránky 
+Cenové srovnání je u~každé recenze umístěno v~pravé části stránky a 
+rovněž pod recenzí. V~těchto oblastech ovšem rozložení celé stránky 
 nedovoluje uvést kompletní seznam, takže blok obsahuje jen 4 vybrané 
 nabídky, označené jako \glqq best deals\textquotedblleft{}. Čtenáři 
 ovšem nemusí být jasné, podle jaké logiky jsou tyto nabídky vybrány. Ve 
@@ -1585,7 +1587,7 @@ postrádá jakoukoli logiku. Jak ukazuje obrázek
 \hyperlink{fig-price-comparison}{{\ref{fig-price-comparison}}} v~příloze 
 práce, celkové cenové srovnání má formu tabulky obsahující logo 
 e-shopu, název produktu, cenu (s~dodatkem \glqq od\textquotedblleft{}, kterou 
-se vydavatel do jisté míry zbavuje odpovědnosti za nepřesnosti), cenu 
+se vydavatel do jisté míry zbavuje odpovědnosti za nepřesnosti), výši
 poštovného a dodací lhůtu. V~posledním sloupci je pak explicitní odkaz 
 \glqq Buy now\textquotedblleft{}, po jehož kliknutí je zákazník 
 přesměrován do e-shopu. Je otázkou, zda má smysl uvádět například 
@@ -1628,8 +1630,8 @@ slevové kupony jsou automaticky zpracovávány systémem, který nedisponuje
 sémantickou analýzou textu a není tedy možné pomocí něj zjistit, zda je 
 voucher pro konkrétní produkt relevantní. V~rámci výzkumu je proto 
 testováno, do jaké míry jsou slevové kupony pro zákazníky důležité, a 
-zda má větší smysl investovat zvýšení jejich relevance, nebo na druhou 
-stranu jejich úplné vyřazení ze systému.
+zda má větší smysl investovat do zvýšení jejich relevance, nebo je naopak
+úplně vyřadit ze systému.
 \subsection{Uživatelské komentáře}
 \label{sect-user-reviews-current}\hypertarget{sect-user-reviews-current}{}%
 
@@ -1645,7 +1647,7 @@ uživatelů všem návštěvníkům webu, ale přispívat mohou pouze
 registrovaní uživatelé. Tím je na jedné straně zajištěna určitá 
 úroveň příspěvků a nemožnost diskusi zahltit spamem, na straně druhé 
 určitá překážka pro čtenáře, který chce do diskuse přispět, ovšem 
-nemá vytvořený uživatelský účet.
+nemá vytvořen uživatelský účet.
 
 Komentáře samotné jsou řazeny stylem top-post, tedy nejnovější 
 komentář je nahoře. Podobně jsou uveřejňovány novinky na sociálních 
@@ -1662,8 +1664,10 @@ tedy hodnocení komentářů ostatních čtenářů. Neexistuje prosté
 hlasování pro kvalitní komentář, není zde možnost nahlásit nevhodný 
 komentář ani na konkrétní příspěvek přímo reagovat.
 
-I~uživatelské komentáře a zapojení čtenářů při nákupu jsou 
-součástí marketingového výzkumu.
+I~uživatelské komentáře jsou 
+součástí marketingového výzkumu. Konkrétně je s nimi pracováno
+v rámci výzkumné otázky řešící způsob a míru zapojení uživatelů
+při spoluvytváření produktu.
 \subsection{Konkurence}
 \label{idp54947424}\hypertarget{idp54947424}{}%
 
@@ -1714,7 +1718,7 @@ na TechRadaru zcela chybí. Prvním z~nich je cenové srovnání podobných
 produktů. Pokud si tedy čtenář e-magazínu přečte recenzi například 
 o~telefonu Samsung Galaxy S5, je mu nabídnuto srovnání parametrů a 
 cenových nabídek se starším modelem S4 nebo konkurenčním iPhone 6. 
-V~rámci dotazníkového šetření, popsaného v~kapitole 
+V~rámci dotazníkového šetření, popsaného v~subkapitole 
 \hyperlink{chap-vyzkum}{{\ref{chap-vyzkum}}}, je zjišťováno, jak čtenáři 
 takové srovnání vnímají a zda má smysl ho zařadit do magazínu TechRadar.
 
@@ -1731,7 +1735,7 @@ Dalším z~poskytovatelů služby z~oblasti affiliate marketingu je Google,
 v~rámci platformy Google Shopping. Uživateli je nabídnuto cenové srovnání 
 podobné tomu na TechRadaru nebo cNetu. Nejzajímavějším rozdílem je 
 sloučení ceny produktu s~poštovným. Zákazníkovi je tak tedy přehledně 
-zobrazena celková cena, kterou za náku produktu zaplatí. Na druhou stranu 
+zobrazena celková cena, kterou za nákup produktu zaplatí. Na druhou stranu 
 takové srovnání nebere v~úvahu možnost vyzvednutí zboží na prodejně, 
 která je zejména u~méně zkušených zákazníků nebo menších e-shopů 
 často preferována. Google také kromě řazení produktů nabízí 
@@ -1740,7 +1744,7 @@ u~nichž je poštovné zdarma.
 
 Zajímavým portálem pracujícím jako affiliate partner je česká Heuréka. 
 Tento portál se zaměřuje na srovnání nabídek produktů, podobně jako 
-TechRadar nebo cNet. Neomezuje se ale jen na přesměrování zákazníků do 
+TechRadar nebo cNet. Neomezuje se ovšem jen na přesměrování zákazníků do 
 různých e-shopů, ale zboží je možno nakoupit přímo na tomto portálu. 
 Nejedná se o~internetový obchod v~klasickém slova smyslu, který by 
 zajišťoval i skladování a předání fyzického zboží, protože i 
@@ -1755,10 +1759,10 @@ může Heuréka nabídnout při nákupu z~méně známých e-shopů.
 Posledním významným rozdílem, který byl identifikován na portálu 
 Heuréka, ale vyskytuje se i u~jiných affiliate služeb, je rozšíření 
 nabídky o~příslušenství k~produktu. Pokud má zákazník zájem o~telefon 
-iPhone 5, kromě cenového srovnání a nabídek tohoto přístroje jsou mu 
+iPhone~5, kromě cenového srovnání a nabídek tohoto přístroje jsou mu 
 zobrazeny možnosti koupě napájecího kabelu, ochranného obalu nebo 
 hands-free sady. U~tohoto přístupu je pozitivem potenciální rozšíření 
-počtu zákazníků. Nabídka může zaujmout i někoho, kdo už iPhone 5 
+počtu zákazníků. Nabídka může zaujmout i někoho, kdo už iPhone~5 
 vlastní. Na druhou stranu v~rámci e-magazínu obsahujícího recenze 
 produktů lze předpokládat, že valnou většinu čtenářů budou tvořit 
 právě zákazníci, které zajímá především produkt samotný. 
@@ -1780,7 +1784,7 @@ Vylepšování a obměňování softwarového produktu ale nelze provést pouze
 na základě úsudku. Inovace musí být založeny na objektivních datech 
 reflektujících názor a očekávání uživatelů portálu. Jednou z~metod 
 získání takových dat je marketingový výzkum formou dotazování, který byl 
-v~rámci této práce proveden a je popsán a zhodnocen v~této kapitole. 
+v~rámci této práce proveden a je popsán a zhodnocen v~této části. 
 Dalšími možnostmi pro získání informací, které však v~rámci této 
 práce nebyly využity, by mohl být rozhovor s~několika stávajícími 
 uživateli, uživatelské testování nebo A/B testování.
@@ -1835,7 +1839,7 @@ prioritizován?
 
 \end{itemize}
 \noindent 
-Pro každou z~těchto obecný výzkumných otázek jsou následně formulovány 
+Pro každou z~těchto obecných výzkumných otázek jsou následně formulovány 
 konkrétní otázky, z~nichž je sestaven dotazník obsahující 25 otázek. 
 Každá z~těchto otázek už je poměrně specifická a váže se na 
 konkrétní aspekt očekávání. \cite{navrh-vyzkumu}{} Kompletní dotazník 
@@ -1880,14 +1884,18 @@ obsahujícím odpovědi mužských respondentů. Až následné rozšíření
 \label{idp54989728}\hypertarget{idp54989728}{}%
 
 Pro obecné výzkumné otázky uvedené v~předchozí kapitole byly 
-identifikovány konkrétní otázky obsažené v~dotazníku. Prvních 6 otázek 
+identifikovány konkrétní otázky obsažené v~dotazníku. 
+Jejich kompletní seznam je součástí \hyperlink{appendix-dotaznik}{přílohy}
+a v rámci této kapitoly je na ně odkazováno jejich pořadovými čísly.
+
+Prvních 6 otázek 
 zjišťuje charakteristiky respondenta samotného; tedy pohlaví, věk, 
 vzdělání, frekvenci nákupu v~e-shopech a odhad částky, která je takto 
 utracena. Důvodem pro zařazení těchto otázek je validace cílové skupiny 
 -- tedy zjištění, zda a případně jakým způsobem jsou odpovědi 
 specifické pro mužskou část respondentů, která byla identifikována jako 
 majoritní segment. Díky zahrnutí těchto otázek tak lze jednoduše zkoumat 
-nejen odlišnosti mezi muži a ženami, ale závislost odpovědí na dalších 
+nejen odlišnosti mezi muži a ženami, ale i závislost odpovědí na dalších 
 parametrech, jako je frekvence nákupů či průměrná částka utracená 
 v~e-shopech s~elektronikou. Poslední zmíněná metrika může být pro 
 vydavatele velmi zajímavá, protože provize je počítána jako 
@@ -1898,7 +1906,7 @@ výzkumné otázce. Řeší tedy, jaké aspekty jsou obsahově pro uživatele
 důležité. Tyto otázky byly formulovány na základě současného stavu 
 produktu a analýzy podobných konkurenčních produktů.
 
-Další výzkumné otázce, tedy problematice řazení a prioritizace obsahu, 
+Další obecné výzkumné otázce, tedy problematice řazení a prioritizace obsahu, 
 je věnováno 7 otázek s~pořadovými čísly 13 až 19. Problémem, který si 
 tato část klade za úkol vyřešit, je fakt, že uživateli není možno 
 zobrazit vyčerpávající seznam všech nabídek produktů, obzvláště 
@@ -1910,7 +1918,7 @@ nejdůležitější parametry, podle kterých vybere \glqq
 nejlepší\textquotedblleft{} nabídky. Právě odpověď na otázku, co 
 znamená nejlepší, má zodpovědět tato část.
 
-I~v~případě, by uživatelé preferovali vlastní výběr z~delšího 
+I~v~případě, že by uživatelé preferovali vlastní výběr z~delšího 
 seznamu,\footnote{
     Jak je vidět dále v~analýze odpovědí, uživatelé skutečně 
 preferují výběr z~více než několika jednotek nabídek, které za ně 
@@ -1966,7 +1974,9 @@ respondentů. Tento fakt může způsobit drobné zkreslení dat, nicméně
 vzhledem ke globální povaze affiliate marketingu a celkové podobnosti 
 těchto platforem (např. již zmíněná česká Heuréka) pravděpodobně 
 nepůjde o~významnější problém, který by bránil správné interpretaci 
-dat. % TODO omezení výzkumu - přidat nějaký výzkum, který srovná CZ a GB?
+dat. Kromě malých rozdílů mezi vnímáním internetu mladými lidmy z obou
+zemí rozdíly smazává i čím dál více globální povaha e-commerce a 
+často využívaná možnost nákupu zboží a jeho doručení ze zahraničí.
 
 V~rámci obecných výzkumných otázek byl také nastíněn problém 
 aktuálnosti a přesnosti informací. Velké množství dat, se kterými 
@@ -1983,7 +1993,7 @@ dotazníkem.\footnote{
 vybranému respondentovi finanční odměnu ve výši 500 Kč. Důvodem této 
 pobídky byla snaha získat maximální množství relevantních odpovědí. 
 Vzhledem k~tomu, že celkový počet odpovídajících přesahuje 200, lze 
-považovat tento bod za funkční.
+považovat tento způsob motivace za efektivní.
 }
 \subsection{Odpovědi respondentů}
 \label{idp55010672}\hypertarget{idp55010672}{}%
@@ -2015,12 +2025,6 @@ uživatelů je porovnání alternativ, tedy podobných produktů v~rámci
 stejné kategorie, ještě o~něco výše než recenze a cenové srovnání 
 nabídek jednoho konkrétního produktu.
 
-Základní odpovědí na první výzkumnou otázku, zabývající se 
-zobrazovaným obsahem, je tedy to, že stávající podoba obsahující 
-recenzi, obrázky produktu a cenové srovnání je v~pořádku. Cenové 
-srovnání, a potažmo i recenze samotná, by měly být rozšířeny 
-o~srovnání s~podobnými produkty.
-
 % table ------------------------------------------------------
 \begin{table}[htb]
     \begin{center}%
@@ -2050,11 +2054,19 @@ o~srovnání s~podobnými produkty.
           \end{center}
       \end{table}
 
-      Další výzkumná otázka se zabývá prioritizací obsahu. Jinými 
+Základní odpovědí na první výzkumnou otázku, zabývající se 
+zobrazovaným obsahem, je tedy to, že stávající podoba obsahující 
+recenzi, obrázky produktu a cenové srovnání je v~pořádku. Cenové 
+srovnání, a potažmo i recenze samotná, by měly být rozšířeny 
+o~srovnání s~podobnými produkty.
+
+Další výzkumná otázka se zabývá prioritizací obsahu. Jinými 
 slovy řeší, které aspekty jsou při online nakupování zákazníky 
 vnímány jako nejpodstatnější. V~současné době jsou totiž zobrazované 
 nabídky řazeny algoritmem kombinujícím parametry uvedené v~tabulce 
-\hyperlink{tab-prioritizace}{\ref{tab-prioritizace}}. Každému parametru je přiřazena určitá 
+\hyperlink{tab-prioritizace}{\ref{tab-prioritizace}}.
+
+Každému parametru je přiřazena určitá 
 váha, která určuje celkové pořadí. Vzhledem k~přibližně podobným 
 směrodatným odchylkám všech náhodných veličin můžeme říct, že 
 optimální poměr pro řadící algoritmus by měl odpovídat váze 
@@ -2102,7 +2114,7 @@ tohoto sloupce informací o~certifikátu spolehlivosti.\footnote{
 
             Nejvyšší prioritu kladou respondenti poměrně překvapivě na 
 to, zda mají již s~daným e-shopem zkušenosti. Tento atribut je ovšem 
-závislý na konkrétním uživateli. V~kapitole 
+závislý na konkrétním uživateli. V~části 
 \hyperlink{chap-doporuceni}{{\ref{chap-doporuceni}}} jsou diskutovnány 
 možnosti rozšíření o~tento aspekt.
 
@@ -2117,20 +2129,43 @@ která čtenáře zaujme a po kliknutí ho přesměruje na kompletní cenové
 srovnání. Toto doporučení bude platit i v~případě zahrnutí dalších 
 rozšíření produktu o~zobrazení omezeného počtu nabídek.
 
-            % figure ------------------------------------------------------
-            \begin{figure}[hbt]
-                \hypertarget{fig-top-5}{}%
-                \begin{center}
+% figure ------------------------------------------------------
+\begin{figure}[hbt]
+    \hypertarget{fig-top-5}{}%
+    \begin{center}
 
-                    
-{{\includegraphics[width=400px]{img/top-5}}\hypertarget{idp55050896}{}%
-                        \label{idp55050896}
-                    }
-                    {{\caption[{Rozložení odpovědí na otázku č. 14 -- 
-pouze 5 produktů}]{{{Rozložení odpovědí na otázku č. 14 -- pouze 5 
-produktů}}}\label{fig-top-5}}}
-                \end{center}
-            \end{figure}
+\pgfplotstableread[col sep=comma,header=false]{
+    určitě ne,23
+    spíše ne,36
+    nevím,14
+    spíše ano,11
+    určitě ano,5
+}\data
+
+
+\begin{tikzpicture}
+\begin{axis}[
+    ybar,
+    bar width=30,
+    ymin=0,
+    enlarge x limits=0.15,
+    symbolic x coords={určitě ne,spíše ne,nevím,spíše ano,určitě ano},
+    xtick=data,
+    nodes near coords,
+    width=12cm,
+    height=7cm,
+    ylabel=\small{počet odpovědí}
+]
+
+\addplot table {\data};
+\end{axis}
+\end{tikzpicture}
+
+\caption[{Stačí vám vidět 5 nejlepších nabídek produktu?}]{Stačí vám vidět 5 nejlepších nabídek produktu, které za vás někdo vybral?}
+\label{fig-top-5}
+                
+\end{center}
+\end{figure}
 
             Posledním tématem, kterým se dotazník zabývá, je 
 očekávání spoluvytváření produktu pomocí uživatelských komentářů, 
@@ -2139,19 +2174,45 @@ tedy míra jejich důležitosti. Data zobrazená v~grafu
 součást je pro cílovou skupinu čtenářů e-magazínu typu TechRadar velmi 
 důležitá. Žádny z~respondentů neodpověděl zcela negativně, naopak 
 naprostá většina takovouto funkcionalitu při online nakupování použije.
+Odpovědí na čtvrtou obecnou výzkumnou otázku tedy je
+konstatování, že spoluvytváření produktu pomocí komentářů je pro uživatele
+velmi důležité a má smysl se na jeho vývoj zaměřit v duchu 
+doporučení uvedených v sekci \hyperlink{chap-doporuceni}{{\ref{chap-doporuceni}}}.
 
             % figure ------------------------------------------------------
             \begin{figure}[hbt]
                 \hypertarget{fig-user-reviews}{}%
                 \begin{center}
 
-                    
-{{\includegraphics[width=400px]{img/user-reviews}}\hypertarget{idp55055696}{}%
-                        \label{idp55055696}
-                    }
-                    {{\caption[{Odpovědi na otázku č. 24 -- komentáře 
-ostatních uživatelů}]{{{Odpovědi na otázku č. 24 -- komentáře 
-ostatních uživatelů}}}\label{fig-user-reviews}}}
+\pgfplotstableread[col sep=comma,header=false]{
+    určitě ne,0
+    spíše ne,6
+    nevím,5
+    spíše ano,46
+    určitě ano,32
+}\data
+
+
+\begin{tikzpicture}
+\begin{axis}[
+    ybar,
+    bar width=30,
+    ymin=0,
+    enlarge x limits=0.15,
+    symbolic x coords={určitě ne,spíše ne,nevím,spíše ano,určitě ano},
+    xtick=data,
+    nodes near coords,
+    width=12cm,
+    height=7cm,
+    ylabel=\small{počet odpovědí}
+]
+
+\addplot table {\data};
+\end{axis}
+\end{tikzpicture}
+
+\caption[{Je pro vás důležité hodnocení dalších lidí?}]{Je pro vás důležité hodnocení dalších lidí, kteří už si produkt zakoupili?}
+\label{fig-user-reviews}
                 \end{center}
             \end{figure}
 
@@ -2182,7 +2243,7 @@ produktu s~alternativami (otázka č. 10). Model je vyjádřen následující ro
 
 \begin{center}
     %P(x) = \frac{x - a}{b - a} , \nonumber
-$ Purchase = 18401.5 - 2237.59*Alt + 4467.33*STime - 4047.22*SCost $
+$ Purchase = 18401,5 - 2237,59*Alt + 4467,33*STime - 4047,22*SCost $
 %                    {{\caption{Upravený OLS model vlivu očekávání na agregovanou hodnotu nákupu}\label{eq-ols}}}
 \end{center}
 
@@ -2227,14 +2288,14 @@ ně nepředstavuje výraznější negativum.
 znaménkem, můžeme v~modelu vidět vliv vztahu zákazníka k~výši 
 poštovného na celkovou hodnotu nákupu. Lidé, kteří v~průměru utrácejí 
 více, tedy neřeší výši poštovného (cenu dopravy zboží). Zde se 
-nabízí dvě vysvětlení, že zákazník nakupuje větší množství 
-elektroniky nebo velmi drahý kus, a výše poštovného tak na celkově 
+nabízí dvě vysvětlení: zákazník nakupuje buď větší množství 
+elektroniky, nebo velmi drahý kus, a výše poštovného tak na celkově 
 utracené částce hraje marginální roli. Zahrnutí alternativních produktů 
-je možno interpretovat podobně, nicméně kvůli vyšší p-hodnotě zde 
-není vliv tak silný.
+je možno interpretovat podobně, nicméně kvůli vyšší p-hodnotě nelze považovat 
+tento vliv za statisticky natolik významný.
 
 Aby bylo možno prohlásit model za validní, je potřeba ověřit tzv. klasické předpoklady
-OLS modelu, kterými jsou zejména homoskedasticita reziduí a jejich normální rozdělení.
+OLS modelu, kterými jsou zejména homoskedasticita reziduí a jejich aproximativně normální rozdělení.
 Homoskedasticita reziduí byla ověřena White testem s~p-hodnotou 0,157628. Celkový počet 89 
 pozorování je dostatečný k~tomu, aby mohlo být využito asymptotické 
 teorie a prohlásit rezidua za normálně rozdělená. \cite{ols-asymptotic}{}
@@ -2268,7 +2329,7 @@ hodnot odpovědí mužů a žen, kterou následně testujeme.
 rozdělení náhodných veličin. Vzhledem k~velmi malému oboru hodnot, ve 
 kterém se realizují jednotlivé odpovědi na diskrétní škále 0 až 4, je 
 prakticky nemožné získat data s~normálním rozdělením. Toto platí 
-obzvláště v~případě, kdy může odpovídající zvolit extrémní hodnotu 
+obzvláště v~případě, kdy může respondent zvolit extrémní hodnotu 
 se stejnou pravděpodobností jako hodnotu střední. Obecně lze konstatovat, 
 že data založená na odpovědích dotazovaných, nikoli na měření, budou 
 mít spíše studentovo rozdělení, 
@@ -2293,13 +2354,14 @@ z~normálního rozdělení. Všechny výběry (zvlášť pro skupinu mužů a
 žen) byly testovány pomocí Doornik--Hansen testu, Shapiro-Wilk testu, 
 Lilliefors testu a testu Jarque--Bera. Tyto testy mají různě nastavené 
 parametry, proto nepodávají vždy stejné výsledky. Například relativně 
-nový Doornik-Hansen, založený na šikmosti a špičatosti vícerozměrného 
-normálního rozdělení, test pro frekvenci nákupů u~mužského výběru 
-hypotézu o~normalitě poměrně přesvědčivě s~p-hodnotou 0,5363 
+nový Doornik-Hansen test, založený na šikmosti a špičatosti vícerozměrného 
+normálního rozdělení, pro frekvenci nákupů u~mužského výběru 
+hypotézu o~normalitě p-hodnotou 0,5363 
 nezamítá. \cite{dh-test}{} Naopak Lilliefors test ve stejném případě 
 hypotézu normality dat jasně zamítá p-hodnotou velmi blízkou nule.
+T-testy tedy k porovnání odpovědí mužů a žen nelze použít.
 
-                První možností, jak data analyzovat, je prosté porovnání 
+Méně exaktní (ovšem validní) cestou, jak data analyzovat, je prosté porovnání 
 aritmetických průměrů odpovědí na jednotlivé otázky u~obou výběrů. 
 Vybrané hodnoty zobrazuje tabulka \hyperlink{tab-prumery}{\ref{tab-prumery}}.
 
@@ -2354,15 +2416,15 @@ pro přibližnou analýzu a zjištění obecné tendence jsou data
 dostačující.
                           }
 Ukazuje se, že muži nakupují v~průměru téměř třikrát častěji než 
-ženy. Tímto koeficientem je téměř přesně proporciálně vyšší 
+ženy. Tímto koeficientem je téměř přesně proporcionálně vyšší 
 celková částka utracená za online nákup elektroniky. Průměrně tak obě 
 skupiny za elektroniku utratí při jednom nákupu stejnou částku. To je 
 vcelku logický závěr vzhledem k~tomu, že průměrná cena elektroniky je 
 udávána trhem a nezávisí na nakupujícím. Průměrná hodnota nákupu tak 
-činí u~mužů průměrně přibližně 5571 korun ročně, u~respondentek je 
+činí u~mužů průměrně přibližně 5571 korun, u~respondentek je 
 to zhruba 5356 korun.
 
-                          Průměrné hodnoty odpovědí na otázku č. 7 
+                          Agregované hodnoty odpovědí na otázku č. 7 
 ukazují, že internetové recenze elektroniky čtou muži i ženy v~průměru 
 stejně často. Toto je poměrně překvapivé zjištění a poměrně 
 zásadně zpochybňuje původní informaci vydavatelské společnosti, která 
@@ -2394,7 +2456,9 @@ důvěryhodnosti. V~očekávání kvalitní služby v~oblasti affiliate
 marketingu hraje u~žen poměrně významnější roli než u~mužů. 
 S~výběrovou střední hodnotou 3,17 jde u~žen o~druhou nejvýznamnější 
 položku týkající se druhé výzkumné otázky -- tedy řazení a 
-prioritizace jednotlivých nabídek.
+prioritizace jednotlivých nabídek. Odpovědi na třetí a čtvrtou obecnou 
+výzkumnou otázku jsou uvedeny spolu s doporučeními na jejich implementaci v následující
+sekci.
 
                           % ------------------------   
                           % Section 
@@ -2403,19 +2467,19 @@ prioritizace jednotlivých nabídek.
 \label{chap-doporuceni}\hypertarget{chap-doporuceni}{}%
 
                           Na základě vyhodnocení dotazníku a analýzy 
-z~kapitoly \hyperlink{chap-vyzkum}{{\ref{chap-vyzkum}}} jsou v~této části 
+ze~subkapitoly \hyperlink{chap-vyzkum}{{\ref{chap-vyzkum}}} jsou v~této části 
 prezentovány návrhy na zlepšení a inovaci provádění affiliate marketingu 
 v~rámci e-magazínu TechRadar. V~zásadě lze konstatovat, že veškeré 
 připomínky a doporučení jsou poměrně marginálního charakteru. 
 Dotazníkovým šetřením a následnou analýzou dat bylo zjištěno, že 
 způsob provádění affiliate marketingu je v~zásadě správný a je vhodné 
 ho pouze částečně upravit ve smyslu následujících odstavců. Všechna 
-doporučení jsou založena na statistikách a faktech uvedených v~kapitole 
+doporučení jsou založena na statistikách a faktech uvedených v~sekci 
 \hyperlink{chap-vyzkum}{{\ref{chap-vyzkum}}}.
                           \subsection{Rozšíření funkcionality}
                           \label{idp55127472}\hypertarget{idp55127472}{}%
 
-                          Tabulka \hyperlink{tab-obsah}{4.1} ukazuje, že 
+                          Tabulka \hyperlink{tobsah}{{\ref{tobsah}}} ukazuje, že 
 klíčovou součástí, která momentálně není uživatelům k~dispozici, ale 
 bylo by vhodné ji doplnit, je možnost vyhledávání produktů podle 
 parametrů. Tato funkcionalita může být na webu umístěna jako zvláštní 
@@ -2445,7 +2509,7 @@ z~kategorií, tak jako tomu bylo u~prvního kroku.
                           Podobným směrem se ubírá i druhé doporučení, 
 totiž rozšíření stávajícího cenového srovnání o~alternativy, tedy 
 nabídky produktů v~podobné technické i cenové kategorii. Výsledky 
-zobrazené v~tabulce \hyperlink{tab-obsah}{4.1} ale už nejsou tak 
+zobrazené v~tabulce \hyperlink{tab-obsah}{{\ref{tobsah}}}ale už nejsou tak 
 jednoznačné jako v~předchozím případě, proto je nejvhodnějším 
 řešením přidání ovládacího prvku (například tlačítka), kterým bude 
 moci uživatel alternativy skrýt nebo opět zobrazit.
@@ -2454,7 +2518,7 @@ produktů}
                           \label{idp55135760}\hypertarget{idp55135760}{}%
 
                           Odpovědi na druhou obecnou výzkumnou otázku 
-zobrazené v~tabulce \hyperlink{tab-prioritizace}{4.2} ukazují, že 
+zobrazené v~tabulce \hyperlink{tab-prioritizace}{{\ref{tab-prioritizace}}} ukazují, že 
 klíčovým atributem při prioritizaci výběru (a tedy i finálním 
 rozhodnutí, ve kterém e-shopu produkt zakoupit), je pro zkoumanou cílovou 
 skupinu pozitivní zkušenost s~daným internetovým obchodem. Problémem 
@@ -2466,7 +2530,7 @@ pak vhodné při zobrazování výsledků prioritizovat, například jejich
 nabídky zobrazit při srovnání produktů jako první. Cestou personalizace 
 se v~posledních dvou letech vydávají i další velcí internetoví hráči; 
 v~době sociálních sítí a webu 2.0 není jiná možnost než uživatele do 
-konečné podoby obsahu zapojit. \cite{personalisation}{}
+konečné podoby obsahu zapojit.~\cite{personalisation}{}
 
                           Podobným způsobem může být implementováno 
 další doporučení, založené na preferenci e-shopů s~certifikáty 
@@ -2477,7 +2541,7 @@ o~něco upřednostňovat, takže pokud je produkt k~nabízen v~e-shopu
 s~certifikátem a za stejnou cenu v~obchodě bez certifikátu, první nabídka 
 bude zobrazena s~větší prioritou. Pokud by vydavatelská společnost měla 
 zájem na širším oslovení žen, je tato funkcionalita na základě výzkumu 
-z~kapitoly \hyperlink{chap-men-women}{{\ref{chap-men-women}}} ještě 
+z~části \hyperlink{chap-men-women}{{\ref{chap-men-women}}} ještě 
 důležitější.
 
                           V~současné době jsou v~rámci řazení a 
@@ -2487,7 +2551,7 @@ snížena natolik, že nejsou v~cenovém srovnání vůbec zobrazeny. Odpovědi
 respondentů ukazují, že jsou obvykle ochotni několik dní počkat, pokud se 
 jedná o~výhodnou nabídku. Doporučením je tedy takové produkty z~cenového 
 srovnání nevyřazovat, pouze je označit jako momentálně nedostupné -- 
-například zeslabit řez písma.
+například zeslabením řezu písma.
                           \subsection{Vizuální vylepšení}
                           \label{idp55143328}\hypertarget{idp55143328}{}%
 
@@ -2501,23 +2565,45 @@ zařízeních. Tendenci uživatelů k~nákupům čistě ze stolního
 počítače nebo notebooku ukazuje graf 
 \hyperlink{fig-smartphone}{{\ref{fig-smartphone}}}.
 
-                          % figure 
-------------------------------------------------------
+ % figure ------------------------------------------------------
                           \begin{figure}[hbt]
                               \hypertarget{fig-smartphone}{}%
                               \begin{center}
+\pgfplotstableread[col sep=comma,header=false]{
+    1,80
+    2,8
+    3,1
+    4,0
+    5,0
+}\data
+
+
+\begin{tikzpicture}
+\begin{axis}[
+    ybar,
+    bar width=30,
+    ymin=0,
+    enlarge x limits=0.15,
+    xticklabels={výhradně přes počítač,,,,výhradně přes telefon},
+    xtick=data,
+    nodes near coords,
+    width=12cm,
+    height=7cm,
+    ylabel=\small{počet odpovědí}
+]
+
+\addplot table {\data};
+\end{axis}
+\end{tikzpicture}
+
+\caption[{Nakupujete online častěji přes počítač nebo přes chytrý telefon?}]{Nakupujete online častěji přes počítač nebo přes chytrý telefon?}
+\label{fig-smartphone}
 
                                   
-{{\includegraphics[width=400px]{img/pc-telefon}}\hypertarget{idp55147024}{}%
-                                      \label{idp55147024}
-                                  }
-                                  {{\caption[{Rozložení odpovědí na otázku 
-č. 20 -- počítač nebo telefon}]{{{Rozložení odpovědí na otázku č. 20 
--- počítač nebo telefon}}}\label{fig-smartphone}}}
                               \end{center}
                           \end{figure}
 
-                          Zdánlivou drobností než skutečným podnětem 
+Zdánlivě spíše drobností než skutečným podnětem 
 k~inovaci je doporučení k~přezkumu všech textových označení 
 v~zobrazovaných komponentách. Jak ukazuje obrázek 
 \hyperlink{fig-sorting}{{\ref{fig-sorting}}}, původní popisek pro seřazení 
@@ -2528,19 +2614,37 @@ od nejlevnějšího\textquotedblleft{}. Podobným způsobem je možné
 přezkoumat i další textové popisky, například již dříve zmíněný 
 přechod do e-shopu označený jako \glqq Buy now\textquotedblleft{}.
 
-                          % figure 
-------------------------------------------------------
                           \begin{figure}[hbt]
                               \hypertarget{fig-sorting}{}%
                               \begin{center}
+\pgfplotstableread[col sep=comma,header=false]{
+    1,77
+    2,2
+    3,10
+}\data
 
+
+\begin{tikzpicture}
+\begin{axis}[
+    ybar,
+    bar width=50,
+    ymin=0,
+    enlarge x limits=0.25,
+    xticklabels={od nejlevnějšího,vzestupně,nejnižší cena},
+    xtick=data,
+    nodes near coords,
+    width=10cm,
+    height=7cm,
+    ylabel=\small{počet odpovědí}
+]
+
+\addplot table {\data};
+\end{axis}
+\end{tikzpicture}
+
+\caption[{Jaký název řazení nabídek je pro vás nejsrozumitelnější?}]{Jaký název řazení nabídek je pro vás nejsrozumitelnější?}
+\label{fig-sorting}
                                   
-{{\includegraphics[width=380px]{img/sorting}}\hypertarget{idp55153968}{}%
-                                      \label{idp55153968}
-                                  }
-                                  {{\caption[{Odpovědi na otázku č. 21 -- 
-název řazení nabídek}]{{{Odpovědi na otázku č. 21 -- název řazení 
-nabídek}}}\label{fig-sorting}}}
                               \end{center}
                           \end{figure}
 
@@ -2560,10 +2664,9 @@ produktu. Nejčastější odpovědí respondentů je \glqq spíše
 ano\textquotedblleft{}, střední hodnota je dokonce vychýlena lehce k~\glqq 
 určitě ano\textquotedblleft{}, jak ukazuje graf 
 \hyperlink{fig-user-reviews}{{\ref{fig-user-reviews}}}. Žádný z~respondentů 
-se nevyjádřil zcela negativně.
+se nevyjádřil zcela negativně. 
 
-                          V~kapitole 
-\hyperlink{sect-user-reviews-current}{{\ref{sect-user-reviews-current}}} byl 
+V~sekci \hyperlink{sect-user-reviews-current}{{\ref{sect-user-reviews-current}}} byl 
 popsán současný stav uživatelských komentářů. Je evidentní, že 
 množství úsilí věnované této komponentě neodpovídá očekávání 
 čtenářů. V~rámci inovace produktu je potřeba tuto část graficky vyladit 
@@ -2583,7 +2686,7 @@ podobný symbol, kterým může kterýkoliv ze čtenářů upozornit na
 nevhodný komentář. Tímto se jednak zvýší podíl spoluvytváření 
 produktu uživatelem (engagement), a zároveň tento přístup ušetří práci 
 moderátorům. Užitečnou drobností pro správce diskuse může být také 
-automatický systém, který automaticky nahlásí komentář obsahující 
+automatický systém, který nahlásí komentář obsahující 
 některé z~předem specifikovaných výrazů -- vulgárních slov, ale i 
 takových spojení, která často vedou k~nevhodné, například rasistické, 
 diskusi.
@@ -2601,7 +2704,7 @@ k~tomu, že TechRadar není e-shop, ale e-magazín s~recenzemi, byla by chyba
 ženskou část opomenout.
 
                           Výsledky ukazují, že ženy mají tendenci 
-prefereovat výběr z~širšího spektra. Sice nevyužijí například 
+preferovat výběr z~širšího spektra. Sice nevyužijí například 
 vyhledávání podle technických parametrů v~takové míře jako muži, ale 
 pokud jde o~výběr na základě ceny nebo výše poštovného, mohou být 
 ještě vhodnějším segmentem než muži. Právě výše poštovného je 
@@ -2636,7 +2739,7 @@ skupinou, na základě jehož výsledků byla formulována doporučení pro
 inovaci produktu.
 
 Cíle práce bylo dosaženo zodpovězením všech výzkumných otázek. Z provedeného marketingového
-výzkumy vyplývá, že základní očekávání 
+výzkumu vyplývá, že základní očekávání 
 cílové skupiny jsou současnou podobou produktu naplňována. Přesto byly 
 identifikovány možnosti inovace produktu, zejména jeho rozšíření 
 o~kvalitnější vyhledávání nabídek produktů. Část zabývající se 
@@ -2865,10 +2968,11 @@ ZVONÍČEK, P.: \emph{Monetizace webu}. Masarykova univerzita, 16. 3. 2013 [cit.
     \hypertarget{fig-widget}{}%
     \begin{center}
 
-        {{\includegraphics[width=450px]{img/widget}}\hypertarget{idp55374528}{}%
-            \label{idp55374528}
-        }
-        {{\caption[{Cenové srovnání jako postranní komponenta přímo u~recenze}]{{{Cenové srovnání jako postranní komponenta přímo u~recenze}}}\label{fig-widget}}}
+        {\includegraphics[width=450px]{img/widget}}
+
+        \caption[{Cenové srovnání jako postranní komponenta přímo u~recenze}]{Cenové srovnání jako postranní komponenta přímo u~recenze}
+        \label{fig-widget}
+
     \end{center}
 \end{figure}
 
@@ -2878,11 +2982,11 @@ ZVONÍČEK, P.: \emph{Monetizace webu}. Masarykova univerzita, 16. 3. 2013 [cit.
 \begin{figure}[hbt]
     \hypertarget{fig-price-comparison}{}%
     \begin{center}
+    \vspace{53mm}
 
-        {{\includegraphics[width=450px]{img/price-comparison}}\hypertarget{idp55377360}{}%
-            \label{idp55377360}
-        }
-        {{\caption[{Velká tabulka cenového srovnání}]{{{Velká tabulka cenového srovnání}}}\label{fig-price-comparison}}}
+        {\includegraphics[width=450px]{img/price-comparison}}
+        \caption[{Velká tabulka cenového srovnání}]{Velká tabulka cenového srovnání}
+        \label{fig-price-comparison}
     \end{center}
 \end{figure}
 
@@ -2895,11 +2999,7 @@ ZVONÍČEK, P.: \emph{Monetizace webu}. Masarykova univerzita, 16. 3. 2013 [cit.
 
 \appendices{Dotazník pro marketingový výzkum}
 
-Nakupování na internetu
-
-Máte před sebou dotazník, který je součástí mé bakalářské práce. Dohromady má 25 otázek, jeho vyplnění by vám tak nemělo zabrat víc než 5 minut.
-
-Pokud uvedete svou e-mailovou adresu, budete zařazeni do slosování a můžete vyhrát odměnu 500 Kč!
+Máte před sebou dotazník, který je součástí mé bakalářské práce. Dohromady má 25 otázek, jeho vyplnění by vám tak nemělo zabrat víc než 5 minut. Pokud uvedete svou e-mailovou adresu, budete zařazeni do slosování a můžete vyhrát odměnu 500 Kč!
 
 \begin{enumerate}
 
