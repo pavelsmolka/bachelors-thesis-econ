@@ -382,11 +382,14 @@ o~webový e-magazín obsahující recenze a novinky z~oblasti počítačových
 technologií a spotřební elektroniky. V~kapitole 
 \hyperlink{chap-soucasny-stav}{{\ref{chap-soucasny-stav}}} je popsán 
 současný stav provádění affiliate marketingu včetně porovnání 
-s~dalšími platformami podobného typu. Následně jsou formulovány 
-výzkumné otázky, které řeší možnosti inovace provádění affiliate 
-marketingu společností Future. Na základě výzkumných otázek bylo 
-provedeno dotazníkové šetření, jehož výsledky jsou prezentovány 
-v~kapitolách \hyperlink{chap-vyzkum}{{\ref{chap-vyzkum}}} a 
+s~dalšími platformami podobného typu. 
+Analýza současného stavu ústí ve formulované výzkumné otázky, které adresují
+potenciální možnosti inovací. Na základě obecných výzkumných otázek byl sestaven
+marketingový dotazník, který zjišťuje očekávání cílové skupiny od produktu podobného typu
+a potenciálně tedy i možnosti inovace provádění affiliate
+marketingu společností Future. Výsledky dotazníkového šetření jsou prezentovány 
+v~kapitole \hyperlink{chap-vyzkum}{{\ref{chap-vyzkum}}}, odpovědi na výzkumné otázky a
+následná doporučení k~inovaci jsou pak uvedeny v~kapitole
 \hyperlink{chap-doporuceni}{{\ref{chap-doporuceni}}}.
 
 Marketingový výzkum nepokrývá zcela všechny aspekty, které jsou obecně 
@@ -534,9 +537,7 @@ schéma znázorňuje diagram \hyperlink{am-basic}{{\ref{am-basic}}}.
         {{\includegraphics[]{vp/am-actors}}\hypertarget{idp54686880}{}%
             \label{idp54686880}
         }
-        {{\caption[{Základní účastnické role affiliate 
-marketingu}]{{{Základní účastnické role affiliate 
-marketingu}}}\label{am-basic}}}
+        {{\caption[{Základní účastnické role affiliate marketingu}]{{{Základní účastnické role affiliate marketingu (zdroj: autor)}}}\label{am-basic}}}
     \end{center}
 \end{figure}
 
@@ -600,7 +601,7 @@ unikátních kódů, pomocí nichž je možné identifikovat všechny
 konkrétní účastníky celého procesu. V~angličtině se tyto 
 identifikátory označují pojmem {\em{tracking codes}}\index{tracking code}.
 
-Jak bylo popsáno v~předchozí kapitole, prvním krokem je předání nabídky 
+Jak bylo popsáno v~předchozí sekci, prvním krokem je předání nabídky 
 od obchodníka zprostředkovateli. V~tuto chvíli můžeme zjednodušit a pod 
 nabídkou si představit konkrétní produkt, prodávaný v~e-shopu 
 obchodníka. Zprostředkovatel (affiliate) dostane od obchodníka speciálně 
@@ -658,7 +659,8 @@ ovšem odměna za přivedení zákazníka, resp. napomožení učinění
 nákupního rozhodnutí. Cílem všech zúčastněných stran je tedy 
 maximální možné očištění o~zmíněné vlivy, které by vedly 
 k~výraznému snížení provizí a tedy i nižší ochotě zprostředkovatelů 
-na affiliate programech spolupracovat.
+na affiliate programech spolupracovat. Zmíněné problémy řeší technologie
+cookies, popsaná v následující subkapitole.
 \subsection{Cookies}
 \label{idp54716384}\hypertarget{idp54716384}{}%
 
@@ -747,7 +749,7 @@ vztahů se jmény známými z~českého prostředí zobrazuje diagram
         }
         {{\caption[{Přímá interakce mezi obchodníky a 
 vydavateli}]{{{Přímá interakce mezi obchodníky a 
-vydavateli}}}\label{fig-an-m-to-n}}}
+vydavateli (zdroj: autor)}}}\label{fig-an-m-to-n}}}
     \end{center}
 \end{figure}
 
@@ -775,7 +777,11 @@ e-shopy, které přestávají řešit separátně jednotlivé vydavatele. Pouze
 zveřejní svou nabídku v~rámci affiliate sítě, která za ně řeší 
 komunikaci s~vydavateli a konkrétní technické řešení. Z~původního 
 schématu M:N se tak ve skutečnosti stávají dvě skupiny s~kardinalitami M:1 
-a 1:N. Jak je vidět z~diagramu 
+a 1:N.\footnote{
+    Kardinalita vztahu je v tomto případě myšlena ve smyslu modelování relací.
+    Tato terminologie se běžně používá například při návrhu databází. \cite{cardinality}{}
+} 
+Jak je vidět z~diagramu 
 \hyperlink{fig-am-m-to-n-with-an}{{\ref{fig-am-m-to-n-with-an}}}, množství 
 nutných interakcí se snížilo z~kvadratického na lineární.
 
@@ -789,7 +795,7 @@ nutných interakcí se snížilo z~kvadratického na lineární.
         }
         {{\caption[{Interakce mezi obchodníky, affiliate sítí a 
 vydavateli}]{{{Interakce mezi obchodníky, affiliate sítí a 
-vydavateli}}}\label{fig-am-m-to-n-with-an}}}
+vydavateli (zdroj: autor)}}}\label{fig-am-m-to-n-with-an}}}
     \end{center}
 \end{figure}
 
@@ -992,8 +998,9 @@ objemu přesměrovanému do internetového obchodu.
 
 Tato kapitola se věnuje principům tvorby e-commerce software. V první části
 je popsáno, jakým způsobem probíhá proces nákupního chování a jakými
-aspekty je finální rozhodnutí ovlivněno. Nástroje affiliate marketingu
-by měly tyto principy co nejlépe využívat. V~druhé části této kapitoly
+aspekty je finální rozhodnutí ovlivněno. V této kapitole jsou popsány dva koncepty
+modelující nákupní rozhodování -- matice FCB a model DAGMAR, jejichž závěrů je 
+využito v praktické části. V~druhé části této kapitoly
 je rozebírán způsob vývoje a inovace softwarového produktu, zejména webového typu.
 
 % ------------------------   
@@ -1007,15 +1014,13 @@ marketingu. Jak bylo zmíněno v~úvodu této kapitoly, rozhodující je
 nasměrování zákazníka do internetového obchodu. A~rovněž zde platí 
 základní modely nákupního chování a rozhodování, které byly původně 
 vytvořeny pro analýzu klasického nákupu. Internet je totiž pouze 
-prostředím, ve kterém se zákazník rozhoduje, nikoliv předmětem 
-samotného rozhodování. Tím zůstává samotný akt nákupu klasického 
-produktu, například spotřební elektroniky, jako je tomu v~případě 
+prostředím, ve kterém se zákazník rozhoduje. Předmětem rozhodování
+zůstává samotný nákup klasického fyzického produktu -- například spotřební elektroniky, jako je tomu v~případě 
 e-magazínu TechRadar.
 \subsection{Model DAGMAR\index{DAGMAR}}
 \label{chap-dagmar}\hypertarget{chap-dagmar}{}%
 
-Tato práce vychází ze dvou modelů hierarchie účinků nákupního 
-rozhodování. Prvním z~nich je koncept, jež představil pod názvem \glqq 
+Prvním z~modelů, z nichž tato práce vychází, je koncept, jež představil pod názvem \glqq 
 Defining Advertising Goals for Measured Advertising Results\textquotedblleft{} 
 v~roce 1961 Russel H. Colley. \cite{dagmar}{} Tento model v~základní podobě 
 popisuje sekvenci, kterou prochází potenciální zákazník při procesu 
@@ -1034,7 +1039,7 @@ poslední fází (action). Celý proces zobrazuje diagram
             \label{idp54801136}
         }
         {{\caption[{Hierarchie modelu DAGMAR}]{{{Hierarchie modelu 
-DAGMAR}}}\label{fig-dagmar}}}
+        DAGMAR (zdroj: autor)}}}\label{fig-dagmar}}}
     \end{center}
 \end{figure}
 
@@ -1377,7 +1382,7 @@ Kotlerových fází.}
         }
         {{\caption[{Životní cyklus iterativního vývoje webové 
 aplikace}]{{{Životní cyklus iterativního vývoje webové 
-aplikace}}}\label{fig-product-lifecycle-sw}}}
+aplikace (zdroj: autor, \cite{product-lifecycle-graph})}}}\label{fig-product-lifecycle-sw}}}
     \end{center}
 \end{figure}
 
@@ -1774,7 +1779,7 @@ konkurenčních portálech, je vidět, že zde existuje prostor pro inovaci.
 Vylepšování a obměňování softwarového produktu ale nelze provést pouze 
 na základě úsudku. Inovace musí být založeny na objektivních datech 
 reflektujících názor a očekávání uživatelů portálu. Jednou z~metod 
-získání takových dat je marketingový výzkum formou dotazníku, který byl 
+získání takových dat je marketingový výzkum formou dotazování, který byl 
 v~rámci této práce proveden a je popsán a zhodnocen v~této kapitole. 
 Dalšími možnostmi pro získání informací, které však v~rámci této 
 práce nebyly využity, by mohl být rozhovor s~několika stávajícími 
@@ -1847,7 +1852,7 @@ e-magazínu. Primárně se tedy nezabývá vzájemným vztahem zkoumaných
 veličin, nýbrž jejich absolutní hodnotou. Proto jsou všechny otázky 
 uzavřené a pro odpovědi byla zvolena pětibodová škála. Lichý počet 
 variant zajišťuje, že odpovídající není nucen vždy vybírat pozitivní 
-nebo nebo negativní odpověď, potenciálně tedy získaný vzorek dat lépe 
+nebo nebo negativní odpověď, potenciálně tedy získaný soubor dat lépe 
 odpovídá realitě. Vzhledem k~povaze otázek, které často přímo 
 zjišťují subjektivní míru očekávání nebo názor respondenta, by více 
 než pět bodů na škále nepřineslo větší přesnost odpovědí. Naopak by 
@@ -1868,7 +1873,7 @@ Rozhodl jsem se ale do průzkumu zahrnout i ženy, protože srovnání
 nákupního chování žen a mužů by mohlo odhalit zajímavé body, na které 
 se lze při inovaci zaměřit, přizpůsobit produkt i ženské části 
 populace a potenciálně tak počet čtenářek zvýšit. Aby byl ovšem 
-průzkum validní v~rámci zadání, je základní analýza provedena na vzorku 
+průzkum v~souladu se zadáním, je základní analýza provedena na vzorku 
 obsahujícím odpovědi mužských respondentů. Až následné rozšíření 
 řeší rozdíly mezi muži a ženami v~rámci celého vzorku dotazovaných.
 \subsection{Dotazník}
@@ -1961,7 +1966,7 @@ respondentů. Tento fakt může způsobit drobné zkreslení dat, nicméně
 vzhledem ke globální povaze affiliate marketingu a celkové podobnosti 
 těchto platforem (např. již zmíněná česká Heuréka) pravděpodobně 
 nepůjde o~významnější problém, který by bránil správné interpretaci 
-dat.
+dat. % TODO omezení výzkumu - přidat nějaký výzkum, který srovná CZ a GB?
 
 V~rámci obecných výzkumných otázek byl také nastíněn problém 
 aktuálnosti a přesnosti informací. Velké množství dat, se kterými 
@@ -1985,7 +1990,12 @@ považovat tento bod za funkční.
 
 V~této části práce jsou analyzovány agregované odpovědi respondentů. 
 Jak již bylo zmíněno, většina otázek nabízí odpovědi na uzavřené 
-pětibodové škále, dále reprezentované číselnými hodnotami 0 až 4. 
+pětibodové škále, dále reprezentované číselnými hodnotami 0 až 4.\footnote{
+Nejnižší hodnota, tedy nula, reprezentuje záporné odpovědi \glqq určitě ne\textquotedblleft{} 
+nebo \glqq nikdy\textquotedblleft{}. Číslem 4 je na škále vyjádřena odpověď
+\glqq vždy\textquotedblleft{} a \glqq určitě ano\textquotedblleft{}.  
+}
+
 Tato uniformita umožňuje vzájemné porovnání číselných reprezentací 
 odpovědí jednotlivých otázek, a tedy i porovnání priorit z~pohledu 
 uživatele. Odpovědi na každou otázku tedy byly vyhodnocovány jako 
@@ -1995,9 +2005,12 @@ respondentů.
 Tabulka \hyperlink{tobsah}{{\ref{tobsah}}} zobrazuje číselné charakteristiky 
 odpovědí na otázky 7 až 12. Ukazuje se, že tři základní pilíře 
 affiliate marketingu ve společnosti Future mají smysl: většina uživatelů 
-má zájem o~recenze elektroniky, doplněné o~obrázky a fotografie produktů, 
-a následně využije služby cenového srovnání. Střední hodnota ve výši 
-3,76 a malý rozptyl odpovědí na otázku č. 10 ukazují, že v~očekávání 
+má zájem o~recenze elektroniky (3,56), doplněné o~obrázky a fotografie produktů (3,92), 
+a následně využije služby cenového srovnání (3,00).\footnote{
+V závorce je vždy uvedena střední hodnota odpovědí na související otázku v dotazníku.
+}
+Střední hodnota ve výši 3,76 a malý rozptyl odpovědí na otázku č. 10 (tedy zda uživatelé chtějí
+produkty vyhledávat podle technických parametrů) ale ukazují, že v~očekávání 
 uživatelů je porovnání alternativ, tedy podobných produktů v~rámci 
 stejné kategorie, ještě o~něco výše než recenze a cenové srovnání 
 nabídek jednoho konkrétního produktu.
@@ -2081,7 +2094,11 @@ středních hodnot. Tedy při celkovém součtu 14,38 by měla cena v~celkovém
 nehrají pro zákazníky velkou roli. V~současné podobě je na ně ovšem 
 kladen velký důraz a jsou zobrazovány jak v~náhledu cenového srovnání 
 u~recenze, tak v~plném cenovém srovnání. Jednou z~možností je nahrazení 
-tohoto sloupce informací o~certifikátu spolehlivosti.
+tohoto sloupce informací o~certifikátu spolehlivosti.\footnote{
+    Podobnou střední hodnotu, tedy průměrnou hladinu očekávání, má i proměnná
+    reprezentující výši poštovného. Tato je však již v tabulce cenového
+    srovnání přítomna, jak ukazuje obrázek aplikace \hyperlink{fig-widget}{{\ref{fig-widget}}} v příloze.
+}
 
             Nejvyšší prioritu kladou respondenti poměrně překvapivě na 
 to, zda mají již s~daným e-shopem zkušenosti. Tento atribut je ovšem 
@@ -2216,10 +2233,12 @@ utracené částce hraje marginální roli. Zahrnutí alternativních produktů
 je možno interpretovat podobně, nicméně kvůli vyšší p-hodnotě zde 
 není vliv tak silný.
 
-                Model splňuje klasické předpoklady OLS. Homoskedasticita 
-reziduí byla ověřena White testem s~p-hodnotou 0,157628. Celkový počet 89 
+Aby bylo možno prohlásit model za validní, je potřeba ověřit tzv. klasické předpoklady
+OLS modelu, kterými jsou zejména homoskedasticita reziduí a jejich normální rozdělení.
+Homoskedasticita reziduí byla ověřena White testem s~p-hodnotou 0,157628. Celkový počet 89 
 pozorování je dostatečný k~tomu, aby mohlo být využito asymptotické 
 teorie a prohlásit rezidua za normálně rozdělená. \cite{ols-asymptotic}{}
+Model tedy splňuje klasické předpoklady OLS. 
                 \subsection{Rozšíření cílové skupiny}
                 \label{chap-men-women}\hypertarget{chap-men-women}{}%
 
@@ -2355,8 +2374,8 @@ TechRadar patří do druhé skupiny.
 
                           Následující čtyři řádky v~tabulce 
 \hyperlink{tab-prumery}{4.4}, tedy zprůměrované odpovědi na otázky 8, 9, 
-10 a 14 ukazují, že ženy obecně preferují pestřejší výběr. Dokonce 
-více využívají aplikace cenového srovnání, zajímají se o~alternativní 
+10 a 14 ukazují, že ženy obecně preferují pestřejší výběr. Porovnání s~mužskou částí respondentů 
+ukazuje, že ženy dokonce více využívají aplikace cenového srovnání, zajímají se o~alternativní 
 produkty a preferují výběr z~většího množství nabídek. Odpovědi na 
 otázku č. 9 ale ukazují, že pokud jde o~vyhledávání podle technických 
 parametrů produktu, jsou to spíše muži, kdo využijí tuto variantu.
@@ -2409,7 +2428,14 @@ z~kategorií produktů, například \glqq fotoaparáty\textquotedblleft{} nebo
 kategorie specifičtější parametry, které mohou mít v~zásadě tři 
 podoby. Pro vyhledávání podle kvantitativních parametrů jako je cena nebo 
 velikost paměti je nejvhodnější vhodně kalibrovaná stupnice 
-s~posuvníkem. Druhou možností je filtrování produktů zahrnujících 
+s~posuvníkem.\footnote{
+    Stupnice s posuvníkem se u hodnot pohybujících na určité škále stala
+    ve světě e-commerce standardem, který byl ověřen a implementován
+    drtivou většinou e-shopů a webů s cenovým srovnáním. Je ovšem nutno
+    přiznat, že žádné řešení nefunguje pro všechny a stále existují uživatelé,
+    kteří takové posuvníky nesnáší, protože se nemohou trefit.
+}
+Druhou možností je filtrování produktů zahrnujících 
 určitou kvalitativní vlastnost. Jako příklad v~kategorii notebooků 
 můžeme uvést \glqq pouze s~předinstalovaným OS\textquotedblleft{}. Pokud 
 se ale jedná přímo o~podkategorii, například \glqq pouze LED 
@@ -2522,7 +2548,7 @@ nabídek}}}\label{fig-sorting}}}
 v~rámci e-magazínů jsou i reklamní bannery a vyčleněné reklamní sloty 
 na webové stránce. Odpovědi na otázku č. 23 ovšem ukazují, že 
 efektivita takového odkazu a tedy následně sledovaný konverzní poměr jsou 
-velmi nízké. Doporučujeme tedy primárně zobrazovat affiliate nabídky jako 
+velmi nízké. Doporučuji tedy primárně zobrazovat affiliate nabídky jako 
 součást obsahu u~recenzí produktů, případně ve speciální sekci 
 dedikované vyhledávání podle parametrů.
                           \subsection{Uživatelské komentáře}
@@ -2609,7 +2635,8 @@ Na základě prvotní analýzy byl sestaven marketingový výzkum mezi cílovou
 skupinou, na základě jehož výsledků byla formulována doporučení pro 
 inovaci produktu.
 
-                          Lze konstatovat, že základní očekávání 
+Cíle práce bylo dosaženo zodpovězením všech výzkumných otázek. Z provedeného marketingového
+výzkumy vyplývá, že základní očekávání 
 cílové skupiny jsou současnou podobou produktu naplňována. Přesto byly 
 identifikovány možnosti inovace produktu, zejména jeho rozšíření 
 o~kvalitnější vyhledávání nabídek produktů. Část zabývající se 
@@ -2658,205 +2685,137 @@ vyvíjející trh už je úplně jinde.
 \addcontentsline{toc}{chapter}{\textbf{\bibname}}
 \markright{Použitá literatura}
 
-% ............. biblioentry 
+
+\bibitem{advertising-creative}
+ALTSTIEL, T. a GROW, J.: \emph{Advertising creative: strategy, copy and design}. 2nd ed. Los Angeles: Sage, 2010, 347 s., ISBN 9781412974912.
+
+\bibitem{amazon-cookie}
+AMAZON: \emph{EU Associates Programme Operating Agreement}. 2013 [cit. 8. 2. 2014], Dostupné na {\textless}\url{https://affiliate-program.amazon.co.uk/gp/associates/agreement}{\textgreater}.
+
+\bibitem{fcb-how-advertising-works-slideshare}
+BARCELO, J.: \emph{How Advertising Works}. SlideShare, 6. 3. 2010 [cit. 1. 3. 2014], Dostupné na {\textless}\url{http://www.slideshare.net/jcbarcelo/fcb-grid}{\textgreater}.
+
+\bibitem{rfc-cookie}
+BARTH, A.: \emph{RFC 6265: HTTP State Management Mechanism}. University of California, Berkeley, 2011 [cit. 8. 2. 2014], Dostupné na {\textless}\url{http://tools.ietf.org/html/rfc6265}{\textgreater}.
+
+\bibitem{waterfall}
+BENINGTON, H.: \emph{Production of Large Computer Programs}. IEEE Annals of the History of Computing 5
+        (4), 1983 [cit. 9. 3. 2014], Dostupné na {\textless}\url{http://sunset.usc.edu/csse/TECHRPTS/1983/usccse83-501/usccse83-501.pdf}{\textgreater}.
+
+\bibitem{copmlete-guide-to-am}
+BROWN, B.: \emph{The Complete Guide to Affiliate Marketing on the Web}. 1st ed. Atlantic Publishing, 2009, 384 s., ISBN 978-1601381255.
+
+\bibitem{internet-marketing-strategy}
+CHAFFEY, D. a ELLIS-CHADWICK, F. a MAYER, R. a JOHNSTON, K.: \emph{Internet Marketing: Strategy, Implementation and Practice}. 4th ed. Pearson Education, 2009, 702 s., ISBN 9780273717409.
+
+\bibitem{dagmar}
+COLLEY, R.: \emph{Defining Advertising Goals: For Measured Advertising Results}. 2nd ed. The Association, 1961, 114 s., ISBN 978-0844234229.
+
+\bibitem{performance-based-advertising}
+DAINOW, B.: \emph{The rise of performance-based advertising}. iMedia Connection, 26. 3. 2008 [cit. 9. 2. 2014], Dostupné na {\textless}\url{http://www.imediaconnection.com/content/18800.asp}{\textgreater}.
+
+\bibitem{dh-test}
+DOORNIK, J. a HANSEN, H.: \emph{An Omnibus test for univariate and multivariate normality}.
+Oxford Bulletin of Economics and Statistics (70), 2008, s. 927-939.
+
+\bibitem{am-impact}
+DUFFY, D.: \emph{Affiliate marketing and its impact on e-commerce}. The Journal of Consumer Marketing, 22(2),
+        s. 161-163, 2005 [cit. 9. 2. 2014], Dostupné po autentizaci na {\textless}\url{http://search.proquest.com/docview/220134240?accountid=16531}{\textgreater}.
+
+\bibitem{marketing-performance}
+FARRIS, P. a BENDLE, N. a PFEIFER, P. a REIBSTEIN, D.: \emph{Marketing Metrics: The Definitive Guide to Measuring Marketing
+      Performance}. 2nd ed. Upper Saddle River, New Jersey: FT Press, 2010, 414 s., ISBN 978-0137058297.
+
+\bibitem{marketingova-komunikace}
+FREY, P.: \emph{Marketingová komunikace: nové trendy 3.0}. 3. rozš. vyd. Praha: Management Press, 2011, 203 s., ISBN 9788072612376.
+
+\bibitem{youtube-mark-wood-interview}
+FUTURE PLC: \emph{Mark Wood - November 2013 Interview}. YouTube, 16. 12. 2013 [cit. 8. 2. 2014], Dostupné na {\textless}\url{http://www.youtube.com/watch?v=W-EpxbH2KHY}{\textgreater}.
+
+\bibitem{time-15-sec}
+HAILE, T.: \emph{What You Think You Know About the Web Is Wrong}. 9. 3. 2014 [cit. 22. 3. 2014], Time Inc., Dostupné na {\textless}\url{http://time.com/12933/what-you-think-you-know-about-the-web-is-wrong/}{\textgreater}.
+
+\bibitem{referral-marketing}
+HRAJU, D.: \emph{Referral and Affiliate Marketing: What's the Difference?}. Referral Candy, 5. 11. 2010 [cit. 9. 2. 2014], Dostupné na {\textless}\url{http://blog.referralcandy.com/2010/11/05/referral-and-affiliate-marketing-whats-the-difference/}{\textgreater}.
+
+\bibitem{is-mu-redesign}
+IS MU: \emph{Nový design zobrazení výsledků podobností}. Masarykova univerzita, 8. 10. 2013 [cit. 2. 3. 2014], Dostupné na {\textless}\url{https://is.muni.cz/blog/is_info/nov_20131008_podobnosti}{\textgreater}.
+
+\bibitem{top-posting}
+KASPRZAK, J.: \emph{Top Posting}. 9. 9. 2010 [cit. 15. 3. 2014], Dostupné na {\textless}\url{http://www.fi.muni.cz/~kas/blog/index.cgi/computers/top-posting.html}{\textgreater}.
+
+\bibitem{decline-of-print}
+KISSEL, M.: \emph{The decline of print doesn't mean the end of journalism}. 29. 10. 2013 [cit. 30. 3. 2014], The Guardian, Dostupné na {\textless}\url{http://www.theguardian.com/commentisfree/2013/oct/29/decline-print-media-journalism-web}{\textgreater}.
+
 \bibitem{ab-testing}
 KOHAVI, R. a LONGBOTHAM, R. a SOMMERFIELD, D. a HENNE, R.: \emph{Controlled experiments on the web: survey and practical
-      guide}, Data Mining and Knowledge Discovery (Berlin: Springer)
+      guide}. Data Mining and Knowledge Discovery (Berlin: Springer)
         18 (1), 2009 [cit. 16. 3. 2014], Dostupné na {\textless}\url{http://ai.stanford.edu/~ronnyk/2009controlledExperimentsOnTheWebSurvey.pdf}{\textgreater}. 
 
-% ............. biblioentry 
-\bibitem{advertising-creative}
-ALTSTIEL, T. a GROW, J.: \emph{Advertising creative: strategy, copy and design}, Los Angeles: Sage, 2010, 347 s., ISBN 9781412974912.
-
-% ............. biblioentry 
-\bibitem{am-impact}
-
-DUFFY, D.: \emph{Affiliate marketing and its impact on e-commerce}, The Journal of Consumer Marketing, 22(2),
-        s. 161-163, 2005 [cit. 9. 2. 2014], Dostupné po autentizaci na {\textless}\url{http://search.proquest.com/docview/220134240?accountid=16531}{\textgreater}. 
-
-% ............. biblioentry 
-\bibitem{amazon-cookie}
-
-AMAZON: \emph{EU Associates Programme Operating Agreement}, 2013 [cit. 8. 2. 2014], Dostupné na {\textless}\url{https://affiliate-program.amazon.co.uk/gp/associates/agreement}{\textgreater}. 
-
-% ............. biblioentry 
-\bibitem{consumer-behavior}
-
-SCHIFFMAN, L. a KANUK, L. a WISENBLIT, J.: \emph{Consumer behavior: global edition}, Boston: Pearson Prentice Hall, 2010, 592 s., ISBN 9780137006700. 
-
-% ............. biblioentry 
-\bibitem{copmlete-guide-to-am}
-
-BROWN, B.: \emph{The Complete Guide to Affiliate Marketing on the Web}, Atlantic Publishing, 2009, 384 s., ISBN 978-1601381255. 
-
-% ............. biblioentry 
-\bibitem{customers-now}
-
-SZETELA, D.: \emph{Customers Now}, iUniverse, 2009, 108 s., ISBN 978-1440170997. 
-
-% ............. biblioentry 
-\bibitem{dagmar}
-
-COLLEY, R.: \emph{Defining Advertising Goals: For Measured Advertising
-      Results}, The Association, 1961, 114 s., ISBN 978-0844234229. 
-
-% ............. biblioentry 
-\bibitem{decline-of-print}
-
-KISSEL, M.: \emph{The decline of print doesn't mean the end of journalism}, 29. 10. 2013 [cit. 30. 3. 2014], The Guardian, Dostupné na {\textless}\url{http://www.theguardian.com/commentisfree/2013/oct/29/decline-print-media-journalism-web}{\textgreater}. 
-
-% ............. biblioentry 
-\bibitem{dh-test}
-
-DOORNIK, J. a HANSEN, H.: \emph{An Omnibus test for univariate and multivariate normality}, Oxford Bulletin of Economics and Statistics,
-        70, 2008, s. 927-939. 
-
-% ............. biblioentry 
-\bibitem{fcb-how-advertising-works}
-
-VAUGHAN, R.: \emph{How Advertising Works: A~Planning Model}, Journal of Advertising Research, 20 (5), 1980, s. 27-33.. 
-
-% ............. biblioentry 
-\bibitem{fcb-how-advertising-works-slideshare}
-
-BARCELO, J.: \emph{How Advertising Works}, SlideShare, 6. 3. 2010 [cit. 1. 3. 2014], Dostupné na {\textless}\url{http://www.slideshare.net/jcbarcelo/fcb-grid}{\textgreater}. 
-
-% ............. biblioentry 
-\bibitem{guardian-job-cut}
-
-SWENEY, M.: \emph{Future Publishing to cut 55 jobs}, The Guardian, 3. 9. 2013 [cit. 8. 2. 2014], Dostupné na {\textless}\url{http://www.theguardian.com/media/2013/sep/03/future-publishing-cut-55-jobs}{\textgreater}. 
-
-% ............. biblioentry 
-\bibitem{independent-chris-anderson}
-
-NICHOLAS, R.: \emph{Profile: Chris Anderson: Media with passion}, The Independent, 11. 7. 1999 [cit. 8. 2. 2014], Dostupné na {\textless}\url{http://www.independent.co.uk/news/business/profile-chris-anderson-media-with-passion-1105628.html}{\textgreater}. 
-
-% ............. biblioentry 
-\bibitem{internet-marketing-strategy}
-
-CHAFFEY, D. a ELLIS-CHADWICK, F. a MAYER, R. a JOHNSTON, K.: \emph{Internet Marketing: Strategy, Implementation and Practice}, Pearson Education, 2009, 702 s., ISBN 9780273717409. 
-
-% ............. biblioentry 
-\bibitem{is-mu-redesign}
-
-IS MU: \emph{Nový design zobrazení výsledků podobností}, Masarykova univerzita, 8. 10. 2013 [cit. 2. 3. 2014], Dostupné na {\textless}\url{https://is.muni.cz/blog/is_info/nov_20131008_podobnosti}{\textgreater}. 
-
-% ............. biblioentry 
 \bibitem{kotler-mm}
+KOTLER, P.: \emph{Marketing Management}. 14th ed. Harlow: Pearson Education, 2011, 203 s., ISBN 978-0273755029.
 
-KOTLER, P.: \emph{Marketing Management}, Pearson Education, 2012, ISBN 978-0273755029. 
-
-% ............. biblioentry 
-\bibitem{lupa-datator}
-
-SLÍŽEK, D.: \emph{Zkrocené Uloz.to má nástupce v~Datator.cz a historie se opakuje}, Lupa.cz, 7. 2. 2014 [cit. 8. 2. 2014], Dostupné na {\textless}\url{http://www.lupa.cz/clanky/zkrocene-uloz-to-ma-nastupce-v-datator-cz-a-historie-se-opakuje/}{\textgreater}. 
-
-% ............. biblioentry 
-\bibitem{managing-innovation}
-
-TIDD, J. a BESSANT, J.: \emph{Managing innovation: integrating technological, market and
-      organizational change}, Chichester: John Wiley \& Sons, 2009, 622 s., ISBN 978-0-470-99810-6. 
-
-% ............. biblioentry 
-\bibitem{marketing-performance}
-
-FARRIS, P. a BENDLE, N. a PFEIFER, P. a REIBSTEIN, D.: \emph{Marketing Metrics: The Definitive Guide to Measuring Marketing
-      Performance}, Upper Saddle River, New Jersey: Pearson Education,
-        Inc, 2010, ISBN 978-0137058297.
-
-% ............. biblioentry 
-\bibitem{marketingova-komunikace}
-
-FREY, P.: \emph{Marketingová komunikace: nové trendy 3.0}, Praha: Management Press, 2011, 203 s., ISBN 9788072612376. 
-
-% ............. biblioentry 
-\bibitem{navrh-vyzkumu}
-
-PUNCH, K.: \emph{Úspěšný návrh výzkumu}, Praha: Portál, 2008, 230 s., ISBN 978-80-7367-468-7. 
-
-% ............. biblioentry 
-\bibitem{ols-asymptotic}
-
-LUTZ, K. a DEMIROGLU, U.: \emph{Residual-Based Tests for Normality in Autoregressions: Asymptotic
-      Theory and Simulation Evidence}, Journal of Business \& Economic Statistics 18
-        (1), 2000, s. 40-50. 
-
-% ............. biblioentry 
-\bibitem{partnersky-program-seznam}
-
-SEZNAM.CZ: \emph{Partnerský program Sklik}, 2014 [cit. 9. 2. 2014], Dostupné na {\textless}\url{http://napoveda.sklik.cz/cz/partner/}{\textgreater}. 
-
-% ............. biblioentry 
-\bibitem{performance-based-advertising}
-
-DAINOW, B.: \emph{The rise of performance-based advertising}, iMedia Connection, 26. 3. 2008 [cit. 9. 2. 2014], Dostupné na {\textless}\url{http://www.imediaconnection.com/content/18800.asp}{\textgreater}. 
-
-% ............. biblioentry 
-\bibitem{personalisation}
-
-REVERTE, C.: \emph{Personalization Innovators: Amazon, Netflix, and Yahoo!}, 28. 8. 2013 [cit. 26. 3. 2014], Dostupné na {\textless}\url{https://www.addthis.com/blog/2013/08/28/personalization-innovators-amazon-netflix-and-yahoo/}{\textgreater}. 
-
-% ............. biblioentry 
-\bibitem{razeni-inzeratu-seznam}
-
-SEZNAM.CZ: \emph{Řazení inzerátů v~systému Sklik}, 2014 [cit. 9. 2. 2014], Dostupné na {\textless}\url{http://napoveda.sklik.cz/cz/zaciname-inzerovat/inzeraty-razeni/}{\textgreater}. 
-
-% ............. biblioentry 
-\bibitem{referral-marketing}
-
-HRAJU, D.: \emph{Referral and Affiliate Marketing: What's the Difference?}, Referral Candy, 5. 11. 2010 [cit. 9. 2. 2014], Dostupné na {\textless}\url{http://blog.referralcandy.com/2010/11/05/referral-and-affiliate-marketing-whats-the-difference/}{\textgreater}. 
-
-% ............. biblioentry 
-\bibitem{rfc-cookie}
-
-BARTH, A.: \emph{RFC 6265: HTTP State Management Mechanism}, University of California, Berkeley, 2011 [cit. 8. 2. 2014], Dostupné na {\textless}\url{http://tools.ietf.org/html/rfc6265}{\textgreater}. 
-
-% ............. biblioentry 
 \bibitem{spokojenost-lukasova}
+LUKÁŠOVÁ, R.: \emph{Měření spokojenosti občanů s~veřejnými službami}. Masarykova univerzita, 2009 [cit. 9. 3. 2014], Dostupné na {\textless}\url{http://is.muni.cz/do/1456/soubory/oddeleni/svi/skripta/es2009-01.pdf}{\textgreater}.
 
-LUKÁŠOVÁ, R.: \emph{Měření spokojenosti občanů s~veřejnými službami}, Masarykova univerzita, 2009 [cit. 9. 3. 2014], Dostupné na {\textless}\url{http://is.muni.cz/do/1456/soubory/oddeleni/svi/skripta/es2009-01.pdf}{\textgreater}. 
-
-% ............. biblioentry 
-\bibitem{theseus-paradox}
-
-REA, M.: \emph{The Problem of Material Constitution}, The Philosophical Review, 104, 1995. 
-
-% ............. biblioentry 
-\bibitem{time-15-sec}
-HAILE, T.: \emph{What You Think You Know About the Web Is Wrong}, 9. 3. 2014 [cit. 22. 3. 2014], Time Inc., Dostupné na {\textless}\url{http://time.com/12933/what-you-think-you-know-about-the-web-is-wrong/}{\textgreater}. 
-
-% ............. biblioentry 
-\bibitem{times-reuters}
-POTTER, M. a HOLMES, D.: \emph{Paywall hits The Times online readership - paper}, Reuters, 18. 7. 2010 [cit. 9. 2. 2014], Dostupné na {\textless}\url{http://www.reuters.com/article/2010/07/18/newsinternational-times-idUSLDE66H09F20100718}{\textgreater}. 
-
-% ............. biblioentry 
-\bibitem{top-posting}
-KASPRZAK, J.: \emph{Top Posting}, 9. 9. 2010 [cit. 15. 3. 2014], Dostupné na {\textless}\url{http://www.fi.muni.cz/~kas/blog/index.cgi/computers/top-posting.html}{\textgreater}. 
-
-% ............. biblioentry 
-\bibitem{twitter-redesign}
-RUSSELL, J.: \emph{The redesigned Twitter.com has now rolled out to all users}, 
-The Next Web, 4. 2. 2014 [cit. 2. 3. 2014], Dostupné na {\textless}\url{http://thenextweb.com/twitter/2014/02/04/the-redesigned-twitter-com-has-now-rolled-out-to-all-users/}{\textgreater}. 
-
-% ............. biblioentry 
-\bibitem{waterfall}
-
-BENINGTON, H.: \emph{Production of Large Computer Programs}, IEEE Annals of the History of Computing 5
-        (4), 1983 [cit. 9. 3. 2014], Dostupné na {\textless}\url{http://sunset.usc.edu/csse/TECHRPTS/1983/usccse83-501/usccse83-501.pdf}{\textgreater}. 
-
-% ............. biblioentry 
-\bibitem{youtube-mark-wood-interview}
-
-FUTURE PLC: \emph{Mark Wood - November 2013 Interview}, YouTube, 16. 12. 2013 [cit. 8. 2. 2014], Dostupné na {\textless}\url{http://www.youtube.com/watch?v=W-EpxbH2KHY}{\textgreater}. 
-
-% ............. biblioentry 
-\bibitem{zvnonicek-monetizace}
-ZVONÍČEK, P.: \emph{Monetizace webu}, Masarykova univerzita, 16. 3. 2013 [cit. 8. 2. 2014], Dostupné na {\textless}\url{http://www.fi.muni.cz/~xobsivac/PV219/prezentace11/monetizace.html}{\textgreater}. 
-
+\bibitem{ols-asymptotic}
+LUTZ, K. a DEMIROGLU, U.: \emph{Residual-Based Tests for Normality in Autoregressions: Asymptotic
+      Theory and Simulation Evidence}. Journal of Business \& Economic Statistics 18
+        (1), 2000, s. 40-50.
 
 \bibitem{product-lifecycle-graph}
-MR GOODACRE: \emph{PLC - The Product Life Cycle}, Mr Goodacre.com, 2013 [cit. 10. 3. 2014], Dostupné na {\textless}\url{http://www.mrgoodacre.com/plc---product-life-cycle.html}{\textgreater}. 
+MR GOODACRE: \emph{PLC - The Product Life Cycle}. Mr Goodacre.com, 2013 [cit. 10. 3. 2014], Dostupné na {\textless}\url{http://www.mrgoodacre.com/plc---product-life-cycle.html}{\textgreater}.
 
+\bibitem{independent-chris-anderson}
+NICHOLAS, R.: \emph{Profile: Chris Anderson: Media with passion}. The Independent, 11. 7. 1999 [cit. 8. 2. 2014], Dostupné na {\textless}\url{http://www.independent.co.uk/news/business/profile-chris-anderson-media-with-passion-1105628.html}{\textgreater}.
+
+\bibitem{times-reuters}
+POTTER, M. a HOLMES, D.: \emph{Paywall hits The Times online readership - paper}. Reuters, 18. 7. 2010 [cit. 9. 2. 2014], Dostupné na {\textless}\url{http://www.reuters.com/article/2010/07/18/newsinternational-times-idUSLDE66H09F20100718}{\textgreater}.
+
+\bibitem{navrh-vyzkumu}
+PUNCH, K.: \emph{Úspěšný návrh výzkumu}. 1. vyd. Praha: Portál, 2008, 230 s., ISBN 978-80-7367-468-7.
+
+\bibitem{theseus-paradox}
+REA, M.: \emph{The Problem of Material Constitution}. The Philosophical Review, 104, 1995.
+
+\bibitem{personalisation}
+REVERTE, C.: \emph{Personalization Innovators: Amazon, Netflix, and Yahoo!}. 28. 8. 2013 [cit. 26. 3. 2014], Dostupné na {\textless}\url{https://www.addthis.com/blog/2013/08/28/personalization-innovators-amazon-netflix-and-yahoo/}{\textgreater}.
+
+\bibitem{twitter-redesign}
+RUSSELL, J.: \emph{The redesigned Twitter.com has now rolled out to all users}.
+The Next Web, 4. 2. 2014 [cit. 2. 3. 2014], Dostupné na {\textless}\url{http://thenextweb.com/twitter/2014/02/04/the-redesigned-twitter-com-has-now-rolled-out-to-all-users/}{\textgreater}.
+
+\bibitem{consumer-behavior}
+SCHIFFMAN, L. a KANUK, L. a WISENBLIT, J.: \emph{Consumer behavior: global edition}. 10th ed. Boston: Pearson Prentice Hall, 2010, 592 s., ISBN 9780137006700. 
+
+\bibitem{partnersky-program-seznam}
+SEZNAM.CZ: \emph{Partnerský program Sklik}. 2014 [cit. 9. 2. 2014], Dostupné na {\textless}\url{http://napoveda.sklik.cz/cz/partner/}{\textgreater}.
+
+\bibitem{razeni-inzeratu-seznam}
+SEZNAM.CZ: \emph{Řazení inzerátů v~systému Sklik}. 2014 [cit. 9. 2. 2014], Dostupné na {\textless}\url{http://napoveda.sklik.cz/cz/zaciname-inzerovat/inzeraty-razeni/}{\textgreater}.
+
+\bibitem{lupa-datator}
+SLÍŽEK, D.: \emph{Zkrocené Uloz.to má nástupce v~Datator.cz a historie se opakuje}. Lupa.cz, 7. 2. 2014 [cit. 8. 2. 2014], Dostupné na {\textless}\url{http://www.lupa.cz/clanky/zkrocene-uloz-to-ma-nastupce-v-datator-cz-a-historie-se-opakuje/}{\textgreater}.
+
+\bibitem{guardian-job-cut}
+SWENEY, M.: \emph{Future Publishing to cut 55 jobs}. The Guardian, 3. 9. 2013 [cit. 8. 2. 2014], Dostupné na {\textless}\url{http://www.theguardian.com/media/2013/sep/03/future-publishing-cut-55-jobs}{\textgreater}.
+
+\bibitem{customers-now}
+SZETELA, D.: \emph{Customers Now}. iUniverse, 2009, 108 s., ISBN 978-1440170997. 
+
+\bibitem{cardinality}
+TEOREY, T. a LIGHTSTONE, S. a Nadeau, T. a JAGADISH H.: 
+\emph{Database Modeling and Design: Logical Design}. 4th ed. Academic Press, 2010, 296 s., ISBN 978-0080470771.
+
+\bibitem{managing-innovation}
+TIDD, J. a BESSANT, J.: \emph{Managing innovation: integrating technological, market and
+      organizational change}. 4th ed. Chichester: John Wiley \& Sons, 2009, 622 s., ISBN 978-0-470-99810-6.
+
+\bibitem{fcb-how-advertising-works}
+VAUGHAN, R.: \emph{How Advertising Works: A~Planning Model}. Journal of Advertising Research, 20 (5), 1980, s. 27-33..
+
+\bibitem{zvnonicek-monetizace}
+ZVONÍČEK, P.: \emph{Monetizace webu}. Masarykova univerzita, 16. 3. 2013 [cit. 8. 2. 2014], Dostupné na {\textless}\url{http://www.fi.muni.cz/~xobsivac/PV219/prezentace11/monetizace.html}{\textgreater}.
 
 \end{thebibliography}
 
@@ -2984,15 +2943,6 @@ Pokud uvedete svou e-mailovou adresu, budete zařazeni do slosování a můžete
     \end{itemize}
 
   
-  \item Než si vyberete nový počítač nebo televizi, pročítáte si internetové recenze?
-    \begin{itemize}
-       \item vždy
-       \item většinou
-       \item občas
-       \item zřídka
-       \item nikdy
-    \end{itemize}
-
 \item Používáte internetové stránky porovnávající různé nabídky (cen) určitého produktu? (Například heureka.cz) 
     \begin{itemize}
        \item vždy
